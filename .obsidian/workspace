@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Week1.md",
+            "file": "Week2.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Week1.md",
+                "file": "Week2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,9 +89,9 @@
   },
   "active": "26e8c65c873d3129",
   "lastOpenFiles": [
+    "Week2.md",
     "Week1.md",
     "().md",
-    "Week 2.md",
     "Week1 1.md"
   ]
 }
