@@ -92,3 +92,7 @@ To commit the branch to the main:
 ```shell
 git push
 ```
+
+More git informations : 
+![[git_commands.png]]
+[ref](https://business-science.github.io/shiny-production-with-aws-book/git-command-line-interface-cli.html)
