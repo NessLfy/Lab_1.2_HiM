@@ -87,3 +87,8 @@ Creation a branch to work on:
 git branch -M name of branch
 ```
 
+To commit the branch to the main: 
+
+```shell
+git push
+```
