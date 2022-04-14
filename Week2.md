@@ -124,3 +124,73 @@ sed 's/hello/world/' input.txt > output.txt
 
 ### Stardist & Cellpose
 [stardist](https://doi.org/10.1109/WACV45572.2020.9093435) , [cellpose](https://doi.org/10.1101/2020.02.02.931238)
+<<<<<<< HEAD
+=======
+
+# Friday 08/04/2022 
+## Initiation to segmentation scripts
+The scripts/data are stored on a server. To access them we need to connect to it via ssh. Ssh is a program for logging into a remote machine and for executing commands on a remote machine. Ssh connects and logs into the specified destination, which may be specified as either [user@]hostname or a URI of the form ssh://[user@]hostname[:port].
+
+The simplest command: 
+
+The synthax is : ssh -*arg* *disk@nameofmachine*
+
+```shell
+ssh -X jupyter@krakatoa     
+```
+
+The argument -X allows permission to the user and enables to send commands and retrieve graphic outputs. We can run jupyter notebook/lab with this type of connection but the outputs will be very slow as the informations needs to be sent received computed and resent to the local machine. 
+
+To solve this issue, we can map a specific port in the remote compute to a port in the local machine via ssh so that the information can be sent in the local machine computed by the remote and displayed directly in the local machine. 
+
+```shell 
+ssh -L 8888:localhost:8888 jupyter@krakatoa
+```
+
+Here we specify:
+- the port we want to bind in the remote machine 
+- the port in the local machine 
+- the name of the remote machine
+
+To lunch jupyter lab/notebook: 
+
+We can create another connection (normal) to avoid crowding the terminal that created the link by running in another window :
+
+```shell
+ssh jupyter@krakatoa
+```
+
+then activating the conda environment:
+
+```shell
+conda activate jupyter
+```
+
+Now we can lunch jupyter notebook/lab in the remote machine by specifying that there is no need for a browser (because the connection will be sent to a specific port) and specifying the port to send to. 
+
+```shell
+jupyter notebook --no-browser --port 8888
+```
+
+### Creation of a conda environment
+To run the cellpose pipeline required certain packages that were not available in the jupyter environment. To be able to use it without destabilizing the jupyter environment we created a neww environment (cellpose_lab1) based on the jupyter environment by running in the base environment of krakatoa:
+
+```shell
+conda create --name cellpose_lab1 --clone jupyter
+```
+
+To verify that the environment was created run : 
+
+```shell 
+conda env list
+#or
+conda info --envs 
+```
+
+Then we installed the packages required for cellpose by running: 
+
+```shell
+pip install *packagename*
+```
+
+>>>>>>> 00bbda7 (week3 day 1)
