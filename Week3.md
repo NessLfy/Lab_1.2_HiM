@@ -70,7 +70,7 @@ end = time.time() - start
 
 ```
 
-Results : 
+Results for 12 images analyzed: 
 
 "Real 3D" : PSF_3D_stardist_20210618_simu_deconvolved_thresh_0_01  = 30.1 min
 "Not real 2D" : 2D_stardist_18032021_single_loci = 31.1minutes
@@ -82,3 +82,71 @@ We we interested to se wether running a 3D analysis was really slower than 2D:
 - What could be done would be to run a 2D analysis plane per plane on the 3D image and then stich the result in one image rather than running one 3D analysis (more complex and longer).
 	- For that we need to test (using the time package) and also look at the stitching part of the algorithm to reconstruct a 3D segmented image. 
 - One other we could look at would be the cellpose 3D algorithm that does this operation (2D analysis and 3D reconstruction). The difference is that cellpose does the analysis in all planes and in all direction of projection (z->z , x ->z , y-> z) and then reforms an image starting fromm all those analysis (might be really long)
+
+# Friday 15/04/2022 
+To save the images + the labels we used the package PIL (pillow) and ran:
+
+Images are all ch00 i.e : mask channel
+
+```python
+from PIL import Image
+import time 
+
+cmap= random_label_cmap()
+
+s = time.time()
+for i in range(len(img)):
+    moy = np.mean(img[i],axis=0)
+    lbl_moy = np.max(lab[i],axis=0)
+    plt.imshow(moy)
+    plt.savefig('raw_project'+str(i)+' .png') #save the raw image
+    plt.imshow(lbl_moy,cmap=cmap, origin="lower",alpha=0.4)
+    plt.savefig('analysis'+ str(i)+'.png') #save the labelled image
+
+end = time.time()-s 
+
+print(str(end) +' s')
+```
+
+With img being a list of images (list of arrays) and lab a list of the labels found by stardist (list of array). Basically you create 2 images from arrays and then stich them together and save the resulting. Note that the img images are already normalized. All operations : 
+
+```python 
+cmap= random_label_cmap()
+
+
+from PIL import Image
+
+s = time.time()
+for i in range(len(img)):
+    moy = np.mean(img[i],axis=0)
+    lbl_moy = np.max(lab[i],axis=0)
+    plt.imshow(moy)
+    plt.imshow(lbl_moy,cmap=cmap, origin="lower",alpha=0.4)
+    plt.savefig('analysis'+ str(i)+'.png')
+
+end = time.time()-s 
+
+print(str(end) +' s')
+```
+
+## Metrics of segmentation
+Our goal now is to try an find measures for the segmentation. Using the scikit.measure package we can retrieve information about each labels:
+
+The first try is to look at one image  for all the planes (we could do for all the planes by making a z projection)
+
+```python 
+for i in range(len(labels)):
+    
+    test =labels[i]
+    regions = regionprops(test,im[i])
+
+
+    props = regionprops_table(test, intensity_image=im[i],properties=['centroid','eccentricity','equivalent_diameter_area','area','intensity_mean'])
+    df = pd.DataFrame(props)
+    print(np.max(df['intensity_mean']))
+    
+    plt.hist(df['intensity_mean'].values)
+plt.show()
+```
+
+The goal is to plot each label (that has a specific value) once and thus have its maximum value of intensity instead of :. ![[plot1.png]]
