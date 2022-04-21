@@ -89,64 +89,114 @@ To save the images + the labels we used the package PIL (pillow) and ran:
 Images are all ch00 i.e : mask channel
 
 ```python
+
 from PIL import Image
-import time 
+
+import time
 
 cmap= random_label_cmap()
 
 s = time.time()
-for i in range(len(img)):
-    moy = np.mean(img[i],axis=0)
-    lbl_moy = np.max(lab[i],axis=0)
-    plt.imshow(moy)
-    plt.savefig('raw_project'+str(i)+' .png') #save the raw image
-    plt.imshow(lbl_moy,cmap=cmap, origin="lower",alpha=0.4)
-    plt.savefig('analysis'+ str(i)+'.png') #save the labelled image
 
-end = time.time()-s 
+for i in range(len(img)):
+
+moy = np.mean(img[i],axis=0)
+
+lbl_moy = np.max(lab[i],axis=0)
+
+plt.imshow(moy)
+
+plt.savefig('raw_project'+str(i)+' .png') #save the raw image
+
+plt.imshow(lbl_moy,cmap=cmap, origin="lower",alpha=0.4)
+
+plt.savefig('analysis'+ str(i)+'.png') #save the labelled image
+
+end = time.time()-s
 
 print(str(end) +' s')
+
 ```
 
-With img being a list of images (list of arrays) and lab a list of the labels found by stardist (list of array). Basically you create 2 images from arrays and then stich them together and save the resulting. Note that the img images are already normalized. All operations : 
+With img being a list of images (list of arrays) and lab a list of the labels found by stardist (list of array). Basically you create 2 images from arrays and then stich them together and save the resulting. Note that the img images are already normalized. All operations :
 
-```python 
+```python
+
 cmap= random_label_cmap()
-
 
 from PIL import Image
 
 s = time.time()
-for i in range(len(img)):
-    moy = np.mean(img[i],axis=0)
-    lbl_moy = np.max(lab[i],axis=0)
-    plt.imshow(moy)
-    plt.imshow(lbl_moy,cmap=cmap, origin="lower",alpha=0.4)
-    plt.savefig('analysis'+ str(i)+'.png')
 
-end = time.time()-s 
+for i in range(len(img)):
+
+moy = np.mean(img[i],axis=0)
+
+lbl_moy = np.max(lab[i],axis=0)
+
+plt.imshow(moy)
+
+plt.imshow(lbl_moy,cmap=cmap, origin="lower",alpha=0.4)
+
+plt.savefig('analysis'+ str(i)+'.png')
+
+end = time.time()-s
 
 print(str(end) +' s')
+
 ```
+
+All the "raw images" (3D projections) were also saved separately and with the .tiff format to be able to compare the results:
+
+```python
+
+imwrite(nameoffile.tiff,file)
+
+```
+
+To compare we used the Fiji software.
 
 ## Metrics of segmentation
-Our goal now is to try an find measures for the segmentation. Using the scikit.measure package we can retrieve information about each labels:
 
-The first try is to look at one image  for all the planes (we could do for all the planes by making a z projection)
+Our goal now is to try an find measures for the segmentation. Meaning to have an idea on the success of the segmentation when feeding the network with never-saw images. Our reflection is based on how can we characterize the objects and find metrics/attributes that could lead to a rule/decision on wether the network successfully segmented the image.
 
-```python 
+Using the scikit.measure package we can retrieve information about each labels:
+
+The first try is to look at one image for all the planes (we could do for all the planes by making a z projection). The packages uses all the labels (image with 0 for background and number from 1 to $n_{number\,of\,detected\,obects}$ ) and creates a region per label then it calculates a variety of measures in each regions and summarize them in a table. By giving it also the raw image we can also retrieve intensity measures which is what we are going to try
+
+```python
+
+im = X(index).copy #not normalized image
+
 for i in range(len(labels)):
-    
-    test =labels[i]
-    regions = regionprops(test,im[i])
 
+test =labels[i]
 
-    props = regionprops_table(test, intensity_image=im[i],properties=['centroid','eccentricity','equivalent_diameter_area','area','intensity_mean'])
-    df = pd.DataFrame(props)
-    print(np.max(df['intensity_mean']))
-    
-    plt.hist(df['intensity_mean'].values)
+regions = regionprops(test,im[i])
+
+props = regionprops_table(test, intensity_image=im[i],properties=['centroid','eccentricity','equivalent_diameter_area','area','intensity_mean'])
+
+df = pd.DataFrame(props)
+
+plt.hist(df['intensity_mean'].values)
+
 plt.show()
+
 ```
 
 The goal is to plot each label (that has a specific value) once and thus have its maximum value of intensity instead of :. ![[plot1.png]]
+
+The goal is to have one dot for one mask (not everymask for every planes)
+
+Here the issue is that is a mask is labeled in 2 different planes it will be plotted 2 times. Hence when we make intensity measures, we have a tendency to have low values (for example if an object is detected and the image is not in focus the intensity will be low)
+
+The idea is to use the fact that in the labeled image every region is defined by a single number. Then we can try to find the position (x,y,z) of all regions in the "raw matrix" from there we could extract the intensities and then take the maximum which would be a good representation of the label.
+
+```python
+
+t = np.asarray(np.where(label == i for i in range(np.max(label))))
+
+#this would create a tuple containing the position in z,x,y of all the pixels for 1 label
+
+```
+
