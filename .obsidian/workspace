@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Week4.md",
+            "file": "Week5.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Week4.md",
+                "file": "Week5.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,10 +89,12 @@
   },
   "active": "326c09c7046260b9",
   "lastOpenFiles": [
+    "Week5.md",
+    "plots/Nessim's.md",
+    "Week3.md",
     "Week4.md",
     "README.md",
     "Week1.md",
-    "git_commands.png",
-    "Week3.md"
+    "git_commands.png"
   ]
 }
