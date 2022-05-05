@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Week4.md",
+            "file": "README.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Week4.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,10 +89,12 @@
   },
   "active": "26e8c65c873d3129",
   "lastOpenFiles": [
+    "README.md",
     "Week4.md",
     "Week3.md",
     "Pasted image 20220421173859.png",
     "Pasted image 20220421173911.png",
+<<<<<<< HEAD
 <<<<<<< HEAD
     "Week3.md",
 <<<<<<< HEAD
@@ -101,6 +103,8 @@
 >>>>>>> 94dfe79 (week4 day 2 Lab notebook + plots)
     "README.md",
 >>>>>>> a6c1c40 (week4 day 1)
+=======
+>>>>>>> 4f25eb9 (read me modif)
     "Week2.md",
     "Week1.md",
     "().md",
