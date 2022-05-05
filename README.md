@@ -29,4 +29,20 @@ Outlooks to pursue:
 - further characterization of the results of segmentation
 
 - finding other metrics.
+<<<<<<< HEAD
 >>>>>>> a6c1c40 (week4 day 1)
+=======
+
+# Week 4 : Qualitative and quantitative metrics development
+
+Further investigation of evaluation metrics and development of a standardized analysis pipeline for segementation result quantification and network performance comparisson. 
+Qualitative evaluation by transposing segmented object coordinate to the raw image. Begining of quantification of intensity range of segmentation by comparing the result of segmentation of an intensity threshold technique (starfind) and the AI network. This final step will give further infromation about the network perfomance, it is able to detect with high precisionhigh intensity objects or lower precision but also lower intensity objects ? 
+
+Outlooks: 
+
+- Finalize pipeline of quantification of stardist vs starfind
+
+- Compare the 2 networks with this metric
+
+- Use the starfind image to generate a ground truth from the labeled image from stardist and retrain the networks. 
+>>>>>>> f2c768d (read me modif)
