@@ -59,7 +59,7 @@ Then the goal is to have a function that test wether or not a detected object by
 def exactmatch(img,pos):
     
     counter = 0 
-
+The goal is n
     for pos in pos:
             
         x = round(pos[0])
@@ -95,6 +95,7 @@ def main(plot,raw_img,lab_img,sizex,sizey,fwhm,thresh):
 ```
 
 Now that we have an automatic pipeline we can perform the analysis for one whole image. What we did after is to study the impact of varying the different parameters of starfind on the accuracy of stardist. This measure of accuracy is calculated by : $$ \frac{objects\,in\, stardist\, and\, starfind}{Total\, number\, of \, detected\,object\, by\,starfind }*100 $$
+
 This gives: 
 ![](plots/Nessim_FWHM.png)
 and 
@@ -105,8 +106,23 @@ We can see different things:
 - By increasing the threshold of intensity the accuracy doesn't decrease but increases to a plateau of about 78%. Meaning the network "missed" around 20% of the brightes spots
 - We also see an interesting neat decrease in accuracy when the FWHM reaches 3.5 ?? 
 
-**Note:**  The expected FWHM is around 2-3 pixels as we expect single fluorescent event that are thus diffraction limited and thus around 200nm wide gaussians
+**Notes:**  
+- The expected FWHM is around 2-3 pixels as we expect single fluorescent event that are thus diffraction limited and thus around 200nm wide gaussians
+
+- This analysis is only for one image : scan_002_RT17_004_ROI_converted_decon_ch00
+
+- The sigma above background is in realy a mean above background. The sigma for the image considered was really low and thus even with 10 times the sigme we still detected background mostly. Thus we changed the threshold of detection to capture objects thare are n times the intensity of the mean of the patch. Note that this computation is made for all the patches considered not for the global image which increases the precision of the test. 
 
 Outlooks: 
 - Find a way to add circles on the labeled image where there is a starfind detected object that is not in stardist
+
+# Friday 06/05/2022 
+## Correcting stardist
+Now that we have a pipeline for the analysis of the output of a network : either purely quantitatively with the different metric or more in depth using the starfind comparisson (intensity based). The goal now is to have a way to link the analysis with the training of the network to have a complete loop. To do so we need to find a way to add spots on an image at the location where the network "missed" a nuclei. 
+
+Before trying to modify a network we can compare the 2 networks performances on accuracy:
+
+![](Comparing_Networks_FWHM_dependency.png)
+
+![](Comparing_networks_mean_above_bckg.png)
 

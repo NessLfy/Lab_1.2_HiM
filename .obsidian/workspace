@@ -90,11 +90,14 @@
   "active": "326c09c7046260b9",
   "lastOpenFiles": [
     "Week5.md",
-    "plots/Nessim's.md",
+    "plots/Comparing_Networks_FWHM_dependency.png",
+    "plots/RT17_StarfindvsStardist.png",
+    "plots/RT17_StarfindvsStardistvsRaw_2.png",
+    "plots/RT17_StarfindvsStardistvsRaw_3.png",
+    "plots/Comparing_networks_mean_above_bckg.png",
+    "Comparing_Networks_.md",
     "Week3.md",
     "Week4.md",
-    "README.md",
-    "Week1.md",
-    "git_commands.png"
+    "plots/Nessim's.md"
   ]
 }

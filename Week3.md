@@ -185,6 +185,7 @@ plt.show()
 ```
 
 The goal is to plot each label (that has a specific value) once and thus have its maximum value of intensity instead of :. ![[plot1.png]]
+**Note**: This analysis is only for one image : scan_002_RT17_004_ROI_converted_decon_ch00
 
 The goal is to have one dot for one mask (not everymask for every planes)
 

@@ -90,6 +90,8 @@ print(sources)
 
 ![](plots/RT17_StarfindvsStardistvsRaw_3.png)
 
+**Note**: This analysis is only for one image : scan_002_RT17_004_ROI_converted_decon_ch00
+
 What we see is that all the objects detected by starfind are also detected by stardist which is promising for the network. However by also plotting the raw image we see that some objects are not detected by both. We will further try to vary the threshold of starfind to see wether or not everytime stardist find the same objects as starfind.
 
 #### Plotting a gallery of images
@@ -167,6 +169,8 @@ The first measure we want to look at is the intensity profile of the segmented o
 Then we can plot some other global metrics :
 
 ![](plots/Global_Metrics.png)
+
+**Note**: This analysis is only for one image : scan_002_RT17_004_ROI_converted_decon_ch00
 
 Notably we can have access to object intensity vs volume and see whether we detected the same objects with a constant volume or not. The other plot are to see whether the networks percieved high intensity value objects and/or low intensity object and have access to their label ID to find them in the segmented image. In the example above we can see that the network "saw" low intensity objects quite well and detected a few high intensity objects. Now we need to see whether or not those objects are "real". Note that the high/low region was determined used the characteristic of the camera and the raw image (here we had 16bit images which thus have a max intensity of 65000 detectable)
 
