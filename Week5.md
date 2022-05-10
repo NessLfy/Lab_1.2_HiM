@@ -117,7 +117,7 @@ Outlooks:
 - Find a way to add circles on the labeled image where there is a starfind detected object that is not in stardist
 
 # Friday 06/05/2022 
-## Correcting stardist
+## Evaluating network intensity dependency
 Now that we have a pipeline for the analysis of the output of a network : either purely quantitatively with the different metric or more in depth using the starfind comparisson (intensity based). The goal now is to have a way to link the analysis with the training of the network to have a complete loop. To do so we need to find a way to add spots on an image at the location where the network "missed" a nuclei. 
 
 Before trying to modify a network we can compare the 2 networks performances on accuracy:
