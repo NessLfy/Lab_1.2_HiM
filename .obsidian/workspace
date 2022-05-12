@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Week6.md",
+            "file": "things to do.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Week6.md",
+                "file": "things to do.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +89,7 @@
   },
   "active": "326c09c7046260b9",
   "lastOpenFiles": [
+    "things to do.md",
     "Week6.md",
     "Week5.md",
     "plots/Comparing_Networks_FWHM_dependency.png",
@@ -97,7 +98,6 @@
     "plots/RT17_StarfindvsStardistvsRaw_3.png",
     "plots/Comparing_networks_mean_above_bckg.png",
     "Comparing_Networks_.md",
-    "Week3.md",
-    "Week4.md"
+    "Week3.md"
   ]
 }
