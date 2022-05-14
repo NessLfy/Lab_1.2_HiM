@@ -1,8 +1,8 @@
 # Lab notebook repositories for our Lab1.2 project HiM
-<<<<<<< HEAD
+
 
 Welcome to our repositories. You will find 2 branches corresponding to our respective lab notebooks. 
-=======
+
 
 In this branch you will find my lab notebook separated per week with details. In this file is a general summary of everything that was done.
 
@@ -29,9 +29,7 @@ Outlooks to pursue:
 - further characterization of the results of segmentation
 
 - finding other metrics.
-<<<<<<< HEAD
->>>>>>> a6c1c40 (week4 day 1)
-=======
+
 
 # Week 4 : Qualitative and quantitative metrics development
 
@@ -45,4 +43,23 @@ Outlooks:
 - Compare the 2 networks with this metric
 
 - Use the starfind image to generate a ground truth from the labeled image from stardist and retrain the networks. 
->>>>>>> f2c768d (read me modif)
+
+*Notebooks: krakatoa_run_stardist_exploring results.ipynb, krakatoa_run_stardist_exploring metrics.ipynb* 
+
+# Week 5: Comparing stardist and starfind
+The goal was to evaluate the performance of a network to detect high intensity objects. To do so we compared the algorithm Starfind with the output of the network.
+
+We tested different things first: 
+- The accuracy of the network : the number of objects detected by both astropy and stardist / number f object detected by astropy
+- The stability of the accuracy when varying the FWHM parameter of astropy
+- The stability of the accuracy when varying the threshold of detection (sigma abvoe background) 
+
+We concluded that the network acheived between 75 and 85 % accuracy when the parameters of astropy where FWHM = 3 and threshold = 9 x the mean intensity of the image
+
+*Notebook : Updating_stardist_with_astropy_exploratory.ipynb *
+
+# Week 6 : Updating starfind with stardist 
+With the observation made the previous week, the goal was to develop a pipeline that would update stardist based on astropy. The idea is to correct the labeled image from stardist with objects detected by astropy missed by the network. Thus , generating new ground truth images for network retraining. 
+
+*Notebook : Updating_stardist_with_astropy_final_pipeline.ipynb*
+
