@@ -7,11 +7,9 @@
         "id": "326c09c7046260b9",
         "type": "leaf",
         "state": {
-          "type": "markdown",
+          "type": "image",
           "state": {
-            "file": "Report.md",
-            "mode": "source",
-            "source": false
+            "file": "plots/Nessim's_Network_Sigma_above_bckg.png"
           }
         }
       }
@@ -69,7 +67,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Report.md",
+                "file": "plots/Nessim's_Network_Sigma_above_bckg.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +87,15 @@
   },
   "active": "326c09c7046260b9",
   "lastOpenFiles": [
+    "plots/Nessim's_Network_Sigma_above_bckg.png",
+    "plots/Global_Metrics_2_Networks_iterated_2.png",
+    "plots/gallery.png",
+    "plots/gallery_retrained_2.png",
+    "plots/correction_part_2.png",
     "Report.md",
+    "Week6.md",
     "things to do.md",
     "README.md",
-    "Week5.md",
-    "Week6.md",
-    "plots/Comparing_Networks_FWHM_dependency.png",
-    "plots/RT17_StarfindvsStardist.png",
-    "plots/RT17_StarfindvsStardistvsRaw_2.png",
-    "plots/RT17_StarfindvsStardistvsRaw_3.png",
-    "plots/Comparing_networks_mean_above_bckg.png"
+    "Week5.md"
   ]
 }
