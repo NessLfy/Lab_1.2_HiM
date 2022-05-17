@@ -41,8 +41,11 @@ Computer science has become a pivotal discipline when approaching biological pro
 - Figure that represents the worflow of the method developped
 - Why is it important to automatize the segmentation (see Lab1 description)
 - What the images will be used for ? 
+- Introdue the problematic of we suspect a tendency to miss bright objects 
 ![](plots/figure_intro.png)
 Figure 1: Worflow of the network improvement method or something like (E.Moen et al. *nature methods*,2019)
+
+maybe split this image ? or put it at the end ? 
 
 Replot using an easier image, where you see better the correction ? 
 
@@ -126,3 +129,12 @@ von Chamier, L., Laine, R. F., & Henriques, R. (2019). Artificial intelligence 
 Cardozo Gizzi, A. M., Cattoni, D. I., Fiche, J.-B., Espinola, S. M., Gurgo, J., Messina, O., Houbron, C., Ogiyama, Y., Papadopoulos, G. L., Cavalli, G., Lagha, M., & Nollmann, M. (2019). Microscopy-Based Chromosome Conformation Capture Enables Simultaneous Visualization of Genome Organization and Transcription in Intact Organisms. _Molecular Cell_, _74_(1), 212-222.e5. [https://doi.org/10.1016/j.molcel.2019.01.011](https://doi.org/10.1016/j.molcel.2019.01.011)
 
 Espinola, S. M., Götz, M., Bellec, M., Messina, O., Fiche, J.-B., Houbron, C., Dejean, M., Reim, I., Cardozo Gizzi, A. M., Lagha, M., & Nollmann, M. (2021). Cis-regulatory chromatin loops arise before TADs and gene activation, and are independent of cell fate during early Drosophila development. _Nature Genetics_, _53_(4), 477‑486. [https://doi.org/10.1038/s41588-021-00816-z](https://doi.org/10.1038/s41588-021-00816-z)
+
+
+# Plots
+
+![](plots/gallery_retrained_2.png)
+![](plots/correction_part_2.png)
+![](plots/Global_Metrics_2_Networks_iterated_2.svg)
+![](plots/Retraining_2.svg)
+![](plots/training_stats_v3.svg)

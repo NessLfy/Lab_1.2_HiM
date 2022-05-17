@@ -219,6 +219,6 @@ for j in range(len(usable_lab)):
 print(str(len(usable_lab))+' files have been loaded')
 ```
 
-![](epoch_dist_loss.svg)
+
 blue : training 
 red : testing 
