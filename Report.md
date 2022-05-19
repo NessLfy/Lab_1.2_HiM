@@ -42,8 +42,8 @@ Computer science has become a pivotal discipline when approaching biological pro
 - Why is it important to automatize the segmentation (see Lab1 description)
 - What the images will be used for ? 
 - Introdue the problematic of we suspect a tendency to miss bright objects 
-![](plots/figure_intro.png)
-Figure 1: Worflow of the network improvement method or something like (E.Moen et al. *nature methods*,2019)
+![](plots/figure_intro_2.png)
+Figure 1: Principle of neuron network
 
 maybe split this image ? or put it at the end ? 
 
@@ -107,6 +107,10 @@ Discuss the improvement of the training if there was
 Probably not all the plots but maybe a combination if the concepts were introduced before ? 
 
 # Discussion 
+
+![](plots/figure_intro.png)
+Figure X:  General workflow of the lab1
+
 - discuss the fact that low intensity object were not corrected for ?
 - optimizatyion of the code to work faster 
 - optimization of thye code to work on bigger image without surcharging the GPU 
