@@ -83,11 +83,14 @@ Describe each metrics and why do we put it there
 
 ### Further study on intensity sensitivity
 
-Now that we saw that high intensity objects have a tendency to be missed we are going to compare it. 
-Introduce astropy, the concept of intensity thresholding why are we using it for the correction 
+To study the dependency to intensity of the segmentation we decided to compare our neural network approach to an intensity based segmentation. The Starfind algorithm (inserer ref) was originally developed to segment images of the sky to find bright spots which corresponded to stars. The segmentation is thus done through an intensity thresholding which can be adapted. We decided to compare the result of a Starfind segmentation and our neural network. To qualitatively evaluate such comparison we decided to develop an *accuracy* metric, that is, a ratio between the number of object detected by both method divided by the number of object detected by the Starfind algorithm. This metric will thus yield higher value for images where all the high intensity objects were detected by the neural network. To ensure that Starfind did in fact segment high intensity object we set the threshold parameters accordingly. Practically, the accuracy was computed by transposing the coordinate of the detected objects by Starfind onto the output of the network. As shown in figure X not all the bright objects were segmented by the network. This conclusion confirmed earlier visual observation that bright objects tends to be "missed". In biological context bright object correspond to fluorescent molecules which are of interest for later analysis. 
+
+Considering the importance of bright fluorescent events we focused on finding a way to get rid of these missed events. To do so, we decided to play on the training of the network. The neural network is trained using a set of images and tries to generalize to be able to be used on a variety of images. Thus we decided to design a method to automatically correct sets of images that could be then used to train the network. The method relies on the accuracy measurement described above. When an object is only detected by Starfind, we virtually added an object in the image. The object added corresponds to a standard sphere picked in a random image. Knowingly, we introduce a bias at this step as the corrected image will all have the same correction. However, theoretically when fed to the network the images will be more complete meaning a better learning.  
+
 
 ![](plots/RT17_StarfindvsStardistvsRaw_3.png)
 Apparently we need to make correct it 
+
 ### Correcting a network 
 Introduce the concept of network training, trainin vs testing dataset , ground truth ?
 Introduce the concept of the correction :
@@ -133,6 +136,9 @@ von Chamier, L., Laine, R. F., & Henriques, R. (2019). Artificial intelligence 
 Cardozo Gizzi, A. M., Cattoni, D. I., Fiche, J.-B., Espinola, S. M., Gurgo, J., Messina, O., Houbron, C., Ogiyama, Y., Papadopoulos, G. L., Cavalli, G., Lagha, M., & Nollmann, M. (2019). Microscopy-Based Chromosome Conformation Capture Enables Simultaneous Visualization of Genome Organization and Transcription in Intact Organisms. _Molecular Cell_, _74_(1), 212-222.e5. [https://doi.org/10.1016/j.molcel.2019.01.011](https://doi.org/10.1016/j.molcel.2019.01.011)
 
 Espinola, S. M., Götz, M., Bellec, M., Messina, O., Fiche, J.-B., Houbron, C., Dejean, M., Reim, I., Cardozo Gizzi, A. M., Lagha, M., & Nollmann, M. (2021). Cis-regulatory chromatin loops arise before TADs and gene activation, and are independent of cell fate during early Drosophila development. _Nature Genetics_, _53_(4), 477‑486. [https://doi.org/10.1038/s41588-021-00816-z](https://doi.org/10.1038/s41588-021-00816-z)
+**Stardist**
+
+Larry Bradley, Brigitta Sipőcz, Thomas Robitaille, Erik Tollerud, Zé Vinícius, Christoph Deil, Kyle Barbary, Tom J Wilson, Ivo Busko, Axel Donath, Hans Moritz Günther, Mihai Cara, P. L. Lim, Sebastian Meßlinger, Simon Conseil, Azalee Bostroem, Michael Droettboom, E. M. Bray, Lars Andersen Bratholm, … Harrison Souchereau. (2022). astropy/photutils: (1.4.0). Zenodo. [https://doi.org/10.5281/zenodo.6385735](https://doi.org/10.5281/zenodo.6385735)
 
 
 # Plots
