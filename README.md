@@ -56,10 +56,26 @@ We tested different things first:
 
 We concluded that the network acheived between 75 and 85 % accuracy when the parameters of astropy where FWHM = 3 and threshold = 9 x the mean intensity of the image
 
-*Notebook : Updating_stardist_with_astropy_exploratory.ipynb *
+*Notebook : Updating_stardist_with_astropy_exploratory.ipynb*
 
 # Week 6 : Updating starfind with stardist 
 With the observation made the previous week, the goal was to develop a pipeline that would update stardist based on astropy. The idea is to correct the labeled image from stardist with objects detected by astropy missed by the network. Thus , generating new ground truth images for network retraining. 
 
 *Notebook : Updating_stardist_with_astropy_final_pipeline.ipynb*
 
+# Week 7 : Training and testing results of training
+
+With the newly generated dataset we ran a couple of trainings using the same parameters as the training of the first network used. We then explored the results using the metrics we developped. 
+
+## Useful tips
+
+To make the text aligned everywhere we created a css file containg the code below :
+
+```css
+.cm-s-obsidian, .markdown-preview-view {
+  text-align: justify;
+  hyphens: auto;
+}
+```
+
+**Note : the file needs to be in the folded *.obsidian/snippets* of the vault** 

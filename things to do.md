@@ -5,3 +5,5 @@ if so replot galleries between the first train network and the second trainined 
 do the opposite way around also. 
 
 Re run the training with correct jb data (monday)
+
+

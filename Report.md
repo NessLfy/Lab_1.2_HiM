@@ -42,16 +42,13 @@ Computer science has become a pivotal discipline when approaching biological pro
 - Why is it important to automatize the segmentation (see Lab1 description)
 - What the images will be used for ? 
 - Introdue the problematic of we suspect a tendency to miss bright objects 
-![](plots/figure_intro_2.png)
-Figure 1: Principle of neuron network
 
-maybe split this image ? or put it at the end ? 
+[[figures#Figure 1]]
 
-Replot using an easier image, where you see better the correction ? 
 
-Because we don't really have an experimental part can we directly put a method section and a discussion ? 
-# Methods ? 
-## Or "key concepts" like J.G.Greener *Nature review molecular cell biology*,2021 
+
+# Methods
+
 
 Maybe methods could be something like a lexique ? where we define technical terms used ?:
 - Neural network
@@ -69,17 +66,19 @@ Intuitive approach : what does the segmented objects look like ?
 Are they all real ? 
 Does the network detects background ? if so is it because it is high intensity ?
 
+[[figures#Figure 2]]
 Responses :
 
 The network seems to segment low intensity objects but also background of high intensity 
-![](plots/gallery.png)
+
 
 ### Quantitative approach to network performance
+
+[[figures#Figure 3]]
 
 Can we put numbers on qualitative observation we made earlier ? 
 Describe each metrics and why do we put it there 
 
-![](Global_Metrics_2_Networks.png)
 
 ### Further study on intensity sensitivity
 
@@ -88,8 +87,13 @@ To study the dependency to intensity of the segmentation we decided to compare o
 Considering the importance of bright fluorescent events we focused on finding a way to get rid of these missed events. To do so, we decided to play on the training of the network. The neural network is trained using a set of images and tries to generalize to be able to be used on a variety of images. Thus we decided to design a method to automatically correct sets of images that could be then used to train the network. The method relies on the accuracy measurement described above. When an object is only detected by Starfind, we virtually added an object in the image. The object added corresponds to a standard sphere picked in a random image. Knowingly, we introduce a bias at this step as the corrected image will all have the same correction. However, theoretically when fed to the network the images will be more complete meaning a better learning.  
 
 
-![](plots/RT17_StarfindvsStardistvsRaw_3.png)
-Apparently we need to make correct it 
+[[figures#Figure 4]]
+
+The network was given 500 epochs of 100 steps. Figure XX shows the learning curve i.e : the evolution of the error function per learning iteration. We see that the training was succesfull as the error is decreasing. To evaluate quantitatively the training one can also look at the number of true positive, true negative, false positive and false negative that are shown in annex 1. We see that the number of true positive is high which means good specificity and the number of false negative is low which indicates high sensitivity. However, these metrics only give information on the training itself that is we comparing the network performance on known image. To evaluate the quality of the training and thus the performance of the network we performed a segmentation with the new network on a never-seen image that yielded the results shown in figure XX.
+
+[[figures#Figure 8]] , [[figures#Figure 6]]
+
+We compared the results with the first network we worked with, described above. We observe that as the objectdetected seem coherent (pannel A) we observe a loss of the low intensity objects . Moreover, the amount of detection has decreased as well as the volume distribution. These results were not the expected ones.  
 
 ### Correcting a network 
 Introduce the concept of network training, trainin vs testing dataset , ground truth ?
@@ -103,21 +107,22 @@ Introduce the concept of the correction :
 ### Retraining effects
 Discuss the improvement of the training if there was 
 
-![](plots/training_stats.png)
-![](plots/training.png)
 
-![](plots/epoch_dist_loss.svg)
 Probably not all the plots but maybe a combination if the concepts were introduced before ? 
 
 # Discussion 
 
-![](plots/figure_intro.png)
+
 Figure X:  General workflow of the lab1
 
 - discuss the fact that low intensity object were not corrected for ?
 - optimizatyion of the code to work faster 
 - optimization of thye code to work on bigger image without surcharging the GPU 
 - necessity for such analysis , relevance of needing a corrction for 20% of the opbjects ? 
+
+# Annex
+
+[[figures#Figure 9]]
 
 # References 
 **Stardist :**
@@ -143,8 +148,5 @@ Larry Bradley, Brigitta Sipőcz, Thomas Robitaille, Erik Tollerud, Zé Vinícius
 
 # Plots
 
-![](plots/gallery_retrained_2.png)
-![](plots/correction_part_2.png)
-![](plots/Global_Metrics_2_Networks_iterated_2.svg)
-![](plots/Retraining_2.svg)
-![](plots/training_stats_v3.svg)
+
+

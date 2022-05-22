@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "326c09c7046260b9",
+        "id": "b613e5aa4b333547",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -87,17 +87,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "326c09c7046260b9",
+  "active": "b613e5aa4b333547",
   "lastOpenFiles": [
     "Report.md",
+    "README.md",
+    "figures.md",
+    "things to do.md",
+    "moenDeepLearningCellular2019.md",
     "Week7.md",
+    "greenerGuideMachineLearning2022.md",
     "plots.md",
     "Week6.md",
-    "Week3.md",
-    "Week1.md",
-    "plots/Retraining.svg",
-    "plots/Nessim's_Network_Sigma_above_bckg.png",
-    "plots/Global_Metrics_2_Networks_iterated_2.png",
-    "plots/gallery.png"
+    "Week3.md"
   ]
 }

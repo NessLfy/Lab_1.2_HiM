@@ -11,5 +11,6 @@
   "spellcheckLanguages": [
     "fr",
     "en-US"
-  ]
+  ],
+  "promptDelete": false
 }
