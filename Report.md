@@ -1,4 +1,4 @@
-# Abstract
+# Abstract (1000)
 ### Ideas, bits and parts
 
 How do you differenciate a cell from a simple circle ? Answering such question sounds trivial at first glance: you can tell visually and from your experience. However, when trying to implement such decision in a computer program the question complexifies. 
@@ -30,7 +30,7 @@ $*$ Corresponding author: [kanso.ali@outlook.fr](mailto:kanso.ali@outlook.fr) 
 
 Computer science has become a pivotal discipline when approaching biological problems. In microscopy for instance, the instruments and the growing scalability of the experiments have led the data analysis process to be computer dependent. Machine learning, as it has been proven recently to be a powerful tool for analysis, relies on the concept that a program can learn from data, and thus recognize specific patterns and make decisions to predict an output. When talking about image analysis, the fact that we must set rules for determining boundaries in data, makes image segmentation a major problem.Fortunately, such problem is commonly encountered in computer sciences and many techniques have been developed. In this report we introduce a method that quantifies the "accuracy" of machine learning in performing image segmentation and we discuss different metrics that can be used to supervise such process. We also propose a method to compare different network architectures and outputs.
 
-# Introduction
+# Introduction (5000 characters)
 **Topics to introduce**
 
 - How computer sciences help biology
@@ -47,7 +47,7 @@ Computer science has become a pivotal discipline when approaching biological pro
 
 
 
-# Methods
+# Methods (2500 characters)
 
 
 Maybe methods could be something like a lexique ? where we define technical terms used ?:
@@ -58,21 +58,23 @@ Maybe methods could be something like a lexique ? where we define technical term
 - segmentation 
 - ... 
 
-# Results
-### Qualitative approach to network performance
-Questions the paragraph is trying to anwser :
+# Results (3000 characters)
 
-Intuitive approach : what does the segmented objects look like ?
-Are they all real ? 
-Does the network detects background ? if so is it because it is high intensity ?
+**(4718 characters ... )**
+
+### Qualitative approach to network performance
 
 [[figures#Figure 2]]
-Responses :
 
-The network seems to segment low intensity objects but also background of high intensity 
+**(826 characters)**
 
+Our first approach to the question of evaluating segmentation performance was to qualitatively assess the segmentation. The network outputs stacks of 2048x2048x70  which are complicated to visually inspect. To visualize the objects we projected the objects found by the network on the raw image and created a gallery of images as described in the material section. This gallery thus represents every objects the network considered as "nuclei". Although not quantitative this step allowed us to have a first idea on the kind of objects outputted. An example of output is present in figure 1. We see that the network segmented a majority of gaussian-shaped objects which was expected. Moreover, some objects were close to background level. However, we see that some objects are noise which indicates a poor network performance. 
 
 ### Quantitative approach to network performance
+
+**(517 characters)**
+
+Having a qualitative approach allowed us to have a first insight to a network performance. However, we wanted to have a quantitative analysis to be able to compare performance between network and also between trainings. As described in the method we used various properties of the objects to compare networks. Figure 2 shows the comparison between two different networks. We see that there is a clear difference in network performance as one network has a tendency to segment bigger objects and with higher intensity.
 
 [[figures#Figure 3]]
 
@@ -82,6 +84,8 @@ Describe each metrics and why do we put it there
 
 ### Further study on intensity sensitivity
 
+**(2201 characters)**
+
 To study the dependency to intensity of the segmentation we decided to compare our neural network approach to an intensity based segmentation. The Starfind algorithm (inserer ref) was originally developed to segment images of the sky to find bright spots which corresponded to stars. The segmentation is thus done through an intensity thresholding which can be adapted. We decided to compare the result of a Starfind segmentation and our neural network. To qualitatively evaluate such comparison we decided to develop an *accuracy* metric, that is, a ratio between the number of object detected by both method divided by the number of object detected by the Starfind algorithm. This metric will thus yield higher value for images where all the high intensity objects were detected by the neural network. To ensure that Starfind did in fact segment high intensity object we set the threshold parameters accordingly. Practically, the accuracy was computed by transposing the coordinate of the detected objects by Starfind onto the output of the network. As shown in figure X not all the bright objects were segmented by the network. This conclusion confirmed earlier visual observation that bright objects tends to be "missed". In biological context bright object correspond to fluorescent molecules which are of interest for later analysis. 
 
 Considering the importance of bright fluorescent events we focused on finding a way to get rid of these missed events. To do so, we decided to play on the training of the network. The neural network is trained using a set of images and tries to generalize to be able to be used on a variety of images. Thus we decided to design a method to automatically correct sets of images that could be then used to train the network. The method relies on the accuracy measurement described above. When an object is only detected by Starfind, we virtually added an object in the image. The object added corresponds to a standard sphere picked in a random image. Knowingly, we introduce a bias at this step as the corrected image will all have the same correction. However, theoretically when fed to the network the images will be more complete meaning a better learning.  
@@ -89,9 +93,13 @@ Considering the importance of bright fluorescent events we focused on finding a 
 
 [[figures#Figure 4]]
 
+**(857 characters)**
+
 The network was given 500 epochs of 100 steps. Figure XX shows the learning curve i.e : the evolution of the error function per learning iteration. We see that the training was succesfull as the error is decreasing. To evaluate quantitatively the training one can also look at the number of true positive, true negative, false positive and false negative that are shown in annex 1. We see that the number of true positive is high which means good specificity and the number of false negative is low which indicates high sensitivity. However, these metrics only give information on the training itself that is we comparing the network performance on known image. To evaluate the quality of the training and thus the performance of the network we performed a segmentation with the new network on a never-seen image that yielded the results shown in figure XX.
 
 [[figures#Figure 8]] , [[figures#Figure 6]]
+
+**(317 characters)**
 
 We compared the results with the first network we worked with, described above. We observe that as the objectdetected seem coherent (pannel A) we observe a loss of the low intensity objects . Moreover, the amount of detection has decreased as well as the volume distribution. These results were not the expected ones.  
 
@@ -110,7 +118,7 @@ Discuss the improvement of the training if there was
 
 Probably not all the plots but maybe a combination if the concepts were introduced before ? 
 
-# Discussion 
+# Discussion (1500)
 
 
 Figure X:  General workflow of the lab1
@@ -124,7 +132,10 @@ Figure X:  General workflow of the lab1
 
 [[figures#Figure 9]]
 
-# References 
+# References (max 20)
+
+**count : 7**
+
 **Stardist :**
 Schmidt, U., Weigert, M., Broaddus, C., & Myers, G. (2018). Cell Detection with Star-Convex Polygons. In A. F. Frangi, J. A. Schnabel, C. Davatzikos, C. Alberola-López, & G. Fichtinger (Éds.), _Medical Image Computing and Computer Assisted Intervention – MICCAI 2018_ (Vol. 11071, p. 265‑273). Springer International Publishing. [https://doi.org/10.1007/978-3-030-00934-2_30](https://doi.org/10.1007/978-3-030-00934-2_30)
 
@@ -146,7 +157,6 @@ Espinola, S. M., Götz, M., Bellec, M., Messina, O., Fiche, J.-B., Houbron, C., 
 Larry Bradley, Brigitta Sipőcz, Thomas Robitaille, Erik Tollerud, Zé Vinícius, Christoph Deil, Kyle Barbary, Tom J Wilson, Ivo Busko, Axel Donath, Hans Moritz Günther, Mihai Cara, P. L. Lim, Sebastian Meßlinger, Simon Conseil, Azalee Bostroem, Michael Droettboom, E. M. Bray, Lars Andersen Bratholm, … Harrison Souchereau. (2022). astropy/photutils: (1.4.0). Zenodo. [https://doi.org/10.5281/zenodo.6385735](https://doi.org/10.5281/zenodo.6385735)
 
 
-# Plots
 
 
 

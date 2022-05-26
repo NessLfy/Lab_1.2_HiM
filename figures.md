@@ -1,4 +1,4 @@
-# Figure 1
+!# Figure 1
 ![](plots/figure_intro_2.png)
  *Figure 1: Principle of neuron network* 
 
