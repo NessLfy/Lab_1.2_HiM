@@ -28,7 +28,7 @@ $*$ Corresponding author: [kanso.ali@outlook.fr](mailto:kanso.ali@outlook.fr) 
 
 ** Project Supervisor: [marcelo.nollmann@cbs.cnrs.fr](mailto:marcelo.nollmann@cbs.cnrs.fr) 
 
-Computer science has become a pivotal discipline when approaching biological problems. In microscopy for instance, the instruments and the growing scalability of the experiments have led the data analysis process to be computer dependent. Machine learning, as it has been proven recently to be a powerful tool for analysis, relies on the concept that a program can learn from data, and thus recognize specific patterns and make decisions to predict an output. When talking about image analysis, the fact that we must set rules for determining boundaries in data, makes image segmentation a major problem.Fortunately, such problem is commonly encountered in computer sciences and many techniques have been developed. In this report we introduce a method that quantifies the "accuracy" of machine learning in performing image segmentation and we discuss different metrics that can be used to supervise such process. We also propose a method to compare different network architectures and outputs.
+Computer science has become a pivotal discipline when approaching biological problems. In microscopy for instance, the instruments and the growing scalability of the experiments have led the data analysis process to be computer dependent. Machine learning, as it has been proven recently to be a powerful tool for analysis, relies on the concept that a program can learn from data, and thus recognize specific patterns and make decisions to predict an output. When talking about image analysis, the fact that we must set rules for determining boundaries in data, makes image segmentation a major problem. Fortunately, such problem is commonly encountered in computer sciences and many techniques have been developed. In this report we introduce a method that quantifies the "accuracy" of machine learning in performing image segmentation and we discuss different metrics that can be used to supervise such process. We also propose a method to compare different network architectures and outputs.
 
 # Introduction (5000 characters)
 **Topics to introduce**
@@ -38,17 +38,24 @@ Computer science has become a pivotal discipline when approaching biological pro
 - Segmentation 
 - How there are no real way of quantifying a network performance
 - We used both qualitative (gallery) and quantitative approaches
-- Figure that represents the worflow of the method developped
+- Figure that represents the workflow of the method developed
 - Why is it important to automatize the segmentation (see Lab1 description)
 - What the images will be used for ? 
-- Introdue the problematic of we suspect a tendency to miss bright objects 
+- Introduce the problematic of we suspect a tendency to miss bright objects 
 
-[[figures#Figure 1]]
-
+[[figures#Figure 1]] principle of a neural network 
 
 
 # Methods (2500 characters)
 
+Setting up an environment: 
+
+- Environment 
+- stardist
+- starfind
+- gallery creation 
+- correction
+- training of a network 
 
 Maybe methods could be something like a lexique ? where we define technical terms used ?:
 - Neural network
@@ -64,19 +71,19 @@ Maybe methods could be something like a lexique ? where we define technical term
 
 ### Qualitative approach to network performance
 
-[[figures#Figure 2]]
+[[figures#Figure 2]] first gallery acquired 
 
 **(826 characters)**
 
-Our first approach to the question of evaluating segmentation performance was to qualitatively assess the segmentation. The network outputs stacks of 2048x2048x70  which are complicated to visually inspect. To visualize the objects we projected the objects found by the network on the raw image and created a gallery of images as described in the material section. This gallery thus represents every objects the network considered as "nuclei". Although not quantitative this step allowed us to have a first idea on the kind of objects outputted. An example of output is present in figure 1. We see that the network segmented a majority of gaussian-shaped objects which was expected. Moreover, some objects were close to background level. However, we see that some objects are noise which indicates a poor network performance. 
+Our first approach to the question of evaluating segmentation performance was to qualitatively assess the segmentation. The network outputs stacks of 2048x2048x70  which are complicated to visually inspect. To visualize the objects we projected the objects found by the network on the raw image and created a gallery of images as described in the material section. This gallery thus represents every objects the network considered as "nuclei". Although not quantitative this step allowed us to have a first idea on the kind of objects outputted. An example of output is present in figure 1. We see that the network segmented a majority of bright and round shaped objects which was expected. Moreover, some objects were close to background level. However, we see that some objects are noise which indicates a poor network performance. 
 
 ### Quantitative approach to network performance
 
 **(517 characters)**
 
-Having a qualitative approach allowed us to have a first insight to a network performance. However, we wanted to have a quantitative analysis to be able to compare performance between network and also between trainings. As described in the method we used various properties of the objects to compare networks. Figure 2 shows the comparison between two different networks. We see that there is a clear difference in network performance as one network has a tendency to segment bigger objects and with higher intensity.
+Having a qualitative approach allowed us to have a first insight to a network performance. However, we wanted to have a quantitative analysis to be able to compare performance between network and also between trainings. As described in the method we used various properties of the objects to compare networks. Figure 3 shows the comparison between two different networks. We see that there is a clear difference in network performance as one network has a tendency to segment bigger objects and with higher intensity.
 
-[[figures#Figure 3]]
+[[figures#Figure 3]] statistics that compares 2 networks
 
 Can we put numbers on qualitative observation we made earlier ? 
 Describe each metrics and why do we put it there 
@@ -90,14 +97,14 @@ To study the dependency to intensity of the segmentation we decided to compare o
 
 Considering the importance of bright fluorescent events we focused on finding a way to get rid of these missed events. To do so, we decided to play on the training of the network. The neural network is trained using a set of images and tries to generalize to be able to be used on a variety of images. Thus we decided to design a method to automatically correct sets of images that could be then used to train the network. The method relies on the accuracy measurement described above. When an object is only detected by Starfind, we virtually added an object in the image. The object added corresponds to a standard sphere picked in a random image. Knowingly, we introduce a bias at this step as the corrected image will all have the same correction. However, theoretically when fed to the network the images will be more complete meaning a better learning.  
 
-
+figure : figure showing starfind vs stardist and the fact that the networks misses objects ? 
 [[figures#Figure 4]]
 
 **(857 characters)**
 
 The network was given 500 epochs of 100 steps. Figure XX shows the learning curve i.e : the evolution of the error function per learning iteration. We see that the training was succesfull as the error is decreasing. To evaluate quantitatively the training one can also look at the number of true positive, true negative, false positive and false negative that are shown in annex 1. We see that the number of true positive is high which means good specificity and the number of false negative is low which indicates high sensitivity. However, these metrics only give information on the training itself that is we comparing the network performance on known image. To evaluate the quality of the training and thus the performance of the network we performed a segmentation with the new network on a never-seen image that yielded the results shown in figure XX.
 
-[[figures#Figure 8]] , [[figures#Figure 6]]
+[[figures#Figure 8]] , [[figures#Figure 6]] statistics of the retraining and the gallery
 
 **(317 characters)**
 
@@ -113,8 +120,8 @@ Introduce the concept of the correction :
 - relabel the image
 - save only the corrected subimages
 ### Retraining effects
-Discuss the improvement of the training if there was 
 
+Discuss the improvement of the training if there was 
 
 Probably not all the plots but maybe a combination if the concepts were introduced before ? 
 
@@ -131,6 +138,13 @@ Figure X:  General workflow of the lab1
 # Annex
 
 [[figures#Figure 9]]
+training of the network
+
+[[figures#Figure 5]]
+general workflow of the lab1
+
+table to summarize which script does what 
+
 
 # References (max 20)
 
