@@ -1,9 +1,11 @@
 # Figure 1
+
+
 ![](plots/figure_intro_2.png)
- *Figure 1: Principle of neuron network* 
+*Figure 1*: Principle of a neural network
 
 # Figure 2
-![](plots/gallery.png) 
+![](plots/gallery.png)
 # Figure 3
 ![](plots/Global_Metrics_2_Networks_iterated_2.svg)
 # Figure 4

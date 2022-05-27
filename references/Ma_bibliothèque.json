@@ -1,0 +1,4468 @@
+{
+  "collections": {
+    "8688CF99": {
+      "collections": [],
+      "items": [
+        7,
+        9,
+        11,
+        13,
+        14,
+        16,
+        20,
+        21,
+        23,
+        26,
+        28,
+        35,
+        38,
+        45,
+        50,
+        58,
+        63,
+        67,
+        92,
+        94,
+        99,
+        111,
+        117
+      ],
+      "key": "8688CF99",
+      "name": "iGEM",
+      "parent": ""
+    },
+    "KW3APAQU": {
+      "collections": [],
+      "items": [
+        30,
+        33,
+        34,
+        101,
+        105,
+        107,
+        120
+      ],
+      "key": "KW3APAQU",
+      "name": "Lab1 report",
+      "parent": ""
+    },
+    "XDQQXFW3": {
+      "collections": [],
+      "items": [
+        52,
+        70,
+        73,
+        76,
+        79,
+        83,
+        86,
+        89,
+        91,
+        122,
+        123,
+        126,
+        128,
+        130,
+        134
+      ],
+      "key": "XDQQXFW3",
+      "name": "Applied structural bio",
+      "parent": ""
+    }
+  },
+  "config": {
+    "id": "36a3b0b5-bad0-4a04-b79b-441c7cef77db",
+    "label": "BetterBibTeX JSON",
+    "localeDateOrder": "dmy",
+    "options": {
+      "exportFileData": false,
+      "exportNotes": true,
+      "keepUpdated": false
+    },
+    "preferences": {
+      "DOIandURL": "both",
+      "ascii": "",
+      "asciiBibLaTeX": false,
+      "asciiBibTeX": true,
+      "autoAbbrev": false,
+      "autoAbbrevStyle": "",
+      "autoExport": "immediate",
+      "autoExportDelay": 5,
+      "autoExportIdleWait": 10,
+      "autoExportPathReplaceDiacritics": false,
+      "autoExportPathReplaceDirSep": "-",
+      "autoExportPathReplaceSpace": " ",
+      "autoPinDelay": 0,
+      "automaticTags": true,
+      "auxImport": false,
+      "baseAttachmentPath": "",
+      "biblatexExtendedDateFormat": true,
+      "biblatexExtendedNameFormat": false,
+      "biblatexExtractEprint": true,
+      "bibtexParticleNoOp": false,
+      "bibtexURL": "off",
+      "cache": true,
+      "cacheFlushInterval": 5,
+      "charmap": "",
+      "citeCommand": "cite",
+      "citekeyFold": true,
+      "citekeyFormat": "auth.lower + shorttitle(3,3) + year",
+      "citekeyFormatBackup": "",
+      "citekeySearch": true,
+      "csquotes": "",
+      "exportBibTeXStrings": "off",
+      "exportBraceProtection": true,
+      "exportTitleCase": true,
+      "extraMergeCSL": false,
+      "extraMergeCitekeys": false,
+      "extraMergeTeX": false,
+      "git": "config",
+      "import": true,
+      "importBibTeXStrings": true,
+      "importCaseProtection": "as-needed",
+      "importCitationKey": true,
+      "importExtra": true,
+      "importJabRefAbbreviations": true,
+      "importJabRefStrings": true,
+      "importSentenceCase": "on+guess",
+      "importUnknownTexCommand": "ignore",
+      "itemObserverDelay": 5,
+      "jabrefFormat": 0,
+      "jieba": false,
+      "keyConflictPolicy": "keep",
+      "keyScope": "library",
+      "kuroshiro": false,
+      "mapMath": "",
+      "mapText": "",
+      "mapUnicode": "conservative",
+      "parseParticles": true,
+      "patchDates": "",
+      "platform": "win",
+      "postscript": "",
+      "postscriptOverride": "",
+      "preferencesOverride": "",
+      "qualityReport": false,
+      "quickCopyEta": "",
+      "quickCopyMode": "latex",
+      "quickCopyOrgMode": "zotero",
+      "quickCopyPandocBrackets": false,
+      "quickCopySelectLink": "zotero",
+      "rawImports": false,
+      "rawLaTag": "#LaTeX",
+      "relativeFilePaths": false,
+      "retainCache": false,
+      "scrubDatabase": false,
+      "separatorList": "and",
+      "separatorNames": "and",
+      "skipFields": "",
+      "skipWords": "a,ab,aboard,about,above,across,after,against,al,along,amid,among,an,and,anti,around,as,at,before,behind,below,beneath,beside,besides,between,beyond,but,by,d,da,das,de,del,dell,dello,dei,degli,della,dell,delle,dem,den,der,des,despite,die,do,down,du,during,ein,eine,einem,einen,einer,eines,el,en,et,except,for,from,gli,i,il,in,inside,into,is,l,la,las,le,les,like,lo,los,near,nor,of,off,on,onto,or,over,past,per,plus,round,save,since,so,some,sur,than,the,through,to,toward,towards,un,una,unas,under,underneath,une,unlike,uno,unos,until,up,upon,versus,via,von,while,with,within,without,yet,zu,zum",
+      "startupProgress": "popup",
+      "strings": "",
+      "stringsOverride": "",
+      "testing": false,
+      "verbatimFields": "url,doi,file,ids,eprint,verba,verbb,verbc,groups",
+      "warnBulkModify": 10,
+      "warnTitleCased": false,
+      "workers": 1
+    }
+  },
+  "items": [
+    {
+      "DOI": "10.1016/j.mimet.2006.07.005",
+      "ISSN": "0167-7012",
+      "abstractNote": "The fact that species of harmful algae maintained in the laboratory harbor a complex bacterial flora increases the difficulties involved in the study of the relationship between bacteria and algae. An efficient method to remove bacteria from a laboratory culture of the marine dinoflagellate Alexandrium tamarense is presented in this paper. The alga was subjected to repeated washing, lysozyme/SDS and antibiotic treatment with a mixture of gentamycin, streptomycin, cephalothin and rifampicin. Axenic status was confirmed after subculturing three times in sterile f/2 medium without antibiotics. Bacteria could not be detected in various media, both solid and liquid, nor by epifluorescence microscopy and PCR amplification of 16S rDNA of both eubacteria and archaea. Bacterial presence was monitored throughout a full growth cycle and, following subculture, no bacteria were detected using the above methods. This method is more efficient and less time-consuming than other methods and the resultant axenic A. tamarense cultures would provide a simpler system for further study of bacteria–alga interactions.",
+      "accessDate": "2022-05-02T09:54:17Z",
+      "attachments": [
+        {
+          "dateAdded": "2022-05-02T09:57:09Z",
+          "dateModified": "2022-05-02T09:57:09Z",
+          "itemType": "attachment",
+          "path": "C:\\Users\\nessl\\Documents\\iGEM\\AnefficientmethodtoobtainaxenicculturesofAlexandriumtamarense--aPSP-producingdinoflagellate.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "AnefficientmethodtoobtainaxenicculturesofAlexandriumtamarense--aPSP-producingdinoflagellate.pdf",
+          "uri": "http://zotero.org/users/9471698/items/L5XLM8E9"
+        },
+        {
+          "dateAdded": "2022-05-02T09:54:22Z",
+          "dateModified": "2022-05-02T09:54:22Z",
+          "itemType": "attachment",
+          "path": "C:\\Users\\nessl\\Zotero\\storage\\B8Y66EWP\\S0167701206002181.html",
+          "relations": [],
+          "tags": [],
+          "title": "ScienceDirect Snapshot",
+          "uri": "http://zotero.org/users/9471698/items/B8Y66EWP"
+        }
+      ],
+      "citationKey": "suEfficientMethodObtain2007",
+      "citekey": "suEfficientMethodObtain2007",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "JianQiang",
+          "lastName": "Su"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "XiaoRu",
+          "lastName": "Yang"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "TianLing",
+          "lastName": "Zheng"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "HuaSheng",
+          "lastName": "Hong"
+        }
+      ],
+      "date": "2007-06-01",
+      "dateAdded": "2022-05-02T09:54:17Z",
+      "dateModified": "2022-05-02T09:54:17Z",
+      "issue": "3",
+      "itemID": 38,
+      "itemKey": "2FRK87X6",
+      "itemType": "journalArticle",
+      "journalAbbreviation": "Journal of Microbiological Methods",
+      "key": "2FRK87X6",
+      "language": "en",
+      "libraryCatalog": "ScienceDirect",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "425-430",
+      "publicationTitle": "Journal of Microbiological Methods",
+      "relations": [],
+      "select": "zotero://select/library/items/2FRK87X6",
+      "tags": [
+        {
+          "tag": "Axenic culture",
+          "type": 1
+        },
+        {
+          "tag": "Epifluorescence microscopy",
+          "type": 1
+        },
+        {
+          "tag": "Polymerase chain reaction (PCR)",
+          "type": 1
+        }
+      ],
+      "title": "An efficient method to obtain axenic cultures of Alexandrium tamarense—a PSP-producing dinoflagellate",
+      "uri": "http://zotero.org/users/9471698/items/2FRK87X6",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0167701206002181",
+      "version": 7,
+      "volume": "69"
+    },
+    {
+      "DOI": "10.1016/j.molcel.2019.01.011",
+      "ISSN": "10972765",
+      "accessDate": "2022-05-14T13:56:30Z",
+      "attachments": [
+        {
+          "dateAdded": "2022-05-14T13:56:34Z",
+          "dateModified": "2022-05-14T13:56:34Z",
+          "itemType": "attachment",
+          "path": "C:\\Users\\nessl\\Zotero\\storage\\4TS2AE8I\\Cardozo Gizzi et al. - 2019 - Microscopy-Based Chromosome Conformation Capture E.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Texte intégral",
+          "uri": "http://zotero.org/users/9471698/items/4TS2AE8I"
+        }
+      ],
+      "citationKey": "cardozogizziMicroscopyBasedChromosomeConformation2019",
+      "citekey": "cardozogizziMicroscopyBasedChromosomeConformation2019",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Andrés M.",
+          "lastName": "Cardozo Gizzi"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Diego I.",
+          "lastName": "Cattoni"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Jean-Bernard",
+          "lastName": "Fiche"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Sergio M.",
+          "lastName": "Espinola"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Julian",
+          "lastName": "Gurgo"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Olivier",
+          "lastName": "Messina"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Christophe",
+          "lastName": "Houbron"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Yuki",
+          "lastName": "Ogiyama"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Giorgio L.",
+          "lastName": "Papadopoulos"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Giacomo",
+          "lastName": "Cavalli"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Mounia",
+          "lastName": "Lagha"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Marcelo",
+          "lastName": "Nollmann"
+        }
+      ],
+      "date": "04/2019",
+      "dateAdded": "2022-05-14T13:56:30Z",
+      "dateModified": "2022-05-14T13:56:30Z",
+      "issue": "1",
+      "itemID": 105,
+      "itemKey": "3D4Y5PBC",
+      "itemType": "journalArticle",
+      "journalAbbreviation": "Molecular Cell",
+      "key": "3D4Y5PBC",
+      "language": "en",
+      "libraryCatalog": "DOI.org (Crossref)",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "212-222.e5",
+      "publicationTitle": "Molecular Cell",
+      "relations": [],
+      "select": "zotero://select/library/items/3D4Y5PBC",
+      "tags": [],
+      "title": "Microscopy-Based Chromosome Conformation Capture Enables Simultaneous Visualization of Genome Organization and Transcription in Intact Organisms",
+      "uri": "http://zotero.org/users/9471698/items/3D4Y5PBC",
+      "url": "https://linkinghub.elsevier.com/retrieve/pii/S1097276519300115",
+      "version": 244,
+      "volume": "74"
+    },
+    {
+      "DOI": "10.1016/S0014-5793(98)01130-2",
+      "ISSN": "1873-3468",
+      "abstractNote": "A new member of the staphylococcal bi-component leucotoxins family, LukE (32 kDa) and LukD (34.3 kDa) has been characterized from Staphylococcus aureus strain Newman. LukE was 58–68% identical with the class S proteins, whereas LukD was 71–77% identical with the class F proteins of the family. A partial immunoreactivity with the various affinity-purified antibodies specific for the other proteins was observed. Immunoprecipitation assay and gene probing confirmed a 30% frequency among human clinical isolates, differing from the distribution of the other known leucotoxins (P<0.005). LukE+LukD was as effective as the Panton-Valentine leucocidin for inducing dermonecrosis when injected in the rabbit skin, but not hemolytic and poorly leucotoxic compared to other leucotoxins expressed by Staphylococcus aureus.",
+      "accessDate": "2022-05-03T08:06:47Z",
+      "attachments": [
+        {
+          "dateAdded": "2022-05-03T08:06:50Z",
+          "dateModified": "2022-05-03T08:06:50Z",
+          "itemType": "attachment",
+          "path": "C:\\Users\\nessl\\Zotero\\storage\\87L6NFUJ\\Gravet et al. - 1998 - Characterization of a novel structural member, Luk.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Full Text PDF",
+          "uri": "http://zotero.org/users/9471698/items/87L6NFUJ"
+        },
+        {
+          "dateAdded": "2022-05-03T08:06:57Z",
+          "dateModified": "2022-05-03T08:06:57Z",
+          "itemType": "attachment",
+          "path": "C:\\Users\\nessl\\Zotero\\storage\\YPUTX3TS\\S0014-5793(98)01130-2.html",
+          "relations": [],
+          "tags": [],
+          "title": "Snapshot",
+          "uri": "http://zotero.org/users/9471698/items/YPUTX3TS"
+        }
+      ],
+      "citationKey": "gravetCharacterizationNovelStructural1998",
+      "citekey": "gravetCharacterizationNovelStructural1998",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "A.",
+          "lastName": "Gravet"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "D.a.",
+          "lastName": "Colin"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "D.",
+          "lastName": "Keller"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "R.",
+          "lastName": "Giradot"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "H.",
+          "lastName": "Monteil"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "G.",
+          "lastName": "Prévost"
+        }
+      ],
+      "date": "1998",
+      "dateAdded": "2022-05-03T08:06:47Z",
+      "dateModified": "2022-05-03T08:06:47Z",
+      "extra": "_eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1016/S0014-5793%2898%2901130-2",
+      "issue": "2",
+      "itemID": 52,
+      "itemKey": "3DABHXUN",
+      "itemType": "journalArticle",
+      "key": "3DABHXUN",
+      "language": "en",
+      "libraryCatalog": "Wiley Online Library",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "202-208",
+      "publicationTitle": "FEBS Letters",
+      "relations": [],
+      "rights": "FEBS Letters 436 (1998) 1873-3468 © 2015 Federation of European Biochemical Societies",
+      "select": "zotero://select/library/items/3DABHXUN",
+      "tags": [
+        {
+          "tag": "Bi-component leucotoxin",
+          "type": 1
+        },
+        {
+          "tag": "Ca2+/ethidium penetration",
+          "type": 1
+        },
+        {
+          "tag": "Characterization",
+          "type": 1
+        },
+        {
+          "tag": "Dermonecrosis",
+          "type": 1
+        },
+        {
+          "tag": "LukE+LukD",
+          "type": 1
+        },
+        {
+          "tag": "Staphylococcus aureus",
+          "type": 1
+        }
+      ],
+      "title": "Characterization of a novel structural member, LukE-LukD, of the bi-component staphylococcal leucotoxins family",
+      "uri": "http://zotero.org/users/9471698/items/3DABHXUN",
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1016/S0014-5793%2898%2901130-2",
+      "version": 8,
+      "volume": "436"
+    },
+    {
+      "accessDate": "2022-05-11T12:03:06Z",
+      "attachments": [
+        {
+          "dateAdded": "2022-05-11T12:03:14Z",
+          "dateModified": "2022-05-11T12:03:14Z",
+          "itemType": "attachment",
+          "path": "C:\\Users\\nessl\\Zotero\\storage\\KHDLYC6E\\Herpes-virus-OsHV-1.html",
+          "relations": [],
+          "tags": [],
+          "title": "Snapshot",
+          "uri": "http://zotero.org/users/9471698/items/KHDLYC6E"
+        }
+      ],
+      "citationKey": "HerpesVirusOsHV1",
+      "citekey": "HerpesVirusOsHV1",
+      "creators": [],
+      "dateAdded": "2022-05-11T12:03:06Z",
+      "dateModified": "2022-05-11T12:03:06Z",
+      "itemID": 94,
+      "itemKey": "6CPUT2J5",
+      "itemType": "webpage",
+      "key": "6CPUT2J5",
+      "language": "en-GB",
+      "libraryID": 1,
+      "notes": [],
+      "publicationTitle": "EURL for Molluscs Diseases",
+      "relations": [],
+      "select": "zotero://select/library/items/6CPUT2J5",
+      "tags": [],
+      "title": "Herpes virus OsHV-1",
+      "uri": "http://zotero.org/users/9471698/items/6CPUT2J5",
+      "url": "https://www.eurl-mollusc.eu/Main-activities/Tutorials/Herpes-virus-OsHV-1",
+      "version": 169
+    },
+    {
+      "ISBN": "978-3-030-00933-5 978-3-030-00934-2",
+      "accessDate": "2022-05-14T13:52:06Z",
+      "attachments": [
+        {
+          "dateAdded": "2022-05-14T13:52:20Z",
+          "dateModified": "2022-05-14T13:52:20Z",
+          "itemType": "attachment",
+          "path": "C:\\Users\\nessl\\Zotero\\storage\\YGLALLZZ\\Schmidt et al. - 2018 - Cell Detection with Star-Convex Polygons.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Version soumise",
+          "uri": "http://zotero.org/users/9471698/items/YGLALLZZ"
+        }
+      ],
+      "citationKey": "schmidtCellDetectionStarConvex2018",
+      "citekey": "schmidtCellDetectionStarConvex2018",
+      "creators": [
+        {
+          "creatorType": "editor",
+          "firstName": "Alejandro F.",
+          "lastName": "Frangi"
+        },
+        {
+          "creatorType": "editor",
+          "firstName": "Julia A.",
+          "lastName": "Schnabel"
+        },
+        {
+          "creatorType": "editor",
+          "firstName": "Christos",
+          "lastName": "Davatzikos"
+        },
+        {
+          "creatorType": "editor",
+          "firstName": "Carlos",
+          "lastName": "Alberola-López"
+        },
+        {
+          "creatorType": "editor",
+          "firstName": "Gabor",
+          "lastName": "Fichtinger"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Uwe",
+          "lastName": "Schmidt"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Martin",
+          "lastName": "Weigert"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Coleman",
+          "lastName": "Broaddus"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Gene",
+          "lastName": "Myers"
+        }
+      ],
+      "date": "2018",
+      "dateAdded": "2022-05-14T13:52:06Z",
+      "dateModified": "2022-05-14T13:52:06Z",
+      "extra": "Series Title: Lecture Notes in Computer Science\nDOI: 10.1007/978-3-030-00934-2_30",
+      "itemID": 101,
+      "itemKey": "7RTGPLX2",
+      "itemType": "bookSection",
+      "key": "7RTGPLX2",
+      "libraryCatalog": "DOI.org (Crossref)",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "265-273",
+      "place": "Cham",
+      "publicationTitle": "Medical Image Computing and Computer Assisted Intervention – MICCAI 2018",
+      "publisher": "Springer International Publishing",
+      "relations": [],
+      "select": "zotero://select/library/items/7RTGPLX2",
+      "tags": [],
+      "title": "Cell Detection with Star-Convex Polygons",
+      "uri": "http://zotero.org/users/9471698/items/7RTGPLX2",
+      "url": "http://link.springer.com/10.1007/978-3-030-00934-2_30",
+      "version": 235,
+      "volume": "11071"
+    },
+    {
+      "DOI": "10.1016/j.str.2020.08.005",
+      "ISSN": "0969-2126",
+      "abstractNote": "Ramachandran plots report the distribution of the (ϕ, ψ) torsion angles of the protein backbone and are one of the best quality metrics of experimental structure models. Typically, validation software reports the number of residues belonging to “outlier,” “allowed,” and “favored” regions. While “zero unexplained outliers” can be considered the current “gold standard,” this can be misleading if deviations from expected distributions are not considered. We revisited the Ramachandran Z score (Rama-Z), a quality metric introduced more than two decades ago but underutilized. We describe a reimplementation of the Rama-Z score in the Computational Crystallography Toolbox along with an algorithm to estimate its uncertainty for individual models; final implementations are available in Phenix and PDB-REDO. We discuss the interpretation of the Rama-Z score and advocate including it in the validation reports provided by the Protein Data Bank. We also advocate reporting it alongside the outlier/allowed/favored counts in structural publications.",
+      "accessDate": "2022-05-24T12:17:34Z",
+      "attachments": [
+        {
+          "dateAdded": "2022-05-24T12:17:42Z",
+          "dateModified": "2022-05-24T12:17:42Z",
+          "itemType": "attachment",
+          "path": "C:\\Users\\nessl\\Zotero\\storage\\JKIWAJRQ\\S0969212620302872.html",
+          "relations": [],
+          "tags": [],
+          "title": "ScienceDirect Snapshot",
+          "uri": "http://zotero.org/users/9471698/items/JKIWAJRQ"
+        },
+        {
+          "dateAdded": "2022-05-24T12:17:40Z",
+          "dateModified": "2022-05-24T12:17:40Z",
+          "itemType": "attachment",
+          "path": "C:\\Users\\nessl\\Zotero\\storage\\E6IXGHGE\\Sobolev et al. - 2020 - A Global Ramachandran Score Identifies Protein Str.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Version acceptée",
+          "uri": "http://zotero.org/users/9471698/items/E6IXGHGE"
+        }
+      ],
+      "citationKey": "sobolevGlobalRamachandranScore2020",
+      "citekey": "sobolevGlobalRamachandranScore2020",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Oleg V.",
+          "lastName": "Sobolev"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Pavel V.",
+          "lastName": "Afonine"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Nigel W.",
+          "lastName": "Moriarty"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Maarten L.",
+          "lastName": "Hekkelman"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Robbie P.",
+          "lastName": "Joosten"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Anastassis",
+          "lastName": "Perrakis"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Paul D.",
+          "lastName": "Adams"
+        }
+      ],
+      "date": "2020-11-03",
+      "dateAdded": "2022-05-24T12:17:34Z",
+      "dateModified": "2022-05-24T12:17:34Z",
+      "issue": "11",
+      "itemID": 130,
+      "itemKey": "8R94U8WA",
+      "itemType": "journalArticle",
+      "journalAbbreviation": "Structure",
+      "key": "8R94U8WA",
+      "language": "en",
+      "libraryCatalog": "ScienceDirect",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "1249-1258.e2",
+      "publicationTitle": "Structure",
+      "relations": [],
+      "select": "zotero://select/library/items/8R94U8WA",
+      "tags": [
+        {
+          "tag": "CCTBX",
+          "type": 1
+        },
+        {
+          "tag": "cryo-EM",
+          "type": 1
+        },
+        {
+          "tag": "crystallography",
+          "type": 1
+        },
+        {
+          "tag": "PDB-REDO",
+          "type": 1
+        },
+        {
+          "tag": "Phenix",
+          "type": 1
+        },
+        {
+          "tag": "Rama-Z",
+          "type": 1
+        },
+        {
+          "tag": "Ramachandran plot",
+          "type": 1
+        },
+        {
+          "tag": "score",
+          "type": 1
+        },
+        {
+          "tag": "validation",
+          "type": 1
+        }
+      ],
+      "title": "A Global Ramachandran Score Identifies Protein Structures with Unlikely Stereochemistry",
+      "uri": "http://zotero.org/users/9471698/items/8R94U8WA",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0969212620302872",
+      "version": 371,
+      "volume": "28"
+    },
+    {
+      "DOI": "10.1038/s41580-021-00407-0",
+      "ISSN": "1471-0072, 1471-0080",
+      "abstractNote": "The expanding scale and inherent complexity of biological data have encouraged a growing use of machine learning in biology to build informative and predictive models of the underlying biological processes. All machine learning techniques fit models to data; however, the specific methods are quite varied and can at first glance seem bewildering. In this Review, we aim to provide readers with a gentle introduction to a few key machine learning techniques, including the most recently developed and widely used techniques involving deep neural networks. We describe how different techniques may be suited to specific types of biological data, and also discuss some best practices and points to consider when one is embarking on experiments involving machine learning. Some emerging directions in machine learning methodology are also discussed.",
+      "accessDate": "2022-05-02T09:35:04Z",
+      "attachments": [
+        {
+          "dateAdded": "2022-05-02T09:34:58Z",
+          "dateModified": "2022-05-02T09:35:05Z",
+          "itemType": "attachment",
+          "path": "C:\\Users\\nessl\\Documents\\M1\\S2\\Lab 1\\HI-M\\Greener - 2021 A guide to machine learning for biologist.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Greener - 2021 A guide to machine learning for biologist.pdf",
+          "uri": "http://zotero.org/users/9471698/items/QH5SVHXF"
+        }
+      ],
+      "citationKey": "greenerGuideMachineLearning2022",
+      "citekey": "greenerGuideMachineLearning2022",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Joe G.",
+          "lastName": "Greener"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Shaun M.",
+          "lastName": "Kandathil"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Lewis",
+          "lastName": "Moffat"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "David T.",
+          "lastName": "Jones"
+        }
+      ],
+      "date": "01/2022",
+      "dateAdded": "2022-05-02T09:35:04Z",
+      "dateModified": "2022-05-02T09:35:05Z",
+      "issue": "1",
+      "itemID": 30,
+      "itemKey": "8SH9A6QR",
+      "itemType": "journalArticle",
+      "journalAbbreviation": "Nat Rev Mol Cell Biol",
+      "key": "8SH9A6QR",
+      "language": "en",
+      "libraryCatalog": "DOI.org (Crossref)",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "40-55",
+      "publicationTitle": "Nature Reviews Molecular Cell Biology",
+      "relations": [],
+      "select": "zotero://select/library/items/8SH9A6QR",
+      "tags": [],
+      "title": "A guide to machine learning for biologists",
+      "uri": "http://zotero.org/users/9471698/items/8SH9A6QR",
+      "url": "https://www.nature.com/articles/s41580-021-00407-0",
+      "version": 6,
+      "volume": "23"
+    },
+    {
+      "DOI": "10.4267/2042/48108",
+      "ISSN": "0001-4192",
+      "abstractNote": "Although viruses have been associated with mortality outbreaks in different mollusc species, little information is available on their exact affiliation and taxonomic position. Herpes viruses have attracted particular attention because of their economic and ecological impact on both farmed and wild marine molluscs over the past 20 years. Investigations based on molecular approaches have been carried out on the herpes virus infecting Pacific oysters in France. Molecular and ultra-structural data were used to classify the virus under the name ostreid herpesvirus 1 (OsHV-1), as the first known species in the family Malacoherpesviridae. Since 2008, massive mortality outbreaks were reported in several Crassostrea gigas oyster farms in France, Ireland, and the United Kingdom. The outbreaks were attributed to adverse environmental conditions associated with a particular variant of OsHV-1, called OsHV-1 µVar.",
+      "accessDate": "2022-04-27T16:25:48Z",
+      "attachments": [
+        {
+          "dateAdded": "2022-04-27T16:25:45Z",
+          "dateModified": "2022-04-27T16:25:49Z",
+          "itemType": "attachment",
+          "path": "C:\\Users\\nessl\\Zotero\\storage\\U8UYVTYQ\\Renault - 2011 - Les virus infectant les mollusques marins un exem.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Renault - 2011 - Les virus infectant les mollusques marins un exem.pdf",
+          "uri": "http://zotero.org/users/9471698/items/U8UYVTYQ"
+        }
+      ],
+      "citationKey": "renaultVirusInfectantMollusques2011",
+      "citekey": "renaultVirusInfectantMollusques2011",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Tristan",
+          "lastName": "Renault"
+        }
+      ],
+      "date": "2011",
+      "dateAdded": "2022-04-27T16:25:48Z",
+      "dateModified": "2022-04-27T16:25:48Z",
+      "issue": "4",
+      "itemID": 20,
+      "itemKey": "94ID2MDY",
+      "itemType": "journalArticle",
+      "journalAbbreviation": "bavf",
+      "key": "94ID2MDY",
+      "language": "fr",
+      "libraryCatalog": "DOI.org (Crossref)",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "359-364",
+      "publicationTitle": "Bulletin de l'Académie Vétérinaire de France",
+      "relations": [],
+      "select": "zotero://select/library/items/94ID2MDY",
+      "shortTitle": "Les virus infectant les mollusques marins",
+      "tags": [],
+      "title": "Les virus infectant les mollusques marins: un exemple d'actualité, les herpèsvirus",
+      "uri": "http://zotero.org/users/9471698/items/94ID2MDY",
+      "url": "https://www.persee.fr/doc/bavf_0001-4192_2011_num_164_4_9567",
+      "version": 5,
+      "volume": "164"
+    },
+    {
+      "DOI": "10.3354/ame045101",
+      "ISSN": "0948-3055, 1616-1564",
+      "abstractNote": "The dinoflagellate genus Dinophysis includes several species that cause diarrhetic shellfish poisoning, none of which have yet been established in culture. We report on the maintenance of Dinophysis acuminata cultures that were established in December 2005 and also on its feeding mechanism, and growth rates when fed the ciliate prey Myrionecta rubra with and without the addition of the cryptophyte Teleaulax sp. D. acuminata grew well (growth rate of 0.95 d–1) in laboratory culture when supplied with the marine ciliate M. rubra as prey, reaching a maximum concentration of about 2400 cells ml–1 at the end of the feeding experiment. In contrast, D. acuminata did not show sustained growth in the absence of the ciliate or when provided the cryptophyte Teleaulax sp. as prey (D. acuminata used its peduncle to extract the cell contents of the prey organism, M. rubra). Based on the prey– predator interactions occurring among D. acuminata, M. rubra, and Teleaulax sp. in this study, establishment of permanent culture of the dinoflagellate D. acuminata may facilitate a better understanding of the ecophysiology, biology, and toxicology of Dinophysis species, as well as the evolution of dinoflagellate plastids.",
+      "accessDate": "2022-05-02T09:37:50Z",
+      "attachments": [
+        {
+          "dateAdded": "2022-05-02T09:37:53Z",
+          "dateModified": "2022-05-02T09:37:53Z",
+          "itemType": "attachment",
+          "path": "C:\\Users\\nessl\\Zotero\\storage\\6PX8A3YS\\Park et al. - 2006 - First successful culture of the marine dinoflagell.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Full Text PDF",
+          "uri": "http://zotero.org/users/9471698/items/6PX8A3YS"
+        },
+        {
+          "dateAdded": "2022-05-02T09:37:56Z",
+          "dateModified": "2022-05-02T09:37:56Z",
+          "itemType": "attachment",
+          "path": "C:\\Users\\nessl\\Zotero\\storage\\3W67ZYM2\\p101-106.html",
+          "relations": [],
+          "tags": [],
+          "title": "Snapshot",
+          "uri": "http://zotero.org/users/9471698/items/3W67ZYM2"
+        }
+      ],
+      "citationKey": "parkFirstSuccessfulCulture2006",
+      "citekey": "parkFirstSuccessfulCulture2006",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Myung Gil",
+          "lastName": "Park"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Sunju",
+          "lastName": "Kim"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Hyung Seop",
+          "lastName": "Kim"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Geumog",
+          "lastName": "Myung"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Yi Gu",
+          "lastName": "Kang"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Wonho",
+          "lastName": "Yih"
+        }
+      ],
+      "date": "2006-11-24",
+      "dateAdded": "2022-05-02T09:37:50Z",
+      "dateModified": "2022-05-02T09:37:50Z",
+      "issue": "2",
+      "itemID": 35,
+      "itemKey": "9RKK4NVV",
+      "itemType": "journalArticle",
+      "key": "9RKK4NVV",
+      "language": "en",
+      "libraryCatalog": "www.int-res.com",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "101-106",
+      "publicationTitle": "Aquatic Microbial Ecology",
+      "relations": [],
+      "select": "zotero://select/library/items/9RKK4NVV",
+      "tags": [
+        {
+          "tag": "Cultivation",
+          "type": 1
+        },
+        {
+          "tag": "Diarrhetic shellfish poisoning",
+          "type": 1
+        },
+        {
+          "tag": "Dinophysis acuminata",
+          "type": 1
+        },
+        {
+          "tag": "Feeding",
+          "type": 1
+        },
+        {
+          "tag": "Myrionecta rubra",
+          "type": 1
+        }
+      ],
+      "title": "First successful culture of the marine dinoflagellate Dinophysis acuminata",
+      "uri": "http://zotero.org/users/9471698/items/9RKK4NVV",
+      "url": "https://www.int-res.com/abstracts/ame/v45/n2/p101-106/",
+      "version": 7,
+      "volume": "45"
+    },
+    {
+      "DOI": "10.1038/s41588-021-00816-z",
+      "ISSN": "1546-1718",
+      "abstractNote": "Acquisition of cell fate is thought to rely on the specific interaction of remote cis-regulatory modules (CRMs), for example, enhancers and target promoters. However, the precise interplay between chromatin structure and gene expression is still unclear, particularly within multicellular developing organisms. In the present study, we employ Hi-M, a single-cell spatial genomics approach, to detect CRM–promoter looping interactions within topologically associating domains (TADs) during early Drosophila development. By comparing cis-regulatory loops in alternate cell types, we show that physical proximity does not necessarily instruct transcriptional states. Moreover, multi-way analyses reveal that multiple CRMs spatially coalesce to form hubs. Loops and CRM hubs are established early during development, before the emergence of TADs. Moreover, CRM hubs are formed, in part, via the action of the pioneer transcription factor Zelda and precede transcriptional activation. Our approach provides insight into the role of CRM–promoter interactions in defining transcriptional states, as well as distinct cell types.",
+      "accessDate": "2022-05-14T13:58:15Z",
+      "attachments": [
+        {
+          "dateAdded": "2022-05-14T13:58:22Z",
+          "dateModified": "2022-05-14T13:58:22Z",
+          "itemType": "attachment",
+          "path": "C:\\Users\\nessl\\Zotero\\storage\\MWE7HY99\\s41588-021-00816-z.html",
+          "relations": [],
+          "tags": [],
+          "title": "Snapshot",
+          "uri": "http://zotero.org/users/9471698/items/MWE7HY99"
+        },
+        {
+          "dateAdded": "2022-05-14T13:59:23Z",
+          "dateModified": "2022-05-14T13:59:23Z",
+          "itemType": "attachment",
+          "path": "C:\\Users\\nessl\\Zotero\\storage\\GUNRBLS8\\Espinola et al. - 2021 - Cis-regulatory chromatin loops arise before TADs a.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Texte intégral",
+          "uri": "http://zotero.org/users/9471698/items/GUNRBLS8"
+        },
+        {
+          "dateAdded": "2022-05-14T13:59:58Z",
+          "dateModified": "2022-05-14T13:59:58Z",
+          "itemType": "attachment",
+          "path": "C:\\Users\\nessl\\Zotero\\storage\\T28WFTAM\\Espinola et al. - 2021 - Cis-regulatory chromatin loops arise before TADs a.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Texte intégral",
+          "uri": "http://zotero.org/users/9471698/items/T28WFTAM"
+        }
+      ],
+      "citationKey": "espinolaCisregulatoryChromatinLoops2021",
+      "citekey": "espinolaCisregulatoryChromatinLoops2021",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Sergio Martin",
+          "lastName": "Espinola"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Markus",
+          "lastName": "Götz"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Maelle",
+          "lastName": "Bellec"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Olivier",
+          "lastName": "Messina"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Jean-Bernard",
+          "lastName": "Fiche"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Christophe",
+          "lastName": "Houbron"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Matthieu",
+          "lastName": "Dejean"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Ingolf",
+          "lastName": "Reim"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Andrés M.",
+          "lastName": "Cardozo Gizzi"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Mounia",
+          "lastName": "Lagha"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Marcelo",
+          "lastName": "Nollmann"
+        }
+      ],
+      "date": "2021-04",
+      "dateAdded": "2022-05-14T13:58:15Z",
+      "dateModified": "2022-05-14T13:58:15Z",
+      "extra": "Number: 4\nPublisher: Nature Publishing Group",
+      "issue": "4",
+      "itemID": 107,
+      "itemKey": "A6BJ632U",
+      "itemType": "journalArticle",
+      "journalAbbreviation": "Nat Genet",
+      "key": "A6BJ632U",
+      "language": "en",
+      "libraryCatalog": "www.nature.com",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "477-486",
+      "publicationTitle": "Nature Genetics",
+      "relations": [],
+      "rights": "2021 The Author(s), under exclusive licence to Springer Nature America, Inc.",
+      "select": "zotero://select/library/items/A6BJ632U",
+      "tags": [
+        {
+          "tag": "Embryogenesis",
+          "type": 1
+        },
+        {
+          "tag": "Epigenomics",
+          "type": 1
+        },
+        {
+          "tag": "Gene regulation",
+          "type": 1
+        },
+        {
+          "tag": "Microscopy",
+          "type": 1
+        }
+      ],
+      "title": "Cis-regulatory chromatin loops arise before TADs and gene activation, and are independent of cell fate during early Drosophila development",
+      "uri": "http://zotero.org/users/9471698/items/A6BJ632U",
+      "url": "https://www.nature.com/articles/s41588-021-00816-z",
+      "version": 248,
+      "volume": "53"
+    },
+    {
+      "DOI": "10.1042/bj0750158",
+      "ISSN": "0264-6021",
+      "attachments": [
+        {
+          "accessDate": "2022-05-07T12:49:40Z",
+          "charset": "",
+          "contentType": "text/html",
+          "dateAdded": "2022-05-07T12:49:40Z",
+          "dateModified": "2022-05-07T12:49:40Z",
+          "itemType": "attachment",
+          "key": "LE5H3JWG",
+          "linkMode": "linked_url",
+          "parentItem": "AAA54E6T",
+          "relations": {},
+          "select": "zotero://select/library/items/LE5H3JWG",
+          "tags": [],
+          "title": "PubMed entry",
+          "uri": "http://zotero.org/users/9471698/items/LE5H3JWG",
+          "url": "http://www.ncbi.nlm.nih.gov/pubmed/13845860",
+          "version": 139
+        },
+        {
+          "dateAdded": "2022-05-07T12:49:42Z",
+          "dateModified": "2022-05-07T12:49:42Z",
+          "itemType": "attachment",
+          "path": "C:\\Users\\nessl\\Zotero\\storage\\XDJMQMY3\\Woodin - 1960 - Purification of the two components of leucocidin f.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Texte intégral",
+          "uri": "http://zotero.org/users/9471698/items/XDJMQMY3"
+        }
+      ],
+      "citationKey": "woodinPurificationTwoComponents1960",
+      "citekey": "woodinPurificationTwoComponents1960",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "A. M.",
+          "lastName": "Woodin"
+        }
+      ],
+      "date": "1960-04",
+      "dateAdded": "2022-05-07T12:49:39Z",
+      "dateModified": "2022-05-07T12:49:41Z",
+      "extra": "PMID: 13845860\nPMCID: PMC1204343",
+      "itemID": 73,
+      "itemKey": "AAA54E6T",
+      "itemType": "journalArticle",
+      "journalAbbreviation": "Biochem J",
+      "key": "AAA54E6T",
+      "language": "eng",
+      "libraryCatalog": "PubMed",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "158-165",
+      "publicationTitle": "The Biochemical Journal",
+      "relations": [],
+      "select": "zotero://select/library/items/AAA54E6T",
+      "tags": [
+        {
+          "tag": "Staphylococcus aureus",
+          "type": 1
+        },
+        {
+          "tag": "Humans",
+          "type": 1
+        },
+        {
+          "tag": "Leukocidins",
+          "type": 1
+        },
+        {
+          "tag": "Staphylococcal Infections",
+          "type": 1
+        },
+        {
+          "tag": "Staphylococcus",
+          "type": 1
+        },
+        {
+          "tag": "STAPHYLOCOCCUS",
+          "type": 1
+        }
+      ],
+      "title": "Purification of the two components of leucocidin from Staphylococcus aureus",
+      "uri": "http://zotero.org/users/9471698/items/AAA54E6T",
+      "version": 139,
+      "volume": "75"
+    },
+    {
+      "DOI": "10.1107/S0907444910045749",
+      "ISSN": "0907-4449",
+      "abstractNote": "The CCP4 (Collaborative Computational Project, Number 4) software suite is a collection of programs and associated data and software libraries which can be used for macromolecular structure determination by X-ray crystallography. The suite is designed to be flexible, allowing users a number of methods of achieving their aims. The programs are from a wide variety of sources but are connected by a common infrastructure provided by standard file formats, data objects and graphical interfaces. Structure solution by macromolecular crystallo­graphy is becoming increasingly automated and the CCP4 suite includes several automation pipelines. After giving a brief description of the evolution of CCP4 over the last 30 years, an overview of the current suite is given. While detailed descriptions are given in the accompanying articles, here it is shown how the individual programs contribute to a complete software package.",
+      "accessDate": "2022-05-08T16:55:55Z",
+      "attachments": [
+        {
+          "dateAdded": "2022-05-08T16:55:56Z",
+          "dateModified": "2022-05-08T16:55:56Z",
+          "itemType": "attachment",
+          "path": "C:\\Users\\nessl\\Zotero\\storage\\DM8J6HDY\\Winn et al. - 2011 - Overview of the CCP4 suite and current development.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Full Text PDF",
+          "uri": "http://zotero.org/users/9471698/items/DM8J6HDY"
+        },
+        {
+          "dateAdded": "2022-05-08T16:55:59Z",
+          "dateModified": "2022-05-08T16:55:59Z",
+          "itemType": "attachment",
+          "path": "C:\\Users\\nessl\\Zotero\\storage\\Y6E2HRMS\\paper.html",
+          "relations": [],
+          "tags": [],
+          "title": "Snapshot",
+          "uri": "http://zotero.org/users/9471698/items/Y6E2HRMS"
+        }
+      ],
+      "citationKey": "winnOverviewCCP4Suite2011",
+      "citekey": "winnOverviewCCP4Suite2011",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "M. D.",
+          "lastName": "Winn"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "C. C.",
+          "lastName": "Ballard"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "K. D.",
+          "lastName": "Cowtan"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "E. J.",
+          "lastName": "Dodson"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "P.",
+          "lastName": "Emsley"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "P. R.",
+          "lastName": "Evans"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "R. M.",
+          "lastName": "Keegan"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "E. B.",
+          "lastName": "Krissinel"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "A. G. W.",
+          "lastName": "Leslie"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "A.",
+          "lastName": "McCoy"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "S. J.",
+          "lastName": "McNicholas"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "G. N.",
+          "lastName": "Murshudov"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "N. S.",
+          "lastName": "Pannu"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "E. A.",
+          "lastName": "Potterton"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "H. R.",
+          "lastName": "Powell"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "R. J.",
+          "lastName": "Read"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "A.",
+          "lastName": "Vagin"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "K. S.",
+          "lastName": "Wilson"
+        }
+      ],
+      "date": "2011-04-01",
+      "dateAdded": "2022-05-08T16:55:55Z",
+      "dateModified": "2022-05-08T16:55:55Z",
+      "extra": "Number: 4\nPublisher: International Union of Crystallography",
+      "issue": "4",
+      "itemID": 86,
+      "itemKey": "B645EX9Z",
+      "itemType": "journalArticle",
+      "journalAbbreviation": "Acta Cryst D",
+      "key": "B645EX9Z",
+      "language": "en",
+      "libraryCatalog": "scripts.iucr.org",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "235-242",
+      "publicationTitle": "Acta Crystallographica Section D: Biological Crystallography",
+      "relations": [],
+      "rights": "http://creativecommons.org/licenses/by/2.0/uk",
+      "select": "zotero://select/library/items/B645EX9Z",
+      "tags": [],
+      "title": "Overview of the CCP4 suite and current developments",
+      "uri": "http://zotero.org/users/9471698/items/B645EX9Z",
+      "url": "http://scripts.iucr.org/cgi-bin/paper?dz5219",
+      "version": 156,
+      "volume": "67"
+    },
+    {
+      "abstractNote": "See the changelog for release notes.",
+      "accessDate": "2022-05-20T16:10:25Z",
+      "attachments": [
+        {
+          "dateAdded": "2022-05-20T16:10:33Z",
+          "dateModified": "2022-05-20T16:10:33Z",
+          "itemType": "attachment",
+          "path": "C:\\Users\\nessl\\Zotero\\storage\\DPU7F4NL\\6385735.html",
+          "relations": [],
+          "tags": [],
+          "title": "Zenodo Snapshot",
+          "uri": "http://zotero.org/users/9471698/items/DPU7F4NL"
+        }
+      ],
+      "citationKey": "bradleyAstropyPhotutils2022",
+      "citekey": "bradleyAstropyPhotutils2022",
+      "creators": [
+        {
+          "creatorType": "programmer",
+          "firstName": "Larry",
+          "lastName": "Bradley"
+        },
+        {
+          "creatorType": "programmer",
+          "firstName": "Brigitta",
+          "lastName": "Sipőcz"
+        },
+        {
+          "creatorType": "programmer",
+          "firstName": "Thomas",
+          "lastName": "Robitaille"
+        },
+        {
+          "creatorType": "programmer",
+          "firstName": "Erik",
+          "lastName": "Tollerud"
+        },
+        {
+          "creatorType": "programmer",
+          "firstName": "Zé",
+          "lastName": "Vinícius"
+        },
+        {
+          "creatorType": "programmer",
+          "firstName": "Christoph",
+          "lastName": "Deil"
+        },
+        {
+          "creatorType": "programmer",
+          "firstName": "Kyle",
+          "lastName": "Barbary"
+        },
+        {
+          "creatorType": "programmer",
+          "firstName": "Tom J.",
+          "lastName": "Wilson"
+        },
+        {
+          "creatorType": "programmer",
+          "firstName": "Ivo",
+          "lastName": "Busko"
+        },
+        {
+          "creatorType": "programmer",
+          "firstName": "Axel",
+          "lastName": "Donath"
+        },
+        {
+          "creatorType": "programmer",
+          "firstName": "Hans Moritz",
+          "lastName": "Günther"
+        },
+        {
+          "creatorType": "programmer",
+          "firstName": "Mihai",
+          "lastName": "Cara"
+        },
+        {
+          "creatorType": "programmer",
+          "firstName": "P. L.",
+          "lastName": "Lim"
+        },
+        {
+          "creatorType": "programmer",
+          "firstName": "Sebastian",
+          "lastName": "Meßlinger"
+        },
+        {
+          "creatorType": "programmer",
+          "firstName": "Simon",
+          "lastName": "Conseil"
+        },
+        {
+          "creatorType": "programmer",
+          "firstName": "Azalee",
+          "lastName": "Bostroem"
+        },
+        {
+          "creatorType": "programmer",
+          "firstName": "Michael",
+          "lastName": "Droettboom"
+        },
+        {
+          "creatorType": "programmer",
+          "firstName": "E. M.",
+          "lastName": "Bray"
+        },
+        {
+          "creatorType": "programmer",
+          "firstName": "Lars Andersen",
+          "lastName": "Bratholm"
+        },
+        {
+          "creatorType": "programmer",
+          "firstName": "Geert",
+          "lastName": "Barentsen"
+        },
+        {
+          "creatorType": "programmer",
+          "firstName": "Matt",
+          "lastName": "Craig"
+        },
+        {
+          "creatorType": "programmer",
+          "firstName": "Shivangee",
+          "lastName": "Rathi"
+        },
+        {
+          "creatorType": "programmer",
+          "firstName": "Sergio",
+          "lastName": "Pascual"
+        },
+        {
+          "creatorType": "programmer",
+          "firstName": "Gabriel",
+          "lastName": "Perren"
+        },
+        {
+          "creatorType": "programmer",
+          "firstName": "Iskren Y.",
+          "lastName": "Georgiev"
+        },
+        {
+          "creatorType": "programmer",
+          "firstName": "Miguel de",
+          "lastName": "Val-Borro"
+        },
+        {
+          "creatorType": "programmer",
+          "firstName": "Wolfgang",
+          "lastName": "Kerzendorf"
+        },
+        {
+          "creatorType": "programmer",
+          "firstName": "Yoonsoo P.",
+          "lastName": "Bach"
+        },
+        {
+          "creatorType": "programmer",
+          "firstName": "Bruno",
+          "lastName": "Quint"
+        },
+        {
+          "creatorType": "programmer",
+          "firstName": "Harrison",
+          "lastName": "Souchereau"
+        }
+      ],
+      "date": "2022-03-25",
+      "dateAdded": "2022-05-20T16:10:25Z",
+      "dateModified": "2022-05-20T16:10:28Z",
+      "extra": "DOI: 10.5281/zenodo.6385735",
+      "itemID": 120,
+      "itemKey": "BHCJJK6E",
+      "itemType": "computerProgram",
+      "key": "BHCJJK6E",
+      "libraryCatalog": "Zenodo",
+      "libraryID": 1,
+      "notes": [],
+      "publisher": "Zenodo",
+      "relations": [],
+      "select": "zotero://select/library/items/BHCJJK6E",
+      "shortTitle": "astropy/photutils",
+      "tags": [],
+      "title": "astropy/photutils:",
+      "uri": "http://zotero.org/users/9471698/items/BHCJJK6E",
+      "url": "https://zenodo.org/record/6385735",
+      "version": 349
+    },
+    {
+      "DOI": "10.1063/1.1712915",
+      "ISSN": "0021-8979",
+      "accessDate": "2022-05-22T08:08:29Z",
+      "attachments": [],
+      "citationKey": "warrenRayDiffractionMethods1941",
+      "citekey": "warrenRayDiffractionMethods1941",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "B. E.",
+          "lastName": "Warren"
+        }
+      ],
+      "date": "1941-05",
+      "dateAdded": "2022-05-22T08:08:29Z",
+      "dateModified": "2022-05-22T08:08:29Z",
+      "extra": "Publisher: American Institute of Physics",
+      "issue": "5",
+      "itemID": 122,
+      "itemKey": "BQMQV93I",
+      "itemType": "journalArticle",
+      "key": "BQMQV93I",
+      "libraryCatalog": "aip.scitation.org (Atypon)",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "375-384",
+      "publicationTitle": "Journal of Applied Physics",
+      "relations": [],
+      "select": "zotero://select/library/items/BQMQV93I",
+      "tags": [],
+      "title": "X‐Ray Diffraction Methods",
+      "uri": "http://zotero.org/users/9471698/items/BQMQV93I",
+      "url": "https://aip.scitation.org/doi/abs/10.1063/1.1712915",
+      "version": 353,
+      "volume": "12"
+    },
+    {
+      "DOI": "https://doi.org/10.1016/0041-0101(89)90064-0",
+      "ISSN": "0041-0101",
+      "abstractNote": "T. Usagawa, M. Nishimura, Y. Itoh, T. Uda and T. Yasumoto. Preparation of monoclonal antibodies against okadaic acid prepared from the sponge Halichondria okadai. Toxicon27, 1323–1330, 1989.—Three murine monoclonal antibodies, OA-1, OA-2 and OA-3, against okadaic acid were prepared from hybridoma clones obtained by fusion of mouse 653 myeloma cells with mouse immune spleen cells sensitized to okadaic acid-ovalbumin conjugate. Each antibody reacted with dinophysistoxin-1 ( = 35-methylokadaic acid) as well as okadaic acid, but did not react with the other diarrhetic shellfish poisons or related compounds, such as 7-O-palmitoyl-okadaic acid (analogue of dinophysistoxin-3), pectenotoxin-1 and yessotoxin. A competitive inhibition enzyme-linked immunosorbent assay which employed OA-3 antibody was performed and showed a sensitivity of about 10ppb (10ng/ml) for okadaic acid. This simple and time-saving ELISA assay system may be useful for the specific detection of diarrhetic shellfish poisons.",
+      "attachments": [
+        {
+          "dateAdded": "2022-04-27T16:19:56Z",
+          "dateModified": "2022-04-27T16:19:56Z",
+          "itemType": "attachment",
+          "path": "C:\\Users\\nessl\\Documents\\iGEM\\antibodies anti DSP toxins.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "antibodies anti DSP toxins.pdf",
+          "uri": "http://zotero.org/users/9471698/items/D2PFE879"
+        }
+      ],
+      "citationKey": "usagawaPreparationMonoclonalAntibodies1989",
+      "citekey": "usagawaPreparationMonoclonalAntibodies1989",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Takashi",
+          "lastName": "Usagawa"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Minoru",
+          "lastName": "Nishimura"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Yukikatsu",
+          "lastName": "Itoh"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Taizo",
+          "lastName": "Uda"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Takeshi",
+          "lastName": "Yasumoto"
+        }
+      ],
+      "date": "1989",
+      "dateAdded": "2022-04-27T16:18:50Z",
+      "dateModified": "2022-04-27T16:18:50Z",
+      "issue": "12",
+      "itemID": 14,
+      "itemKey": "CC3DM7LS",
+      "itemType": "journalArticle",
+      "key": "CC3DM7LS",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "1323-1330",
+      "publicationTitle": "Toxicon",
+      "relations": [],
+      "select": "zotero://select/library/items/CC3DM7LS",
+      "tags": [],
+      "title": "Preparation of monoclonal antibodies against okadaic acid prepared from the sponge Halichondria okadai",
+      "uri": "http://zotero.org/users/9471698/items/CC3DM7LS",
+      "url": "https://www.sciencedirect.com/science/article/pii/0041010189900640",
+      "version": 5,
+      "volume": "27"
+    },
+    {
+      "DOI": "10.1002/jmv.20402",
+      "ISSN": "0146-6615, 1096-9071",
+      "accessDate": "2022-04-27T15:58:36Z",
+      "attachments": [
+        {
+          "dateAdded": "2022-04-27T15:59:48Z",
+          "dateModified": "2022-04-27T15:59:48Z",
+          "itemType": "attachment",
+          "path": "C:\\Users\\nessl\\Documents\\iGEM\\norovirus.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "norovirus.pdf",
+          "uri": "http://zotero.org/users/9471698/items/C9ZK8LAD"
+        }
+      ],
+      "citationKey": "chengNorovirusContaminationFound2005",
+      "citekey": "chengNorovirusContaminationFound2005",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Peter K.C.",
+          "lastName": "Cheng"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Derek K.K.",
+          "lastName": "Wong"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Thomas W.H.",
+          "lastName": "Chung"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Wilina W.L.",
+          "lastName": "Lim"
+        }
+      ],
+      "date": "08/2005",
+      "dateAdded": "2022-04-27T15:58:36Z",
+      "dateModified": "2022-04-27T15:58:36Z",
+      "issue": "4",
+      "itemID": 7,
+      "itemKey": "CHRAWEWL",
+      "itemType": "journalArticle",
+      "journalAbbreviation": "J. Med. Virol.",
+      "key": "CHRAWEWL",
+      "language": "en",
+      "libraryCatalog": "DOI.org (Crossref)",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "593-597",
+      "publicationTitle": "Journal of Medical Virology",
+      "relations": [],
+      "select": "zotero://select/library/items/CHRAWEWL",
+      "tags": [],
+      "title": "Norovirus contamination found in oysters worldwide",
+      "uri": "http://zotero.org/users/9471698/items/CHRAWEWL",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1002/jmv.20402",
+      "version": 4,
+      "volume": "76"
+    },
+    {
+      "DOI": "10.1098/rsta.2015.0382",
+      "abstractNote": "Mass spectrometry (MS) is a mainstream chemical analysis technique in the twenty-first century. It has contributed to numerous discoveries in chemistry, physics and biochemistry. Hundreds of research laboratories scattered all over the world use MS every day to investigate fundamental phenomena on the molecular level. MS is also widely used by industry—especially in drug discovery, quality control and food safety protocols. In some cases, mass spectrometers are indispensable and irreplaceable by any other metrological tools. The uniqueness of MS is due to the fact that it enables direct identification of molecules based on the mass-to-charge ratios as well as fragmentation patterns. Thus, for several decades now, MS has been used in qualitative chemical analysis. To address the pressing need for quantitative molecular measurements, a number of laboratories focused on technological and methodological improvements that could render MS a fully quantitative metrological platform. In this theme issue, the experts working for some of those laboratories share their knowledge and enthusiasm about quantitative MS. I hope this theme issue will benefit readers, and foster fundamental and applied research based on quantitative MS measurements.\n\nThis article is part of the themed issue ‘Quantitative mass spectrometry’.",
+      "accessDate": "2022-05-09T06:44:43Z",
+      "attachments": [
+        {
+          "dateAdded": "2022-05-09T06:44:45Z",
+          "dateModified": "2022-05-09T06:44:45Z",
+          "itemType": "attachment",
+          "path": "C:\\Users\\nessl\\Zotero\\storage\\Z7WBYJYI\\Urban - 2016 - Quantitative mass spectrometry an overview.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Full Text PDF",
+          "uri": "http://zotero.org/users/9471698/items/Z7WBYJYI"
+        }
+      ],
+      "citationKey": "urbanQuantitativeMassSpectrometry2016",
+      "citekey": "urbanQuantitativeMassSpectrometry2016",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Pawel L.",
+          "lastName": "Urban"
+        }
+      ],
+      "date": "2016-10-28",
+      "dateAdded": "2022-05-09T06:44:43Z",
+      "dateModified": "2022-05-09T06:44:43Z",
+      "extra": "Publisher: Royal Society",
+      "issue": "2079",
+      "itemID": 89,
+      "itemKey": "DAS64M38",
+      "itemType": "journalArticle",
+      "key": "DAS64M38",
+      "libraryCatalog": "royalsocietypublishing.org (Atypon)",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "20150382",
+      "publicationTitle": "Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences",
+      "relations": [],
+      "select": "zotero://select/library/items/DAS64M38",
+      "shortTitle": "Quantitative mass spectrometry",
+      "tags": [
+        {
+          "tag": "bioanalysis",
+          "type": 1
+        },
+        {
+          "tag": "calibration",
+          "type": 1
+        },
+        {
+          "tag": "chemical analysis",
+          "type": 1
+        },
+        {
+          "tag": "mass spectrometry",
+          "type": 1
+        },
+        {
+          "tag": "quantification",
+          "type": 1
+        }
+      ],
+      "title": "Quantitative mass spectrometry: an overview",
+      "uri": "http://zotero.org/users/9471698/items/DAS64M38",
+      "url": "https://royalsocietypublishing.org/doi/full/10.1098/rsta.2015.0382",
+      "version": 160,
+      "volume": "374"
+    },
+    {
+      "DOI": "10.1042/BST20180391",
+      "ISSN": "0300-5127, 1470-8752",
+      "abstractNote": "Abstract\n            Artificial Intelligence based on Deep Learning (DL) is opening new horizons in biomedical research and promises to revolutionize the microscopy field. It is now transitioning from the hands of experts in computer sciences to biomedical researchers. Here, we introduce recent developments in DL applied to microscopy, in a manner accessible to non-experts. We give an overview of its concepts, capabilities and limitations, presenting applications in image segmentation, classification and restoration. We discuss how DL shows an outstanding potential to push the limits of microscopy, enhancing resolution, signal and information content in acquired data. Its pitfalls are discussed, along with the future directions expected in this field.",
+      "accessDate": "2022-05-02T09:35:31Z",
+      "attachments": [
+        {
+          "dateAdded": "2022-05-02T09:35:24Z",
+          "dateModified": "2022-05-02T09:35:32Z",
+          "itemType": "attachment",
+          "path": "C:\\Users\\nessl\\Documents\\M1\\S2\\Lab 1\\HI-M\\Von Chamier - 2019 Artificial intelligence for microscopy - what you should know.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Von Chamier - 2019 Artificial intelligence for microscopy - what you should know.pdf",
+          "uri": "http://zotero.org/users/9471698/items/FHS6QN22"
+        }
+      ],
+      "citationKey": "vonchamierArtificialIntelligenceMicroscopy2019",
+      "citekey": "vonchamierArtificialIntelligenceMicroscopy2019",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Lucas",
+          "lastName": "von Chamier"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Romain F.",
+          "lastName": "Laine"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Ricardo",
+          "lastName": "Henriques"
+        }
+      ],
+      "date": "2019-08-30",
+      "dateAdded": "2022-05-02T09:35:31Z",
+      "dateModified": "2022-05-02T09:35:32Z",
+      "issue": "4",
+      "itemID": 34,
+      "itemKey": "E4TYNKI8",
+      "itemType": "journalArticle",
+      "key": "E4TYNKI8",
+      "language": "en",
+      "libraryCatalog": "DOI.org (Crossref)",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "1029-1040",
+      "publicationTitle": "Biochemical Society Transactions",
+      "relations": [],
+      "select": "zotero://select/library/items/E4TYNKI8",
+      "shortTitle": "Artificial intelligence for microscopy",
+      "tags": [],
+      "title": "Artificial intelligence for microscopy: what you should know",
+      "uri": "http://zotero.org/users/9471698/items/E4TYNKI8",
+      "url": "https://portlandpress.com/biochemsoctrans/article/47/4/1029/219665/Artificial-intelligence-for-microscopy-what-you",
+      "version": 7,
+      "volume": "47"
+    },
+    {
+      "accessDate": "2022-05-03T15:33:18Z",
+      "attachments": [
+        {
+          "dateAdded": "2022-05-03T15:33:36Z",
+          "dateModified": "2022-05-03T15:33:36Z",
+          "itemType": "attachment",
+          "path": "C:\\Users\\nessl\\Zotero\\storage\\K848HGSU\\m62-029.html",
+          "relations": [],
+          "tags": [],
+          "title": "STUDIES OF MARINE PLANKTONIC DIATOMS: I. CYCLOTELLA NANA HUSTEDT, AND DETONULA CONFERVACEA (CLEVE) GRAN.",
+          "uri": "http://zotero.org/users/9471698/items/K848HGSU"
+        }
+      ],
+      "citationKey": "STUDIESMARINEPLANKTONIC",
+      "citekey": "STUDIESMARINEPLANKTONIC",
+      "creators": [],
+      "dateAdded": "2022-05-03T15:33:18Z",
+      "dateModified": "2022-05-03T15:33:18Z",
+      "itemID": 61,
+      "itemKey": "E9RE3JJT",
+      "itemType": "webpage",
+      "key": "E9RE3JJT",
+      "libraryID": 1,
+      "notes": [],
+      "relations": [],
+      "select": "zotero://select/library/items/E9RE3JJT",
+      "tags": [],
+      "title": "STUDIES OF MARINE PLANKTONIC DIATOMS: I. CYCLOTELLA NANA HUSTEDT, AND DETONULA CONFERVACEA (CLEVE) GRAN.",
+      "uri": "http://zotero.org/users/9471698/items/E9RE3JJT",
+      "url": "https://cdnsciencepub.com/doi/10.1139/m62-029",
+      "version": 42
+    },
+    {
+      "attachments": [],
+      "citationKey": "ledeanloicDetectionAutomatiquePar1991",
+      "citekey": "ledeanloicDetectionAutomatiquePar1991",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Gauthier Franck",
+          "lastName": "Le Dean Loic"
+        }
+      ],
+      "date": "1991",
+      "dateAdded": "2022-04-27T16:14:38Z",
+      "dateModified": "2022-04-27T16:14:38Z",
+      "itemID": 13,
+      "itemKey": "ELV68742",
+      "itemType": "report",
+      "key": "ELV68742",
+      "libraryID": 1,
+      "notes": [],
+      "place": "FRANCE",
+      "relations": [],
+      "select": "zotero://select/library/items/ELV68742",
+      "tags": [],
+      "title": "Détection automatique par visionique des Dinophysis spp. contenus dans des échantillons d'eau de mer. Premiers résultats",
+      "type": "Report",
+      "uri": "http://zotero.org/users/9471698/items/ELV68742",
+      "url": "https://archimer.ifremer.fr/doc/00136/24714/",
+      "version": 5
+    },
+    {
+      "DOI": "10.1073/pnas.0912403107",
+      "ISSN": "1091-6490",
+      "abstractNote": "Community-associated methicillin-resistant Staphylococcus aureus (CA-MRSA) is epidemic in the United States, even rivaling HIV/AIDS in its public health impact. The pandemic clone USA300, like other CA-MRSA strains, expresses Panton-Valentine leukocidin (PVL), a pore-forming toxin that targets polymorphonuclear leukocytes (PMNs). PVL is thought to play a key role in the pathogenesis of necrotizing pneumonia, but data from rodent infection models are inconclusive. Rodent PMNs are less susceptible than human PMNs to PVL-induced cytolysis, whereas rabbit PMNs, like those of humans, are highly susceptible to PVL-induced cytolysis. This difference in target cell susceptibility could affect results of experimental models. Therefore, we developed a rabbit model of necrotizing pneumonia to compare the virulence of a USA300 wild-type strain with that of isogenic PVL-deletion mutant and -complemented strains. PVL enhanced the capacity of USA300 to cause severe lung necrosis, pulmonary edema, alveolar hemorrhage, hemoptysis, and death, hallmark clinical features of fatal human necrotizing pneumonia. Purified PVL instilled directly into the lung caused lung inflammation and injury by recruiting and lysing PMNs, which damage the lung by releasing cytotoxic granule contents. These findings provide insights into the mechanism of PVL-induced lung injury and inflammation and demonstrate the utility of the rabbit for studying PVL-mediated pathogenesis.",
+      "attachments": [
+        {
+          "accessDate": "2022-05-07T12:55:57Z",
+          "charset": "",
+          "contentType": "text/html",
+          "dateAdded": "2022-05-07T12:55:57Z",
+          "dateModified": "2022-05-07T12:55:57Z",
+          "itemType": "attachment",
+          "key": "YRARC8SQ",
+          "linkMode": "linked_url",
+          "parentItem": "F7UP295U",
+          "relations": {},
+          "select": "zotero://select/library/items/YRARC8SQ",
+          "tags": [],
+          "title": "PubMed entry",
+          "uri": "http://zotero.org/users/9471698/items/YRARC8SQ",
+          "url": "http://www.ncbi.nlm.nih.gov/pubmed/20231457",
+          "version": 142
+        },
+        {
+          "dateAdded": "2022-05-07T12:56:05Z",
+          "dateModified": "2022-05-07T12:56:05Z",
+          "itemType": "attachment",
+          "path": "C:\\Users\\nessl\\Zotero\\storage\\X7SYI5FV\\Diep et al. - 2010 - Polymorphonuclear leukocytes mediate Staphylococcu.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Texte intégral",
+          "uri": "http://zotero.org/users/9471698/items/X7SYI5FV"
+        }
+      ],
+      "citationKey": "diepPolymorphonuclearLeukocytesMediate2010",
+      "citekey": "diepPolymorphonuclearLeukocytesMediate2010",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Binh An",
+          "lastName": "Diep"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Liana",
+          "lastName": "Chan"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Pierre",
+          "lastName": "Tattevin"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Osamu",
+          "lastName": "Kajikawa"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Thomas R.",
+          "lastName": "Martin"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Li",
+          "lastName": "Basuino"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Thuy T.",
+          "lastName": "Mai"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Helene",
+          "lastName": "Marbach"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Kevin R.",
+          "lastName": "Braughton"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Adeline R.",
+          "lastName": "Whitney"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Donald J.",
+          "lastName": "Gardner"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Xuemo",
+          "lastName": "Fan"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Ching W.",
+          "lastName": "Tseng"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "George Y.",
+          "lastName": "Liu"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Cedric",
+          "lastName": "Badiou"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Jerome",
+          "lastName": "Etienne"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Gerard",
+          "lastName": "Lina"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Michael A.",
+          "lastName": "Matthay"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Frank R.",
+          "lastName": "DeLeo"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Henry F.",
+          "lastName": "Chambers"
+        }
+      ],
+      "date": "2010-03-23",
+      "dateAdded": "2022-05-07T12:55:57Z",
+      "dateModified": "2022-05-07T12:55:57Z",
+      "extra": "PMID: 20231457\nPMCID: PMC2851770",
+      "issue": "12",
+      "itemID": 76,
+      "itemKey": "F7UP295U",
+      "itemType": "journalArticle",
+      "journalAbbreviation": "Proc Natl Acad Sci U S A",
+      "key": "F7UP295U",
+      "language": "eng",
+      "libraryCatalog": "PubMed",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "5587-5592",
+      "publicationTitle": "Proceedings of the National Academy of Sciences of the United States of America",
+      "relations": [],
+      "select": "zotero://select/library/items/F7UP295U",
+      "tags": [
+        {
+          "tag": "Humans",
+          "type": 1
+        },
+        {
+          "tag": "Leukocidins",
+          "type": 1
+        },
+        {
+          "tag": "Acute Lung Injury",
+          "type": 1
+        },
+        {
+          "tag": "Animals",
+          "type": 1
+        },
+        {
+          "tag": "Bacterial Toxins",
+          "type": 1
+        },
+        {
+          "tag": "Disease Models, Animal",
+          "type": 1
+        },
+        {
+          "tag": "Exotoxins",
+          "type": 1
+        },
+        {
+          "tag": "Gene Deletion",
+          "type": 1
+        },
+        {
+          "tag": "Genes, Bacterial",
+          "type": 1
+        },
+        {
+          "tag": "Genetic Complementation Test",
+          "type": 1
+        },
+        {
+          "tag": "In Vitro Techniques",
+          "type": 1
+        },
+        {
+          "tag": "Methicillin-Resistant Staphylococcus aureus",
+          "type": 1
+        },
+        {
+          "tag": "Neutrophils",
+          "type": 1
+        },
+        {
+          "tag": "Pneumonia, Staphylococcal",
+          "type": 1
+        },
+        {
+          "tag": "Rabbits",
+          "type": 1
+        },
+        {
+          "tag": "Virulence",
+          "type": 1
+        }
+      ],
+      "title": "Polymorphonuclear leukocytes mediate Staphylococcus aureus Panton-Valentine leukocidin-induced lung inflammation and injury",
+      "uri": "http://zotero.org/users/9471698/items/F7UP295U",
+      "version": 142,
+      "volume": "107"
+    },
+    {
+      "DOI": "10.1126/science.aas8836",
+      "accessDate": "2022-05-09T21:06:34Z",
+      "attachments": [
+        {
+          "dateAdded": "2022-05-09T21:06:40Z",
+          "dateModified": "2022-05-09T21:06:40Z",
+          "itemType": "attachment",
+          "path": "C:\\Users\\nessl\\Zotero\\storage\\943ZLB2E\\Myhrvold et al. - 2018 - Field-deployable viral diagnostics using CRISPR-Ca.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Texte intégral",
+          "uri": "http://zotero.org/users/9471698/items/943ZLB2E"
+        }
+      ],
+      "citationKey": "myhrvoldFielddeployableViralDiagnostics2018a",
+      "citekey": "myhrvoldFielddeployableViralDiagnostics2018a",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Cameron",
+          "lastName": "Myhrvold"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Catherine A.",
+          "lastName": "Freije"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Jonathan S.",
+          "lastName": "Gootenberg"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Omar O.",
+          "lastName": "Abudayyeh"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Hayden C.",
+          "lastName": "Metsky"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Ann F.",
+          "lastName": "Durbin"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Max J.",
+          "lastName": "Kellner"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Amanda L.",
+          "lastName": "Tan"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Lauren M.",
+          "lastName": "Paul"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Leda A.",
+          "lastName": "Parham"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Kimberly F.",
+          "lastName": "Garcia"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Kayla G.",
+          "lastName": "Barnes"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Bridget",
+          "lastName": "Chak"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Adriano",
+          "lastName": "Mondini"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Mauricio L.",
+          "lastName": "Nogueira"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Sharon",
+          "lastName": "Isern"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Scott F.",
+          "lastName": "Michael"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Ivette",
+          "lastName": "Lorenzana"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Nathan L.",
+          "lastName": "Yozwiak"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Bronwyn L.",
+          "lastName": "MacInnis"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Irene",
+          "lastName": "Bosch"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Lee",
+          "lastName": "Gehrke"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Feng",
+          "lastName": "Zhang"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Pardis C.",
+          "lastName": "Sabeti"
+        }
+      ],
+      "date": "2018-04-27",
+      "dateAdded": "2022-05-09T21:06:34Z",
+      "dateModified": "2022-05-09T21:06:34Z",
+      "extra": "Publisher: American Association for the Advancement of Science",
+      "issue": "6387",
+      "itemID": 92,
+      "itemKey": "FHTTFB8N",
+      "itemType": "journalArticle",
+      "key": "FHTTFB8N",
+      "libraryCatalog": "science.org (Atypon)",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "444-448",
+      "publicationTitle": "Science",
+      "relations": [],
+      "select": "zotero://select/library/items/FHTTFB8N",
+      "tags": [],
+      "title": "Field-deployable viral diagnostics using CRISPR-Cas13",
+      "uri": "http://zotero.org/users/9471698/items/FHTTFB8N",
+      "url": "https://www.science.org/doi/abs/10.1126/science.aas8836",
+      "version": 164,
+      "volume": "360"
+    },
+    {
+      "accessDate": "2022-05-03T15:33:20Z",
+      "attachments": [],
+      "citationKey": "STUDIESMARINEPLANKTONICa",
+      "citekey": "STUDIESMARINEPLANKTONICa",
+      "creators": [],
+      "dateAdded": "2022-05-03T15:33:20Z",
+      "dateModified": "2022-05-03T15:33:20Z",
+      "itemID": 62,
+      "itemKey": "GNTCEXB3",
+      "itemType": "webpage",
+      "key": "GNTCEXB3",
+      "libraryID": 1,
+      "notes": [],
+      "relations": [],
+      "select": "zotero://select/library/items/GNTCEXB3",
+      "tags": [],
+      "title": "STUDIES OF MARINE PLANKTONIC DIATOMS: I. CYCLOTELLA NANA HUSTEDT, AND DETONULA CONFERVACEA (CLEVE) GRAN.",
+      "uri": "http://zotero.org/users/9471698/items/GNTCEXB3",
+      "url": "https://cdnsciencepub.com/doi/10.1139/m62-029",
+      "version": 43
+    },
+    {
+      "DOI": "10.1126/science.aas8836",
+      "accessDate": "2022-04-27T16:30:58Z",
+      "attachments": [
+        {
+          "dateAdded": "2022-04-27T16:31:02Z",
+          "dateModified": "2022-04-27T16:31:02Z",
+          "itemType": "attachment",
+          "path": "C:\\Users\\nessl\\Zotero\\storage\\EW7GFJWB\\Myhrvold et al. - 2018 - Field-deployable viral diagnostics using CRISPR-Ca.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Texte intégral",
+          "uri": "http://zotero.org/users/9471698/items/EW7GFJWB"
+        }
+      ],
+      "citationKey": "myhrvoldFielddeployableViralDiagnostics2018",
+      "citekey": "myhrvoldFielddeployableViralDiagnostics2018",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Cameron",
+          "lastName": "Myhrvold"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Catherine A.",
+          "lastName": "Freije"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Jonathan S.",
+          "lastName": "Gootenberg"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Omar O.",
+          "lastName": "Abudayyeh"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Hayden C.",
+          "lastName": "Metsky"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Ann F.",
+          "lastName": "Durbin"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Max J.",
+          "lastName": "Kellner"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Amanda L.",
+          "lastName": "Tan"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Lauren M.",
+          "lastName": "Paul"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Leda A.",
+          "lastName": "Parham"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Kimberly F.",
+          "lastName": "Garcia"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Kayla G.",
+          "lastName": "Barnes"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Bridget",
+          "lastName": "Chak"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Adriano",
+          "lastName": "Mondini"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Mauricio L.",
+          "lastName": "Nogueira"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Sharon",
+          "lastName": "Isern"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Scott F.",
+          "lastName": "Michael"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Ivette",
+          "lastName": "Lorenzana"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Nathan L.",
+          "lastName": "Yozwiak"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Bronwyn L.",
+          "lastName": "MacInnis"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Irene",
+          "lastName": "Bosch"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Lee",
+          "lastName": "Gehrke"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Feng",
+          "lastName": "Zhang"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Pardis C.",
+          "lastName": "Sabeti"
+        }
+      ],
+      "date": "2018-04-27",
+      "dateAdded": "2022-04-27T16:30:58Z",
+      "dateModified": "2022-04-27T16:30:58Z",
+      "extra": "Publisher: American Association for the Advancement of Science",
+      "issue": "6387",
+      "itemID": 26,
+      "itemKey": "HFI9ZI8R",
+      "itemType": "journalArticle",
+      "key": "HFI9ZI8R",
+      "libraryCatalog": "science.org (Atypon)",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "444-448",
+      "publicationTitle": "Science",
+      "relations": [],
+      "select": "zotero://select/library/items/HFI9ZI8R",
+      "tags": [],
+      "title": "Field-deployable viral diagnostics using CRISPR-Cas13",
+      "uri": "http://zotero.org/users/9471698/items/HFI9ZI8R",
+      "url": "https://www.science.org/doi/10.1126/science.aas8836",
+      "version": 6,
+      "volume": "360"
+    },
+    {
+      "DOI": "10.1038/s41592-019-0403-1",
+      "ISSN": "1548-7091, 1548-7105",
+      "accessDate": "2022-05-02T09:35:29Z",
+      "attachments": [
+        {
+          "dateAdded": "2022-05-02T09:35:20Z",
+          "dateModified": "2022-05-02T09:35:29Z",
+          "itemType": "attachment",
+          "path": "C:\\Users\\nessl\\Documents\\M1\\S2\\Lab 1\\HI-M\\Moen - 2019 Deep learning for cellular image analysis.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Moen - 2019 Deep learning for cellular image analysis.pdf",
+          "uri": "http://zotero.org/users/9471698/items/WLFEUSJ6"
+        }
+      ],
+      "citationKey": "moenDeepLearningCellular2019",
+      "citekey": "moenDeepLearningCellular2019",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Erick",
+          "lastName": "Moen"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Dylan",
+          "lastName": "Bannon"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Takamasa",
+          "lastName": "Kudo"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "William",
+          "lastName": "Graf"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Markus",
+          "lastName": "Covert"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "David",
+          "lastName": "Van Valen"
+        }
+      ],
+      "date": "12/2019",
+      "dateAdded": "2022-05-02T09:35:29Z",
+      "dateModified": "2022-05-02T09:35:29Z",
+      "issue": "12",
+      "itemID": 33,
+      "itemKey": "JAJ6W79L",
+      "itemType": "journalArticle",
+      "journalAbbreviation": "Nat Methods",
+      "key": "JAJ6W79L",
+      "language": "en",
+      "libraryCatalog": "DOI.org (Crossref)",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "1233-1246",
+      "publicationTitle": "Nature Methods",
+      "relations": [],
+      "select": "zotero://select/library/items/JAJ6W79L",
+      "tags": [],
+      "title": "Deep learning for cellular image analysis",
+      "uri": "http://zotero.org/users/9471698/items/JAJ6W79L",
+      "url": "http://www.nature.com/articles/s41592-019-0403-1",
+      "version": 6,
+      "volume": "16"
+    },
+    {
+      "ISBN": "978-1-4615-8714-9",
+      "abstractNote": "These pages describe relatively simple and reliable methods for the culture of marine phytoplankton species useful for feeding marine invertebrates. The methods suffice for the most fastidious algae now routinely cultivable, and simplifications indicated for less demanding species are easily made; for example, omission of silicate for plants other than diatoms. Certain modifications of techniques, ancillary methods, and precautions will be treated briefly because questions often arise concerning them, but documentation will be minimal and hopefully restricted to publications readily available.",
+      "accessDate": "2022-05-02T10:29:20Z",
+      "attachments": [
+        {
+          "dateAdded": "2022-05-02T10:29:28Z",
+          "dateModified": "2022-05-02T10:29:28Z",
+          "itemType": "attachment",
+          "path": "C:\\Users\\nessl\\Zotero\\storage\\BCHHEPNB\\Guillard - 1975 - Culture of Phytoplankton for Feeding Marine Invert.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Full Text PDF",
+          "uri": "http://zotero.org/users/9471698/items/BCHHEPNB"
+        }
+      ],
+      "citationKey": "guillardCulturePhytoplanktonFeeding1975",
+      "citekey": "guillardCulturePhytoplanktonFeeding1975",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Robert R. L.",
+          "lastName": "Guillard"
+        },
+        {
+          "creatorType": "editor",
+          "firstName": "Walter L.",
+          "lastName": "Smith"
+        },
+        {
+          "creatorType": "editor",
+          "firstName": "Matoira H.",
+          "lastName": "Chanley"
+        }
+      ],
+      "date": "1975",
+      "dateAdded": "2022-05-02T10:29:20Z",
+      "dateModified": "2022-05-02T10:29:20Z",
+      "extra": "DOI: 10.1007/978-1-4615-8714-9_3",
+      "itemID": 50,
+      "itemKey": "K3H528XP",
+      "itemType": "bookSection",
+      "key": "K3H528XP",
+      "language": "en",
+      "libraryCatalog": "Springer Link",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "29-60",
+      "place": "Boston, MA",
+      "publicationTitle": "Culture of Marine Invertebrate Animals: Proceedings — 1st Conference on Culture of Marine Invertebrate Animals Greenport",
+      "publisher": "Springer US",
+      "relations": [],
+      "select": "zotero://select/library/items/K3H528XP",
+      "tags": [
+        {
+          "tag": "Algal Culture",
+          "type": 1
+        },
+        {
+          "tag": "Artificial Seawater",
+          "type": 1
+        },
+        {
+          "tag": "Stock Culture",
+          "type": 1
+        },
+        {
+          "tag": "Trace Metal",
+          "type": 1
+        },
+        {
+          "tag": "Trace Metal Solution",
+          "type": 1
+        }
+      ],
+      "title": "Culture of Phytoplankton for Feeding Marine Invertebrates",
+      "uri": "http://zotero.org/users/9471698/items/K3H528XP",
+      "url": "https://doi.org/10.1007/978-1-4615-8714-9_3",
+      "version": 8
+    },
+    {
+      "DOI": "10.1038/s41596-019-0210-2",
+      "ISSN": "1750-2799",
+      "abstractNote": "Rapid detection of nucleic acids is integral to applications in clinical diagnostics and biotechnology. We have recently established a CRISPR-based diagnostic platform that combines nucleic acid pre-amplification with CRISPR–Cas enzymology for specific recognition of desired DNA or RNA sequences. This platform, termed specific high-sensitivity enzymatic reporter unlocking (SHERLOCK), allows multiplexed, portable, and ultra-sensitive detection of RNA or DNA from clinically relevant samples. Here, we provide step-by-step instructions for setting up SHERLOCK assays with recombinase-mediated polymerase pre-amplification of DNA or RNA and subsequent Cas13- or Cas12-mediated detection via fluorescence and colorimetric readouts that provide results in <1 h with a setup time of less than 15 min. We also include guidelines for designing efficient CRISPR RNA (crRNA) and isothermal amplification primers, as well as discuss important considerations for multiplex and quantitative SHERLOCK detection assays.",
+      "accessDate": "2022-05-11T21:45:00Z",
+      "attachments": [
+        {
+          "dateAdded": "2022-05-11T21:45:08Z",
+          "dateModified": "2022-05-11T21:45:08Z",
+          "itemType": "attachment",
+          "path": "C:\\Users\\nessl\\Zotero\\storage\\JGVSDUNZ\\s41596 019-0210-2.html",
+          "relations": [],
+          "tags": [],
+          "title": "Snapshot",
+          "uri": "http://zotero.org/users/9471698/items/JGVSDUNZ"
+        },
+        {
+          "dateAdded": "2022-05-11T21:45:06Z",
+          "dateModified": "2022-05-11T21:45:06Z",
+          "itemType": "attachment",
+          "path": "C:\\Users\\nessl\\Zotero\\storage\\EVV2M56D\\Kellner et al. - 2019 - SHERLOCK nucleic acid detection with CRISPR nucle.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Version acceptée",
+          "uri": "http://zotero.org/users/9471698/items/EVV2M56D"
+        }
+      ],
+      "citationKey": "kellnerSHERLOCKNucleicAcid2019a",
+      "citekey": "kellnerSHERLOCKNucleicAcid2019a",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Max J.",
+          "lastName": "Kellner"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Jeremy G.",
+          "lastName": "Koob"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Jonathan S.",
+          "lastName": "Gootenberg"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Omar O.",
+          "lastName": "Abudayyeh"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Feng",
+          "lastName": "Zhang"
+        }
+      ],
+      "date": "2019-10",
+      "dateAdded": "2022-05-11T21:45:00Z",
+      "dateModified": "2022-05-11T21:45:00Z",
+      "extra": "Number: 10\nPublisher: Nature Publishing Group",
+      "issue": "10",
+      "itemID": 96,
+      "itemKey": "KHEX5FCX",
+      "itemType": "journalArticle",
+      "journalAbbreviation": "Nat Protoc",
+      "key": "KHEX5FCX",
+      "language": "en",
+      "libraryCatalog": "www.nature.com",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "2986-3012",
+      "publicationTitle": "Nature Protocols",
+      "relations": [],
+      "rights": "2019 The Author(s), under exclusive licence to Springer Nature Limited",
+      "select": "zotero://select/library/items/KHEX5FCX",
+      "shortTitle": "SHERLOCK",
+      "tags": [
+        {
+          "tag": "Biotechnology",
+          "type": 1
+        },
+        {
+          "tag": "CRISPR-Cas systems",
+          "type": 1
+        },
+        {
+          "tag": "Sensors and probes",
+          "type": 1
+        }
+      ],
+      "title": "SHERLOCK: nucleic acid detection with CRISPR nucleases",
+      "uri": "http://zotero.org/users/9471698/items/KHEX5FCX",
+      "url": "https://www.nature.com/articles/s41596%20019-0210-2",
+      "version": 203,
+      "volume": "14"
+    },
+    {
+      "DOI": "10.1136/mp.53.1.8",
+      "ISSN": "1366-8714, 1472-4154",
+      "abstractNote": "x Ray crystallography is currently the most favoured technique for structure determination of proteins and biological macromolecules. Increasingly, those interested in all branches of the biological sciences require structural information to shed light on previously unanswered questions. Furthermore, the availability of a protein structure can provide a more detailed focus for future research. The extension of the technique to systems such as viruses, immune complexes, and protein–nucleic acid complexes serves only to widen the appeal of crystallography. Structure based drug design, site directed mutagenesis, elucidation of enzyme mechanisms, and specificity of protein–ligand interactions are just a few of the areas in which x ray crystallography has provided clarification.",
+      "accessDate": "2022-05-08T08:58:11Z",
+      "attachments": [
+        {
+          "dateAdded": "2022-05-08T08:58:14Z",
+          "dateModified": "2022-05-08T08:58:14Z",
+          "itemType": "attachment",
+          "path": "C:\\Users\\nessl\\Zotero\\storage\\MAIZLBPX\\Smyth et Martin - 2000 - x Ray crystallography.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Full Text PDF",
+          "uri": "http://zotero.org/users/9471698/items/MAIZLBPX"
+        },
+        {
+          "accessDate": "2022-05-08T08:58:14Z",
+          "charset": "",
+          "contentType": "text/html",
+          "dateAdded": "2022-05-08T08:58:14Z",
+          "dateModified": "2022-05-08T08:58:14Z",
+          "itemType": "attachment",
+          "key": "GKJVIUQP",
+          "linkMode": "linked_url",
+          "parentItem": "PHRYP2H8",
+          "relations": {},
+          "select": "zotero://select/library/items/GKJVIUQP",
+          "tags": [],
+          "title": "PubMed entry",
+          "uri": "http://zotero.org/users/9471698/items/GKJVIUQP",
+          "url": "http://www.ncbi.nlm.nih.gov/pubmed/10884915",
+          "version": 146
+        },
+        {
+          "dateAdded": "2022-05-08T08:58:18Z",
+          "dateModified": "2022-05-08T08:58:18Z",
+          "itemType": "attachment",
+          "path": "C:\\Users\\nessl\\Zotero\\storage\\AM9FJZCT\\8.html",
+          "relations": [],
+          "tags": [],
+          "title": "Snapshot",
+          "uri": "http://zotero.org/users/9471698/items/AM9FJZCT"
+        }
+      ],
+      "citationKey": "smythRayCrystallography2000",
+      "citekey": "smythRayCrystallography2000",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "M. S.",
+          "lastName": "Smyth"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "J. H. J.",
+          "lastName": "Martin"
+        }
+      ],
+      "date": "2000/02/01",
+      "dateAdded": "2022-05-08T08:58:11Z",
+      "dateModified": "2022-05-08T08:58:11Z",
+      "extra": "Publisher: BMJ Publishing Group Ltd\nPMID: 10884915",
+      "issue": "1",
+      "itemID": 79,
+      "itemKey": "PHRYP2H8",
+      "itemType": "journalArticle",
+      "key": "PHRYP2H8",
+      "language": "en",
+      "libraryCatalog": "mp.bmj.com",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "8-14",
+      "publicationTitle": "Molecular Pathology",
+      "relations": [],
+      "rights": "COPYRIGHT © 2000 Journal of Clinical Pathology",
+      "select": "zotero://select/library/items/PHRYP2H8",
+      "tags": [
+        {
+          "tag": "protein structure",
+          "type": 1
+        },
+        {
+          "tag": "three dimensional structure",
+          "type": 1
+        },
+        {
+          "tag": "x ray crystallography",
+          "type": 1
+        }
+      ],
+      "title": "x Ray crystallography",
+      "uri": "http://zotero.org/users/9471698/items/PHRYP2H8",
+      "url": "https://mp.bmj.com/content/53/1/8",
+      "version": 146,
+      "volume": "53"
+    },
+    {
+      "DOI": "10.1126/science.1218231",
+      "ISSN": "0036-8075, 1095-9203",
+      "abstractNote": "Finessing Crystal Analysis\n            \n              Protein crystallography has revolutionized our understanding of a whole variety of biological processes (see the Perspective by\n              \n                Evans\n              \n              ). In crystallography, the measure of agreement between the data and the calculated model is not on the same scale as the measure of data quality, making it challenging to choose an optimal high resolution limit beyond which the data should be discarded. Now,\n              Karplus and Diederichs\n              (p.\n              1030\n              ) introduce a statistical model that assesses agreement of model and data accuracy on the same scale. Determining the structures of biological macromolecules by x-ray crystallography requires solving the phase problem. The two techniques that dominate phase evaluation (multi- and single-wavelength anomalous diffraction) rely on element-specific scattering from incorporated heavy atoms.\n              \n                Liu\n                et al.\n              \n              (p.\n              1033\n              ) present procedures for routine structure determination of native proteins with no heavy atom incorporation. The technique, which relies on combining data from multiple crystals, was used to determine the structures of four native proteins, including a 1200-residue complex.\n            \n          , \n            A statistical method places model and data quality on the same scale and indicates how far one can model.\n          , \n            \n              In macromolecular x-ray crystallography, refinement\n              R\n              values measure the agreement between observed and calculated data. Analogously,\n              R\n              merge\n              values reporting on the agreement between multiple measurements of a given reflection are used to assess data quality. Here, we show that despite their widespread use,\n              R\n              merge\n              values are poorly suited for determining the high-resolution limit and that current standard protocols discard much useful data. We introduce a statistic that estimates the correlation of an observed data set with the underlying (not measurable) true signal; this quantity, CC*, provides a single statistically valid guide for deciding which data are useful. CC* also can be used to assess model and data quality on the same scale, and this reveals when data quality is limiting model improvement.",
+      "accessDate": "2022-05-22T08:12:58Z",
+      "attachments": [
+        {
+          "dateAdded": "2022-05-22T08:13:00Z",
+          "dateModified": "2022-05-22T08:13:00Z",
+          "itemType": "attachment",
+          "path": "C:\\Users\\nessl\\Zotero\\storage\\WHBA3S5G\\Karplus et Diederichs - 2012 - Linking Crystallographic Model and Data Quality.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Version acceptée",
+          "uri": "http://zotero.org/users/9471698/items/WHBA3S5G"
+        }
+      ],
+      "citationKey": "karplusLinkingCrystallographicModel2012",
+      "citekey": "karplusLinkingCrystallographicModel2012",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "P. Andrew",
+          "lastName": "Karplus"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Kay",
+          "lastName": "Diederichs"
+        }
+      ],
+      "date": "2012-05-25",
+      "dateAdded": "2022-05-22T08:12:58Z",
+      "dateModified": "2022-05-22T08:12:58Z",
+      "issue": "6084",
+      "itemID": 128,
+      "itemKey": "PUZYUTC2",
+      "itemType": "journalArticle",
+      "journalAbbreviation": "Science",
+      "key": "PUZYUTC2",
+      "language": "en",
+      "libraryCatalog": "DOI.org (Crossref)",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "1030-1033",
+      "publicationTitle": "Science",
+      "relations": [],
+      "select": "zotero://select/library/items/PUZYUTC2",
+      "tags": [],
+      "title": "Linking Crystallographic Model and Data Quality",
+      "uri": "http://zotero.org/users/9471698/items/PUZYUTC2",
+      "url": "https://www.science.org/doi/10.1126/science.1218231",
+      "version": 362,
+      "volume": "336"
+    },
+    {
+      "accessDate": "2022-04-27T16:34:01Z",
+      "charset": "",
+      "contentType": "application/pdf",
+      "dateAdded": "2022-04-27T16:34:01Z",
+      "dateModified": "2022-04-27T16:34:01Z",
+      "defaultPath": "files/28/Phytoplancton_toxique.pdf",
+      "filename": "Phytoplancton_toxique.pdf",
+      "itemID": 28,
+      "itemKey": "QLE5Q4ZJ",
+      "itemType": "attachment",
+      "key": "QLE5Q4ZJ",
+      "libraryID": 1,
+      "linkMode": "imported_url",
+      "localPath": "C:\\Users\\nessl\\Zotero\\storage\\QLE5Q4ZJ\\Phytoplancton_toxique.pdf",
+      "relations": [],
+      "select": "zotero://select/library/items/QLE5Q4ZJ",
+      "tags": [],
+      "title": "Phytoplancton_toxique.pdf",
+      "uri": "http://zotero.org/users/9471698/items/QLE5Q4ZJ",
+      "url": "http://grainelr.org/UserFiles/File/Phytoplancton_toxique.pdf",
+      "version": 21
+    },
+    {
+      "DOI": "10.1107/S0907444910007493",
+      "ISSN": "0907-4449",
+      "abstractNote": "Coot\n              is a molecular-graphics application for model building and validation of biological macromolecules. The program displays electron-density maps and atomic models and allows model manipulations such as idealization, real-space refinement, manual rotation/translation, rigid-body fitting, ligand search, solvation, mutations, rotamers and Ramachandran idealization. Furthermore, tools are provided for model validation as well as interfaces to external programs for refinement, validation and graphics. The software is designed to be easy to learn for novice users, which is achieved by ensuring that tools for common tasks are `discoverable' through familiar user-interface elements (menus and toolbars) or by intuitive behaviour (mouse controls). Recent developments have focused on providing tools for expert users, with customisable key bindings, extensions and an extensive scripting interface. The software is under rapid development, but has already achieved very widespread use within the crystallographic community. The current state of the software is presented, with a description of the facilities available and of some of the underlying methods employed.",
+      "accessDate": "2022-05-24T13:47:08Z",
+      "attachments": [
+        {
+          "dateAdded": "2022-05-24T13:47:04Z",
+          "dateModified": "2022-05-24T13:47:09Z",
+          "itemType": "attachment",
+          "path": "C:\\Users\\nessl\\Zotero\\storage\\K5KWAJGP\\Emsley et al. - 2010 - Features and development of Coot.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Emsley et al. - 2010 - Features and development of Coot.pdf",
+          "uri": "http://zotero.org/users/9471698/items/K5KWAJGP"
+        }
+      ],
+      "citationKey": "emsleyFeaturesDevelopmentCoot2010",
+      "citekey": "emsleyFeaturesDevelopmentCoot2010",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "P.",
+          "lastName": "Emsley"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "B.",
+          "lastName": "Lohkamp"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "W. G.",
+          "lastName": "Scott"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "K.",
+          "lastName": "Cowtan"
+        }
+      ],
+      "date": "2010-04-01",
+      "dateAdded": "2022-05-24T13:47:08Z",
+      "dateModified": "2022-05-24T13:47:09Z",
+      "issue": "4",
+      "itemID": 134,
+      "itemKey": "QQPGHZLV",
+      "itemType": "journalArticle",
+      "journalAbbreviation": "Acta Crystallogr D Biol Crystallogr",
+      "key": "QQPGHZLV",
+      "language": "en",
+      "libraryCatalog": "DOI.org (Crossref)",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "486-501",
+      "publicationTitle": "Acta Crystallographica Section D Biological Crystallography",
+      "relations": [],
+      "select": "zotero://select/library/items/QQPGHZLV",
+      "tags": [],
+      "title": "Features and development of <i>Coot</i>",
+      "uri": "http://zotero.org/users/9471698/items/QQPGHZLV",
+      "url": "http://scripts.iucr.org/cgi-bin/paper?S0907444910007493",
+      "version": 379,
+      "volume": "66"
+    },
+    {
+      "DOI": "10.1051/alr:2007016",
+      "ISSN": "0990-7440, 1765-2952",
+      "abstractNote": "In October and November 2003 a bloom of the toxic dinoflagellate <i>Alexandrium catenella<i/> was observed in the North-east zone of Thau lagoon (French Mediterranean coast). Sea water samples were collected every hours to evaluate time-related variations of phytoplankton concentrations and to compare the relative ratio of <i>A. catenella<i/> versus other phytoplankton species during the outbreak. From these observations, trials using recirculated sea water systems were performed to: i) evaluate the physiological effects on oyster of increasing proportions of <i>A. catenella<i/> within a mixed microalgal diet where the non-toxic diatom <i>Thalassiosira weissflogii<i/> was present at concentration: 1500 cells ml<sup>−1<sup/>, ii) compare the effect of two temperatures (12 °C and 18 °C) on paralytic toxin accumulation rates in oyster flesh by ion-pairing high performance liquid chromatography (IP-HPLC) detection, iii) analyse toxin biotransformation during the contamination process, iv) evaluate the role of the different types of oyster tissue on the bioaccumulation mechanism.The results showed: i) a significant effect of temperature increase on clearance rate and toxin uptake, ii) no detectable time-related effects of toxic algal food on pre-ingestion sorting or on toxin profiles in oyster flesh, iii) either negative or positive effects of <i>A. catenella<i/> concentrations on toxin uptake (“threshold” effect), iv) high amounts of toxins in the digestive gland, accounting for more than 80% of overall shellfish toxicity. The daily amount of toxins (<i>Q<i/><sub>tox<sub/>) taken up by each oyster was evaluated by means of a global one-compartment model. However a two-compartment model finally gave the best match with real contamination kinetics, since it integrated both toxins sequestered in oyster tissues and toxins moving in through the digestive tract.",
+      "accessDate": "2022-05-03T15:20:13Z",
+      "attachments": [
+        {
+          "dateAdded": "2022-05-03T15:20:18Z",
+          "dateModified": "2022-05-03T15:20:18Z",
+          "itemType": "attachment",
+          "path": "C:\\Users\\nessl\\Zotero\\storage\\XJAMX9IX\\Lassus et al. - 2007 - Modelling the accumulation of PSP toxins in Thau L.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Full Text PDF",
+          "uri": "http://zotero.org/users/9471698/items/XJAMX9IX"
+        },
+        {
+          "dateAdded": "2022-05-03T15:20:20Z",
+          "dateModified": "2022-05-03T15:20:20Z",
+          "itemType": "attachment",
+          "path": "C:\\Users\\nessl\\Zotero\\storage\\XUW59IJC\\alr002-07.html",
+          "relations": [],
+          "tags": [],
+          "title": "Snapshot",
+          "uri": "http://zotero.org/users/9471698/items/XUW59IJC"
+        }
+      ],
+      "citationKey": "lassusModellingAccumulationPSP2007",
+      "citekey": "lassusModellingAccumulationPSP2007",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Patrick",
+          "lastName": "Lassus"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Zouher",
+          "lastName": "Amzil"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Régis",
+          "lastName": "Baron"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Véronique",
+          "lastName": "Séchet"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Laurent",
+          "lastName": "Barillé"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Eric",
+          "lastName": "Abadie"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Michèle",
+          "lastName": "Bardouil"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Manoella",
+          "lastName": "Sibat"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Philippe",
+          "lastName": "Truquet"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Jean-Baptiste",
+          "lastName": "Bérard"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Marielle",
+          "lastName": "Gueguen"
+        }
+      ],
+      "date": "2007/01/01",
+      "dateAdded": "2022-05-03T15:20:13Z",
+      "dateModified": "2022-05-03T15:20:13Z",
+      "extra": "Number: 1\nPublisher: EDP Sciences",
+      "issue": "1",
+      "itemID": 58,
+      "itemKey": "R8GKKGZ8",
+      "itemType": "journalArticle",
+      "journalAbbreviation": "Aquat. Living Resour.",
+      "key": "R8GKKGZ8",
+      "language": "en",
+      "libraryCatalog": "www.alr-journal.org",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "59-67",
+      "publicationTitle": "Aquatic Living Resources",
+      "relations": [],
+      "rights": "© EDP Sciences, IFREMER, IRD, 2007",
+      "select": "zotero://select/library/items/R8GKKGZ8",
+      "tags": [],
+      "title": "Modelling the accumulation of PSP toxins in Thau Lagoon oysters (Crassostrea gigas) from trials using mixed cultures of Alexandrium catenella and Thalassiosira weissflogii",
+      "uri": "http://zotero.org/users/9471698/items/R8GKKGZ8",
+      "url": "https://www.alr-journal.org/articles/alr/abs/2007/01/alr002-07/alr002-07.html",
+      "version": 29,
+      "volume": "20"
+    },
+    {
+      "DOI": "10.1016/j.hal.2009.04.004",
+      "ISSN": "15689883",
+      "accessDate": "2022-04-27T16:02:11Z",
+      "attachments": [
+        {
+          "dateAdded": "2022-04-27T16:02:58Z",
+          "dateModified": "2022-04-27T16:02:58Z",
+          "itemType": "attachment",
+          "path": "C:\\Users\\nessl\\Documents\\iGEM\\dinophysis cultures.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "dinophysis cultures.pdf",
+          "uri": "http://zotero.org/users/9471698/items/IQSJLYG5"
+        }
+      ],
+      "citationKey": "hackettDSPToxinProduction2009",
+      "citekey": "hackettDSPToxinProduction2009",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Jeremiah D.",
+          "lastName": "Hackett"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Mengmeng",
+          "lastName": "Tong"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "David M.",
+          "lastName": "Kulis"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Elie",
+          "lastName": "Fux"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Philipp",
+          "lastName": "Hess"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Ronel",
+          "lastName": "Bire"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Donald M.",
+          "lastName": "Anderson"
+        }
+      ],
+      "date": "9/2009",
+      "dateAdded": "2022-04-27T16:02:11Z",
+      "dateModified": "2022-04-27T16:02:11Z",
+      "issue": "6",
+      "itemID": 11,
+      "itemKey": "RNXYSRIM",
+      "itemType": "journalArticle",
+      "journalAbbreviation": "Harmful Algae",
+      "key": "RNXYSRIM",
+      "language": "en",
+      "libraryCatalog": "DOI.org (Crossref)",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "873-879",
+      "publicationTitle": "Harmful Algae",
+      "relations": [],
+      "select": "zotero://select/library/items/RNXYSRIM",
+      "tags": [],
+      "title": "DSP toxin production de novo in cultures of Dinophysis acuminata (Dinophyceae) from North America",
+      "uri": "http://zotero.org/users/9471698/items/RNXYSRIM",
+      "url": "https://linkinghub.elsevier.com/retrieve/pii/S1568988309000560",
+      "version": 4,
+      "volume": "8"
+    },
+    {
+      "DOI": "10.1107/S2059798315023207",
+      "ISSN": "2059-7983",
+      "abstractNote": "Staphylococcal leukotoxins are a family of β-barrel, bicomponent, pore-forming toxins with membrane-damaging functions. These bacterial exotoxins share sequence and structural homology and target several host-cell types. Leukotoxin ED (LukED) is one of these bicomponent pore-forming toxins that Staphylococcus aureus produces in order to suppress the ability of the host to contain the infection. The recent delineation of the important role that LukED plays in S. aureus pathogenesis and the identification of its protein receptors, combined with its presence in S. aureus methicillin-resistant epidemic strains, establish this leukocidin as a possible target for the development of novel therapeutics. Here, the crystal structures of the water-soluble LukE and LukD components of LukED have been determined. The two structures illustrate the tertiary-structural variability with respect to the other leukotoxins while retaining the conservation of the residues involved in the interaction of the protomers in the bipartite leukotoxin in the pore complex.",
+      "accessDate": "2022-05-04T16:04:23Z",
+      "attachments": [
+        {
+          "dateAdded": "2022-05-04T16:04:24Z",
+          "dateModified": "2022-05-04T16:04:24Z",
+          "itemType": "attachment",
+          "path": "C:\\Users\\nessl\\Zotero\\storage\\5BRKJURZ\\Nocadello et al. - 2016 - Crystal structures of the components of the Staphy.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Full Text PDF",
+          "uri": "http://zotero.org/users/9471698/items/5BRKJURZ"
+        },
+        {
+          "dateAdded": "2022-05-04T16:04:28Z",
+          "dateModified": "2022-05-04T16:04:28Z",
+          "itemType": "attachment",
+          "path": "C:\\Users\\nessl\\Zotero\\storage\\ZGZNH52Z\\paper.html",
+          "relations": [],
+          "tags": [],
+          "title": "Snapshot",
+          "uri": "http://zotero.org/users/9471698/items/ZGZNH52Z"
+        }
+      ],
+      "citationKey": "nocadelloCrystalStructuresComponents2016",
+      "citekey": "nocadelloCrystalStructuresComponents2016",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "S.",
+          "lastName": "Nocadello"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "G.",
+          "lastName": "Minasov"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "L.",
+          "lastName": "Shuvalova"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "I.",
+          "lastName": "Dubrovska"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "E.",
+          "lastName": "Sabini"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "F.",
+          "lastName": "Bagnoli"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "G.",
+          "lastName": "Grandi"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "W. F.",
+          "lastName": "Anderson"
+        }
+      ],
+      "date": "2016-01-01",
+      "dateAdded": "2022-05-04T16:04:23Z",
+      "dateModified": "2022-05-04T16:04:23Z",
+      "extra": "Number: 1\nPublisher: International Union of Crystallography",
+      "issue": "1",
+      "itemID": 70,
+      "itemKey": "SDL6XS4S",
+      "itemType": "journalArticle",
+      "journalAbbreviation": "Acta Cryst D",
+      "key": "SDL6XS4S",
+      "language": "en",
+      "libraryCatalog": "scripts.iucr.org",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "113-120",
+      "publicationTitle": "Acta Crystallographica Section D: Structural Biology",
+      "relations": [],
+      "rights": "http://creativecommons.org/licenses/by/2.0/uk",
+      "select": "zotero://select/library/items/SDL6XS4S",
+      "tags": [],
+      "title": "Crystal structures of the components of the Staphylococcus aureus leukotoxin ED",
+      "uri": "http://zotero.org/users/9471698/items/SDL6XS4S",
+      "url": "http://scripts.iucr.org/cgi-bin/paper?dw5151",
+      "version": 133,
+      "volume": "72"
+    },
+    {
+      "DOI": "10.1126/science.aam9321",
+      "accessDate": "2022-05-11T21:58:53Z",
+      "attachments": [
+        {
+          "dateAdded": "2022-05-11T21:59:21Z",
+          "dateModified": "2022-05-11T21:59:21Z",
+          "itemType": "attachment",
+          "path": "C:\\Users\\nessl\\Zotero\\storage\\IXAQZ5VA\\Gootenberg et al. - 2017 - Nucleic acid detection with CRISPR-Cas13aC2c2.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Version acceptée",
+          "uri": "http://zotero.org/users/9471698/items/IXAQZ5VA"
+        }
+      ],
+      "citationKey": "gootenbergNucleicAcidDetection2017",
+      "citekey": "gootenbergNucleicAcidDetection2017",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Jonathan S.",
+          "lastName": "Gootenberg"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Omar O.",
+          "lastName": "Abudayyeh"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Jeong Wook",
+          "lastName": "Lee"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Patrick",
+          "lastName": "Essletzbichler"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Aaron J.",
+          "lastName": "Dy"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Julia",
+          "lastName": "Joung"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Vanessa",
+          "lastName": "Verdine"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Nina",
+          "lastName": "Donghia"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Nichole M.",
+          "lastName": "Daringer"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Catherine A.",
+          "lastName": "Freije"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Cameron",
+          "lastName": "Myhrvold"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Roby P.",
+          "lastName": "Bhattacharyya"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Jonathan",
+          "lastName": "Livny"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Aviv",
+          "lastName": "Regev"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Eugene V.",
+          "lastName": "Koonin"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Deborah T.",
+          "lastName": "Hung"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Pardis C.",
+          "lastName": "Sabeti"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "James J.",
+          "lastName": "Collins"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Feng",
+          "lastName": "Zhang"
+        }
+      ],
+      "date": "2017-04-28",
+      "dateAdded": "2022-05-11T21:58:53Z",
+      "dateModified": "2022-05-11T21:58:53Z",
+      "extra": "Publisher: American Association for the Advancement of Science",
+      "issue": "6336",
+      "itemID": 99,
+      "itemKey": "TDVCQM2P",
+      "itemType": "journalArticle",
+      "key": "TDVCQM2P",
+      "libraryCatalog": "science.org (Atypon)",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "438-442",
+      "publicationTitle": "Science",
+      "relations": [],
+      "select": "zotero://select/library/items/TDVCQM2P",
+      "tags": [],
+      "title": "Nucleic acid detection with CRISPR-Cas13a/C2c2",
+      "uri": "http://zotero.org/users/9471698/items/TDVCQM2P",
+      "url": "https://www.science.org/doi/10.1126/science.aam9321",
+      "version": 204,
+      "volume": "356"
+    },
+    {
+      "DOI": "10.1139/m62-029",
+      "ISSN": "0008-4166",
+      "accessDate": "2022-05-03T15:33:33Z",
+      "attachments": [
+        {
+          "dateAdded": "2022-05-03T15:37:30Z",
+          "dateModified": "2022-05-03T15:37:30Z",
+          "itemType": "attachment",
+          "path": "C:\\Users\\nessl\\Documents\\iGEM\\magic media.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "magic media.pdf",
+          "uri": "http://zotero.org/users/9471698/items/JC7BQ37B"
+        }
+      ],
+      "citationKey": "guillardStudiesMarinePlanktonic1962",
+      "citekey": "guillardStudiesMarinePlanktonic1962",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Robert R. L.",
+          "lastName": "Guillard"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "John H.",
+          "lastName": "Ryther"
+        }
+      ],
+      "date": "1962-04",
+      "dateAdded": "2022-05-03T15:33:33Z",
+      "dateModified": "2022-05-03T15:33:33Z",
+      "extra": "Publisher: NRC Research Press",
+      "issue": "2",
+      "itemID": 63,
+      "itemKey": "THDLHIXK",
+      "itemType": "journalArticle",
+      "journalAbbreviation": "Can. J. Microbiol.",
+      "key": "THDLHIXK",
+      "libraryCatalog": "cdnsciencepub.com (Atypon)",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "229-239",
+      "publicationTitle": "Canadian Journal of Microbiology",
+      "relations": [],
+      "select": "zotero://select/library/items/THDLHIXK",
+      "shortTitle": "Studies of marine planktonic diatoms",
+      "tags": [],
+      "title": "Studies of marine planktonic diatoms: i. cyclotella nana hustedt, and detonula confervacea (cleve) gran.",
+      "uri": "http://zotero.org/users/9471698/items/THDLHIXK",
+      "url": "https://cdnsciencepub.com/doi/10.1139/m62-029",
+      "version": 39,
+      "volume": "8"
+    },
+    {
+      "DOI": "10.1016/j.biortech.2020.124073",
+      "ISSN": "0960-8524",
+      "abstractNote": "Diatoms are a major storehouse of valuable fucoxanthin and polyunsaturated fatty acids, with enormous nutraceuticals and biofuel potential. Three marine diatom species isolated from the southern coast of India has been screened and their results show that highest biomass concentration and fucoxanthin yield was obtained in Chaetoceros sp. as 0.217 g L−1 and 0.403 mg L−1 respectively. Lipid % as dry cell weight was maximum in Thalassiosira sp. (52%) followed by Skeletonema sp. (44%) and Chaetoceros sp. (22%). However, protein and secondary metabolites content besides the total antioxidant activity was estimated highest in Skeletonema sp. Having strong inhibition zones of 18–20 mm against all the five strains of bacteria also highlights the highest antibacterial prospect in Skeletonema sp. This work manifests the plasticity of diatoms and may provide useful insights for further species-specific selection for large-scale production of eicosapentaenoic acid, docosahexaenoic acid, fucoxanthin and other metabolites with potential health benefits.",
+      "accessDate": "2022-05-03T15:55:51Z",
+      "attachments": [
+        {
+          "dateAdded": "2022-05-03T15:55:58Z",
+          "dateModified": "2022-05-03T15:55:58Z",
+          "itemType": "attachment",
+          "path": "C:\\Users\\nessl\\Zotero\\storage\\3GBZSN6U\\S0960852420313456.html",
+          "relations": [],
+          "tags": [],
+          "title": "ScienceDirect Snapshot",
+          "uri": "http://zotero.org/users/9471698/items/3GBZSN6U"
+        },
+        {
+          "dateAdded": "2022-05-03T15:57:00Z",
+          "dateModified": "2022-05-03T15:57:00Z",
+          "itemType": "attachment",
+          "path": "C:\\Users\\nessl\\Documents\\iGEM\\stabilization of dinophysis.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "stabilization of dinophysis.pdf",
+          "uri": "http://zotero.org/users/9471698/items/URL7YUYL"
+        }
+      ],
+      "citationKey": "bhattacharjyaBioprospectingMarineDiatoms2020",
+      "citekey": "bhattacharjyaBioprospectingMarineDiatoms2020",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Raya",
+          "lastName": "Bhattacharjya"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Thomas",
+          "lastName": "Kiran Marella"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Archana",
+          "lastName": "Tiwari"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Abhishek",
+          "lastName": "Saxena"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Pankaj",
+          "lastName": "Kumar Singh"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Bharti",
+          "lastName": "Mishra"
+        }
+      ],
+      "date": "2020-12-01",
+      "dateAdded": "2022-05-03T15:55:51Z",
+      "dateModified": "2022-05-03T15:55:51Z",
+      "itemID": 67,
+      "itemKey": "TL62U9I5",
+      "itemType": "journalArticle",
+      "journalAbbreviation": "Bioresource Technology",
+      "key": "TL62U9I5",
+      "language": "en",
+      "libraryCatalog": "ScienceDirect",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "124073",
+      "publicationTitle": "Bioresource Technology",
+      "relations": [],
+      "select": "zotero://select/library/items/TL62U9I5",
+      "tags": [
+        {
+          "tag": "Diatoms",
+          "type": 1
+        },
+        {
+          "tag": "Docosahexaenoic acid",
+          "type": 1
+        },
+        {
+          "tag": "Eicosapentaenoic acid",
+          "type": 1
+        },
+        {
+          "tag": "Nutraceuticals",
+          "type": 1
+        },
+        {
+          "tag": "ω-3 Fatty acids",
+          "type": 1
+        }
+      ],
+      "title": "Bioprospecting of marine diatoms Thalassiosira, Skeletonema and Chaetoceros for lipids and other value-added products",
+      "uri": "http://zotero.org/users/9471698/items/TL62U9I5",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0960852420313456",
+      "version": 61,
+      "volume": "318"
+    },
+    {
+      "DOI": "10.1111/j.1742-4658.2007.06178.x",
+      "ISSN": "1742464X",
+      "accessDate": "2022-05-22T08:12:31Z",
+      "attachments": [
+        {
+          "dateAdded": "2022-05-22T08:12:32Z",
+          "dateModified": "2022-05-22T08:12:32Z",
+          "itemType": "attachment",
+          "path": "C:\\Users\\nessl\\Zotero\\storage\\34NG5EDT\\Wlodawer et al. - 2008 - Protein crystallography for non-crystallographers,.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Texte intégral",
+          "uri": "http://zotero.org/users/9471698/items/34NG5EDT"
+        }
+      ],
+      "citationKey": "wlodawerProteinCrystallographyNoncrystallographers2008",
+      "citekey": "wlodawerProteinCrystallographyNoncrystallographers2008",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Alexander",
+          "lastName": "Wlodawer"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Wladek",
+          "lastName": "Minor"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Zbigniew",
+          "lastName": "Dauter"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Mariusz",
+          "lastName": "Jaskolski"
+        }
+      ],
+      "date": "01/2008",
+      "dateAdded": "2022-05-22T08:12:31Z",
+      "dateModified": "2022-05-22T08:12:31Z",
+      "issue": "1",
+      "itemID": 126,
+      "itemKey": "TR7N8JRC",
+      "itemType": "journalArticle",
+      "key": "TR7N8JRC",
+      "language": "en",
+      "libraryCatalog": "DOI.org (Crossref)",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "1-21",
+      "publicationTitle": "FEBS Journal",
+      "relations": [],
+      "select": "zotero://select/library/items/TR7N8JRC",
+      "shortTitle": "Protein crystallography for non-crystallographers, or how to get the best (but not more) from published macromolecular structures",
+      "tags": [],
+      "title": "Protein crystallography for non-crystallographers, or how to get the best (but not more) from published macromolecular structures: Protein crystallography for non-crystallographers",
+      "uri": "http://zotero.org/users/9471698/items/TR7N8JRC",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1111/j.1742-4658.2007.06178.x",
+      "version": 359,
+      "volume": "275"
+    },
+    {
+      "DOI": "10.1146/annurev.biophys.30.1.67",
+      "abstractNote": "Atomic resolution structure determinations of proteins by X-ray crystallography are formidable multidisciplinary undertakings, requiring protein construct design, expression and purification, crystallization trials, phase determination, and model building. Modern mass spectrometric methods can greatly facilitate these obligate tasks. Thus, mass spectrometry can be used to verify that the desired protein construct has been correctly expressed, to define compact domains in the target protein, to assess the components contained within the protein crystals, and to screen for successful incorporation of seleno-methionine and other heavy metal reagents used for phasing. In addition, mass spectrometry can be used to address issues of modeling, topology, and side-chain proximity. Here, we demonstrate how rational use of mass spectrometry assists and expedites high resolution X-ray structure determination through each stage of the process of protein crystallography.",
+      "accessDate": "2022-05-09T06:46:21Z",
+      "attachments": [],
+      "citationKey": "cohenMassSpectrometryTool2001",
+      "citekey": "cohenMassSpectrometryTool2001",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Steven L.",
+          "lastName": "Cohen"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Brian T.",
+          "lastName": "Chait"
+        }
+      ],
+      "date": "2001",
+      "dateAdded": "2022-05-09T06:46:21Z",
+      "dateModified": "2022-05-09T06:46:21Z",
+      "extra": "_eprint: https://doi.org/10.1146/annurev.biophys.30.1.67\nPMID: 11340052",
+      "issue": "1",
+      "itemID": 91,
+      "itemKey": "TRBPR4TU",
+      "itemType": "journalArticle",
+      "key": "TRBPR4TU",
+      "libraryCatalog": "Annual Reviews",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "67-85",
+      "publicationTitle": "Annual Review of Biophysics and Biomolecular Structure",
+      "relations": [],
+      "select": "zotero://select/library/items/TRBPR4TU",
+      "tags": [
+        {
+          "tag": "domain elucidation",
+          "type": 1
+        },
+        {
+          "tag": "heavy atom",
+          "type": 1
+        },
+        {
+          "tag": "modeling",
+          "type": 1
+        },
+        {
+          "tag": "phasing",
+          "type": 1
+        },
+        {
+          "tag": "protein crystals",
+          "type": 1
+        },
+        {
+          "tag": "X-ray crystallography",
+          "type": 1
+        }
+      ],
+      "title": "Mass Spectrometry as a Tool for Protein Crystallography",
+      "uri": "http://zotero.org/users/9471698/items/TRBPR4TU",
+      "url": "https://doi.org/10.1146/annurev.biophys.30.1.67",
+      "version": 163,
+      "volume": "30"
+    },
+    {
+      "DOI": "10.1038/s41467-018-04252-2",
+      "ISSN": "2041-1723",
+      "abstractNote": "CRISPR is becoming an indispensable tool in biological research. Once known as the bacterial immune system against invading viruses, the programmable capacity of the Cas9 enzyme is now revolutionizing diverse fields of medical research, biotechnology, and agriculture. CRISPR-Cas9 is no longer just a gene-editing tool; the application areas of catalytically impaired inactive Cas9, including gene regulation, epigenetic editing, chromatin engineering, and imaging, now exceed the gene-editing functionality of WT Cas9. Here, we will present a brief history of gene-editing tools and describe the wide range of CRISPR-based genome-targeting tools. We will conclude with future directions and the broader impact of CRISPR technologies.",
+      "accessDate": "2022-05-19T09:21:20Z",
+      "attachments": [
+        {
+          "dateAdded": "2022-05-19T09:21:22Z",
+          "dateModified": "2022-05-19T09:21:22Z",
+          "itemType": "attachment",
+          "path": "C:\\Users\\nessl\\Zotero\\storage\\ZHARVNKP\\Adli - 2018 - The CRISPR tool kit for genome editing and beyond.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Full Text PDF",
+          "uri": "http://zotero.org/users/9471698/items/ZHARVNKP"
+        },
+        {
+          "dateAdded": "2022-05-19T09:21:29Z",
+          "dateModified": "2022-05-19T09:21:29Z",
+          "itemType": "attachment",
+          "path": "C:\\Users\\nessl\\Zotero\\storage\\XASHWN59\\s41467-018-04252-2.html",
+          "relations": [],
+          "tags": [],
+          "title": "Snapshot",
+          "uri": "http://zotero.org/users/9471698/items/XASHWN59"
+        }
+      ],
+      "citationKey": "adliCRISPRToolKit2018",
+      "citekey": "adliCRISPRToolKit2018",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Mazhar",
+          "lastName": "Adli"
+        }
+      ],
+      "date": "2018-05-15",
+      "dateAdded": "2022-05-19T09:21:20Z",
+      "dateModified": "2022-05-19T09:21:20Z",
+      "extra": "Number: 1\nPublisher: Nature Publishing Group",
+      "issue": "1",
+      "itemID": 117,
+      "itemKey": "VGI3ATL7",
+      "itemType": "journalArticle",
+      "journalAbbreviation": "Nat Commun",
+      "key": "VGI3ATL7",
+      "language": "en",
+      "libraryCatalog": "www.nature.com",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "1911",
+      "publicationTitle": "Nature Communications",
+      "relations": [],
+      "rights": "2018 The Author(s)",
+      "select": "zotero://select/library/items/VGI3ATL7",
+      "tags": [
+        {
+          "tag": "CRISPR-Cas systems",
+          "type": 1
+        },
+        {
+          "tag": "Genomic engineering",
+          "type": 1
+        }
+      ],
+      "title": "The CRISPR tool kit for genome editing and beyond",
+      "uri": "http://zotero.org/users/9471698/items/VGI3ATL7",
+      "url": "https://www.nature.com/articles/s41467-018-04252-2",
+      "version": 334,
+      "volume": "9"
+    },
+    {
+      "DOI": "10.1016/j.biortech.2022.127128",
+      "ISSN": "09608524",
+      "abstractNote": "Diatoms are of great interest for many biotechnological applications. The present study highlights the compar­ ative analysis for mass cultivation under the effect of seawater made from table salt (TS), rock salt (RS), and synthetic seawater in the presence of normal silica and induction coupled plasma (ICP) nanosilica (Nano Si) for inducing diatom growth. Out of all the test formulations, RS-f/2 Nano Si showed the best results with maximum cell density (3.16x107±0.04 and 3.24x107±0.05 cells mL− 1), carbohydrate (403.0±3.4 and 398.0±8.1 mg g− 1), and chrysolaminarin yield (66.2±5.5 and 49.3±5.1 mg g− 1) in both Chaetoceros gracilis and Thalassiosira weissflogii respectively. The presence of a rich pigment profile and lipids further highlights the importance of TS and RS for cost-effective mass culturing. Results reveal that mass cultivation of marine diatoms with TS and RS in the presence of nanosilica not only reduces costs but also enhances metabolite production.",
+      "accessDate": "2022-05-02T09:56:31Z",
+      "attachments": [
+        {
+          "dateAdded": "2022-05-02T09:56:22Z",
+          "dateModified": "2022-05-02T09:56:32Z",
+          "itemType": "attachment",
+          "path": "C:\\Users\\nessl\\Zotero\\storage\\L7TPHTA2\\Saxena et al. - 2022 - Mass cultivation of marine diatoms using local sal.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Saxena et al. - 2022 - Mass cultivation of marine diatoms using local sal.pdf",
+          "uri": "http://zotero.org/users/9471698/items/L7TPHTA2"
+        }
+      ],
+      "citationKey": "saxenaMassCultivationMarine2022",
+      "citekey": "saxenaMassCultivationMarine2022",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Abhishek",
+          "lastName": "Saxena"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Bharti",
+          "lastName": "Mishra"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Archana",
+          "lastName": "Tiwari"
+        }
+      ],
+      "date": "05/2022",
+      "dateAdded": "2022-05-02T09:56:31Z",
+      "dateModified": "2022-05-02T09:56:31Z",
+      "itemID": 45,
+      "itemKey": "VRYYE4I8",
+      "itemType": "journalArticle",
+      "journalAbbreviation": "Bioresource Technology",
+      "key": "VRYYE4I8",
+      "language": "en",
+      "libraryCatalog": "DOI.org (Crossref)",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "127128",
+      "publicationTitle": "Bioresource Technology",
+      "relations": [],
+      "select": "zotero://select/library/items/VRYYE4I8",
+      "tags": [],
+      "title": "Mass cultivation of marine diatoms using local salts and its impact on growth and productivity",
+      "uri": "http://zotero.org/users/9471698/items/VRYYE4I8",
+      "url": "https://linkinghub.elsevier.com/retrieve/pii/S0960852422004576",
+      "version": 8,
+      "volume": "352"
+    },
+    {
+      "DOI": "10.1021/acs.jafc.5b01254",
+      "ISSN": "0021-8561",
+      "attachments": [
+        {
+          "dateAdded": "2022-04-27T16:21:43Z",
+          "dateModified": "2022-04-27T16:21:43Z",
+          "itemType": "attachment",
+          "path": "C:\\Users\\nessl\\Documents\\iGEM\\lateral immuno assay.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "lateral immuno assay.pdf",
+          "uri": "http://zotero.org/users/9471698/items/HQL2WXQJ"
+        }
+      ],
+      "citationKey": "jawaidDevelopmentValidationLateral2015",
+      "citekey": "jawaidDevelopmentValidationLateral2015",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Waqass",
+          "lastName": "Jawaid"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Julie P.",
+          "lastName": "Meneely"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Katrina",
+          "lastName": "Campbell"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Karrie",
+          "lastName": "Melville"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Stephen J.",
+          "lastName": "Holmes"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Jennifer",
+          "lastName": "Rice"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Christopher T.",
+          "lastName": "Elliott"
+        }
+      ],
+      "date": "2015-09-30",
+      "dateAdded": "2022-04-27T16:20:56Z",
+      "dateModified": "2022-04-27T16:20:56Z",
+      "extra": "Publisher: American Chemical Society",
+      "issue": "38",
+      "itemID": 16,
+      "itemKey": "VSWNB3BA",
+      "itemType": "journalArticle",
+      "journalAbbreviation": "J. Agric. Food Chem.",
+      "key": "VSWNB3BA",
+      "libraryID": 1,
+      "notes": [
+        {
+          "dateAdded": "2022-04-27T16:20:56Z",
+          "dateModified": "2022-04-27T16:20:56Z",
+          "itemType": "note",
+          "key": "RRF78NXY",
+          "note": "<p>doi: 10.1021/acs.jafc.5b01254</p>",
+          "parentItem": "VSWNB3BA",
+          "relations": {},
+          "tags": [],
+          "uri": "http://zotero.org/users/9471698/items/RRF78NXY",
+          "version": 5
+        }
+      ],
+      "pages": "8574-8583",
+      "publicationTitle": "Journal of Agricultural and Food Chemistry",
+      "relations": [],
+      "select": "zotero://select/library/items/VSWNB3BA",
+      "tags": [],
+      "title": "Development and Validation of a Lateral Flow Immunoassay for the Rapid Screening of Okadaic Acid and All Dinophysis Toxins from Shellfish Extracts",
+      "uri": "http://zotero.org/users/9471698/items/VSWNB3BA",
+      "url": "https://doi.org/10.1021/acs.jafc.5b01254",
+      "version": 5,
+      "volume": "63"
+    },
+    {
+      "DOI": "10.1128/JCM.00745-20",
+      "accessDate": "2022-04-27T16:30:33Z",
+      "attachments": [
+        {
+          "dateAdded": "2022-04-27T16:30:37Z",
+          "dateModified": "2022-04-27T16:30:37Z",
+          "itemType": "attachment",
+          "path": "C:\\Users\\nessl\\Zotero\\storage\\7B79K8ZZ\\Mustafa et Makhawi - SHERLOCK and DETECTR CRISPR-Cas Systems as Potent.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Full Text PDF",
+          "uri": "http://zotero.org/users/9471698/items/7B79K8ZZ"
+        }
+      ],
+      "citationKey": "mustafaSHERLOCKDETECTRCRISPRCas",
+      "citekey": "mustafaSHERLOCKDETECTRCRISPRCas",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Mujahed I.",
+          "lastName": "Mustafa"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Abdelrafie M.",
+          "lastName": "Makhawi"
+        }
+      ],
+      "dateAdded": "2022-04-27T16:30:34Z",
+      "dateModified": "2022-04-27T16:30:34Z",
+      "extra": "Publisher: American Society for Microbiology",
+      "issue": "3",
+      "itemID": 21,
+      "itemKey": "W65H6327",
+      "itemType": "journalArticle",
+      "key": "W65H6327",
+      "libraryCatalog": "journals.asm.org (Atypon)",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "e00745-20",
+      "publicationTitle": "Journal of Clinical Microbiology",
+      "relations": [],
+      "select": "zotero://select/library/items/W65H6327",
+      "shortTitle": "SHERLOCK and DETECTR",
+      "tags": [],
+      "title": "SHERLOCK and DETECTR: CRISPR-Cas Systems as Potential Rapid Diagnostic Tools for Emerging Infectious Diseases",
+      "uri": "http://zotero.org/users/9471698/items/W65H6327",
+      "url": "https://journals.asm.org/doi/10.1128/JCM.00745-20",
+      "version": 5,
+      "volume": "59"
+    },
+    {
+      "DOI": "10.1038/s41596-019-0210-2",
+      "ISSN": "1754-2189",
+      "abstractNote": "Rapid detection of nucleic acids is integral for applications in clinical\ndiagnostics and biotechnology. We have recently established a CRISPR-based\ndiagnostic platform that combines nucleic acid pre-amplification with CRISPR-Cas\nenzymology for specific recognition of desired DNA or RNA sequences. This\nplatform, termed Specific High Sensitivity Enzymatic Reporter UnLOCKing\n(SHERLOCK), allows for multiplexed, portable, and ultra-sensitive detection of\nRNA or DNA from clinically relevant samples. Here we provide step-by-step\ninstructions for setting up SHERLOCK assays with recombinase-mediated polymerase\npre-amplification of DNA or RNA, and subsequent Cas13- or Cas12-mediated\ndetection via fluorescent and colorimetric readouts that provide results in less\nthan 1 hour. We also include guidelines for designing efficient CRISPR RNA and\nisothermal amplification primers, and discuss important considerations for\nmultiplex and quantitative SHERLOCK detection assays.",
+      "accessDate": "2022-04-27T16:30:47Z",
+      "attachments": [
+        {
+          "accessDate": "2022-04-27T16:30:48Z",
+          "charset": "",
+          "contentType": "text/html",
+          "dateAdded": "2022-04-27T16:30:48Z",
+          "dateModified": "2022-04-27T16:30:48Z",
+          "itemType": "attachment",
+          "key": "WATMC235",
+          "linkMode": "linked_url",
+          "parentItem": "Y57GWZRA",
+          "relations": {},
+          "select": "zotero://select/library/items/WATMC235",
+          "tags": [],
+          "title": "PubMed Central Link",
+          "uri": "http://zotero.org/users/9471698/items/WATMC235",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6956564/",
+          "version": 6
+        },
+        {
+          "dateAdded": "2022-04-27T16:30:51Z",
+          "dateModified": "2022-04-27T16:30:51Z",
+          "itemType": "attachment",
+          "path": "C:\\Users\\nessl\\Zotero\\storage\\KZEYDBGZ\\Kellner et al. - 2019 - SHERLOCK Nucleic acid detection with CRISPR nucle.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Version acceptée",
+          "uri": "http://zotero.org/users/9471698/items/KZEYDBGZ"
+        }
+      ],
+      "citationKey": "kellnerSHERLOCKNucleicAcid2019",
+      "citekey": "kellnerSHERLOCKNucleicAcid2019",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Max J.",
+          "lastName": "Kellner"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Jeremy",
+          "lastName": "Koob"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Jonathan S.",
+          "lastName": "Gootenberg"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Omar O.",
+          "lastName": "Abudayyeh"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Feng",
+          "lastName": "Zhang"
+        }
+      ],
+      "date": "2019-10",
+      "dateAdded": "2022-04-27T16:30:47Z",
+      "dateModified": "2022-04-27T16:30:47Z",
+      "extra": "PMID: 31548639\nPMCID: PMC6956564",
+      "issue": "10",
+      "itemID": 23,
+      "itemKey": "Y57GWZRA",
+      "itemType": "journalArticle",
+      "journalAbbreviation": "Nat Protoc",
+      "key": "Y57GWZRA",
+      "libraryCatalog": "PubMed Central",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "2986-3012",
+      "publicationTitle": "Nature protocols",
+      "relations": [],
+      "select": "zotero://select/library/items/Y57GWZRA",
+      "shortTitle": "SHERLOCK",
+      "tags": [],
+      "title": "SHERLOCK: Nucleic acid detection with CRISPR nucleases",
+      "uri": "http://zotero.org/users/9471698/items/Y57GWZRA",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6956564/",
+      "version": 6,
+      "volume": "14"
+    },
+    {
+      "DOI": "10.1128/JCM.01327-06",
+      "ISSN": "0095-1137, 1098-660X",
+      "abstractNote": "ABSTRACT\n            An international outbreak linked to oyster consumption involving a group of over 200 people in Italy and 127 total subjects in 13 smaller clusters in France was analyzed using epidemiological and clinical data and shellfish samples. Environmental information from the oyster-producing area, located in a lagoon in southern France, was collected to investigate the possible events leading to the contamination. Virologic analyses were conducted by reverse transcription-PCR (RT-PCR) using the same primer sets for both clinical and environmental samples. After sequencing, the data were analyzed through the database operated by the scientific network FoodBorne Viruses in Europe. The existence of an international collaboration between laboratories was critical to rapidly connect the data and to fully interpret the results, since it was not obvious that one food could be the link because of the diversity of the several norovirus strains involved in the different cases. It was also demonstrated that heavy rain was responsible for the accidental contamination of seafood, leading to a concentration of up to hundreds of genomic copies per oyster as detected by real-time RT-PCR.",
+      "accessDate": "2022-04-27T16:00:57Z",
+      "attachments": [
+        {
+          "dateAdded": "2022-04-27T16:00:58Z",
+          "dateModified": "2022-04-27T16:00:58Z",
+          "itemType": "attachment",
+          "path": "C:\\Users\\nessl\\Zotero\\storage\\R3R5YLDG\\Le Guyader et al. - 2006 - Detection of Multiple Noroviruses Associated with .pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Texte intégral",
+          "uri": "http://zotero.org/users/9471698/items/R3R5YLDG"
+        }
+      ],
+      "citationKey": "leguyaderDetectionMultipleNoroviruses2006",
+      "citekey": "leguyaderDetectionMultipleNoroviruses2006",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Françoise S.",
+          "lastName": "Le Guyader"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Fabienne",
+          "lastName": "Bon"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Dario",
+          "lastName": "DeMedici"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Sylvain",
+          "lastName": "Parnaudeau"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Alessandra",
+          "lastName": "Bertone"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Silvia",
+          "lastName": "Crudeli"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Aoife",
+          "lastName": "Doyle"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Mohamed",
+          "lastName": "Zidane"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Elisabetta",
+          "lastName": "Suffredini"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Evelyne",
+          "lastName": "Kohli"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Francesco",
+          "lastName": "Maddalo"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Marina",
+          "lastName": "Monini"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Anne",
+          "lastName": "Gallay"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Monique",
+          "lastName": "Pommepuy"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Pierre",
+          "lastName": "Pothier"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Franco M.",
+          "lastName": "Ruggeri"
+        }
+      ],
+      "date": "11/2006",
+      "dateAdded": "2022-04-27T16:00:57Z",
+      "dateModified": "2022-04-27T16:00:57Z",
+      "issue": "11",
+      "itemID": 9,
+      "itemKey": "Y6PXHT2X",
+      "itemType": "journalArticle",
+      "journalAbbreviation": "J Clin Microbiol",
+      "key": "Y6PXHT2X",
+      "language": "en",
+      "libraryCatalog": "DOI.org (Crossref)",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "3878-3882",
+      "publicationTitle": "Journal of Clinical Microbiology",
+      "relations": [],
+      "select": "zotero://select/library/items/Y6PXHT2X",
+      "tags": [],
+      "title": "Detection of Multiple Noroviruses Associated with an International Gastroenteritis Outbreak Linked to Oyster Consumption",
+      "uri": "http://zotero.org/users/9471698/items/Y6PXHT2X",
+      "url": "https://journals.asm.org/doi/10.1128/JCM.01327-06",
+      "version": 4,
+      "volume": "44"
+    },
+    {
+      "DOI": "10.1038/nature19802",
+      "ISSN": "1476-4687",
+      "abstractNote": "Bacterial adaptive immune systems use CRISPRs (clustered regularly interspaced short palindromic repeats) and CRISPR-associated (Cas) proteins for RNA-guided nucleic acid cleavage. Although most prokaryotic adaptive immune systems generally target DNA substrates, type III and VI CRISPR systems direct interference complexes against single-stranded RNA substrates. In type VI systems, the single-subunit C2c2 protein functions as an RNA-guided RNA endonuclease (RNase). How this enzyme acquires mature CRISPR RNAs (crRNAs) that are essential for immune surveillance and how it carries out crRNA-mediated RNA cleavage remain unclear. Here we show that bacterial C2c2 possesses a unique RNase activity responsible for CRISPR RNA maturation that is distinct from its RNA-activated single-stranded RNA degradation activity. These dual RNase functions are chemically and mechanistically different from each other and from the crRNA-processing behaviour of the evolutionarily unrelated CRISPR enzyme Cpf1 (ref. 11). The two RNase activities of C2c2 enable multiplexed processing and loading of guide RNAs that in turn allow sensitive detection of cellular transcripts.",
+      "attachments": [
+        {
+          "accessDate": "2022-05-18T16:48:41Z",
+          "charset": "",
+          "contentType": "text/html",
+          "dateAdded": "2022-05-18T16:48:41Z",
+          "dateModified": "2022-05-18T16:48:41Z",
+          "itemType": "attachment",
+          "key": "N797UTYV",
+          "linkMode": "linked_url",
+          "parentItem": "YJ7Q6Y8I",
+          "relations": {},
+          "select": "zotero://select/library/items/N797UTYV",
+          "tags": [],
+          "title": "PubMed entry",
+          "uri": "http://zotero.org/users/9471698/items/N797UTYV",
+          "url": "http://www.ncbi.nlm.nih.gov/pubmed/27669025",
+          "version": 302
+        },
+        {
+          "dateAdded": "2022-05-18T16:48:43Z",
+          "dateModified": "2022-05-18T16:48:43Z",
+          "itemType": "attachment",
+          "path": "C:\\Users\\nessl\\Zotero\\storage\\XM4RUR4H\\East-Seletsky et al. - 2016 - Two distinct RNase activities of CRISPR-C2c2 enabl.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Version acceptée",
+          "uri": "http://zotero.org/users/9471698/items/XM4RUR4H"
+        }
+      ],
+      "citationKey": "east-seletskyTwoDistinctRNase2016",
+      "citekey": "east-seletskyTwoDistinctRNase2016",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Alexandra",
+          "lastName": "East-Seletsky"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Mitchell R.",
+          "lastName": "O'Connell"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Spencer C.",
+          "lastName": "Knight"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "David",
+          "lastName": "Burstein"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Jamie H. D.",
+          "lastName": "Cate"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Robert",
+          "lastName": "Tjian"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Jennifer A.",
+          "lastName": "Doudna"
+        }
+      ],
+      "date": "2016-10-13",
+      "dateAdded": "2022-05-18T16:48:40Z",
+      "dateModified": "2022-05-18T16:48:40Z",
+      "extra": "PMID: 27669025\nPMCID: PMC5576363",
+      "issue": "7624",
+      "itemID": 111,
+      "itemKey": "YJ7Q6Y8I",
+      "itemType": "journalArticle",
+      "journalAbbreviation": "Nature",
+      "key": "YJ7Q6Y8I",
+      "language": "eng",
+      "libraryCatalog": "PubMed",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "270-273",
+      "publicationTitle": "Nature",
+      "relations": [],
+      "select": "zotero://select/library/items/YJ7Q6Y8I",
+      "tags": [
+        {
+          "tag": "Base Sequence",
+          "type": 1
+        },
+        {
+          "tag": "Clustered Regularly Interspaced Short Palindromic Repeats",
+          "type": 1
+        },
+        {
+          "tag": "CRISPR-Associated Proteins",
+          "type": 1
+        },
+        {
+          "tag": "CRISPR-Cas Systems",
+          "type": 1
+        },
+        {
+          "tag": "Leptotrichia",
+          "type": 1
+        },
+        {
+          "tag": "Ribonucleases",
+          "type": 1
+        },
+        {
+          "tag": "RNA Cleavage",
+          "type": 1
+        },
+        {
+          "tag": "RNA, Bacterial",
+          "type": 1
+        },
+        {
+          "tag": "RNA, Guide",
+          "type": 1
+        }
+      ],
+      "title": "Two distinct RNase activities of CRISPR-C2c2 enable guide-RNA processing and RNA detection",
+      "uri": "http://zotero.org/users/9471698/items/YJ7Q6Y8I",
+      "version": 302,
+      "volume": "538"
+    },
+    {
+      "DOI": "10.1107/S2059798316002187",
+      "ISSN": "2059-7983",
+      "abstractNote": "Rapid data collection and modern computing resources provide the opportunity to revisit the task of optimizing the model of diffraction geometry prior to integration. A comprehensive description is given of new software that builds upon established methods by performing a single global refinement procedure, utilizing a smoothly varying model of the crystal lattice where appropriate. This global refinement technique extends to multiple data sets, providing useful constraints to handle the problem of correlated parameters, particularly for small wedges of data. Examples of advanced uses of the software are given and the design is explained in detail, with particular emphasis on the flexibility and extensibility it entails.",
+      "accessDate": "2022-05-22T08:11:18Z",
+      "attachments": [
+        {
+          "dateAdded": "2022-05-22T08:11:19Z",
+          "dateModified": "2022-05-22T08:11:19Z",
+          "itemType": "attachment",
+          "path": "C:\\Users\\nessl\\Zotero\\storage\\EN6QLKPX\\Waterman et al. - 2016 - Diffraction-geometry refinement in the DIALS frame.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Full Text PDF",
+          "uri": "http://zotero.org/users/9471698/items/EN6QLKPX"
+        },
+        {
+          "dateAdded": "2022-05-22T08:11:23Z",
+          "dateModified": "2022-05-22T08:11:23Z",
+          "itemType": "attachment",
+          "path": "C:\\Users\\nessl\\Zotero\\storage\\6SP54PRH\\paper.html",
+          "relations": [],
+          "tags": [],
+          "title": "Snapshot",
+          "uri": "http://zotero.org/users/9471698/items/6SP54PRH"
+        }
+      ],
+      "citationKey": "watermanDiffractiongeometryRefinementDIALS2016",
+      "citekey": "watermanDiffractiongeometryRefinementDIALS2016",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "D. G.",
+          "lastName": "Waterman"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "G.",
+          "lastName": "Winter"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "R. J.",
+          "lastName": "Gildea"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "J. M.",
+          "lastName": "Parkhurst"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "A. S.",
+          "lastName": "Brewster"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "N. K.",
+          "lastName": "Sauter"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "G.",
+          "lastName": "Evans"
+        }
+      ],
+      "date": "2016-04-01",
+      "dateAdded": "2022-05-22T08:11:18Z",
+      "dateModified": "2022-05-22T08:11:18Z",
+      "extra": "Number: 4\nPublisher: International Union of Crystallography",
+      "issue": "4",
+      "itemID": 123,
+      "itemKey": "YKCMICJI",
+      "itemType": "journalArticle",
+      "journalAbbreviation": "Acta Cryst D",
+      "key": "YKCMICJI",
+      "language": "en",
+      "libraryCatalog": "scripts.iucr.org",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "558-575",
+      "publicationTitle": "Acta Crystallographica Section D: Structural Biology",
+      "relations": [],
+      "rights": "http://creativecommons.org/licenses/by/2.0/uk",
+      "select": "zotero://select/library/items/YKCMICJI",
+      "tags": [],
+      "title": "Diffraction-geometry refinement in the DIALS framework",
+      "uri": "http://zotero.org/users/9471698/items/YKCMICJI",
+      "url": "http://scripts.iucr.org/cgi-bin/paper?gm5043",
+      "version": 355,
+      "volume": "72"
+    },
+    {
+      "DOI": "10.1107/S0907444911001314",
+      "ISSN": "0907-4449",
+      "abstractNote": "This paper describes various components of the macromolecular crystallographic refinement program REFMAC5, which is distributed as part of the CCP4 suite. REFMAC5 utilizes different likelihood functions depending on the diffraction data employed (amplitudes or intensities), the presence of twinning and the availability of SAD/SIRAS experimental diffraction data. To ensure chemical and structural integrity of the refined model, REFMAC5 offers several classes of restraints and choices of model parameterization. Reliable models at resolutions at least as low as 4 Å can be achieved thanks to low-resolution refinement tools such as secondary-structure restraints, restraints to known homologous structures, automatic global and local NCS restraints, `jelly-body' restraints and the use of novel long-range restraints on atomic displacement parameters (ADPs) based on the Kullback–Leibler divergence. REFMAC5 additionally offers TLS parameterization and, when high-resolution data are available, fast refinement of anisotropic ADPs. Refinement in the presence of twinning is performed in a fully automated fashion. REFMAC5 is a flexible and highly optimized refinement package that is ideally suited for refinement across the entire resolution spectrum encountered in macromolecular crystallography.",
+      "accessDate": "2022-05-08T16:33:18Z",
+      "attachments": [
+        {
+          "dateAdded": "2022-05-08T16:33:18Z",
+          "dateModified": "2022-05-08T16:33:18Z",
+          "itemType": "attachment",
+          "path": "C:\\Users\\nessl\\Zotero\\storage\\44G8777B\\Murshudov et al. - 2011 - REFMAC5 for the refinement of macromolecular cryst.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Full Text PDF",
+          "uri": "http://zotero.org/users/9471698/items/44G8777B"
+        },
+        {
+          "dateAdded": "2022-05-08T16:33:25Z",
+          "dateModified": "2022-05-08T16:33:25Z",
+          "itemType": "attachment",
+          "path": "C:\\Users\\nessl\\Zotero\\storage\\FJF2YL8E\\index.html",
+          "relations": [],
+          "tags": [],
+          "title": "Snapshot",
+          "uri": "http://zotero.org/users/9471698/items/FJF2YL8E"
+        }
+      ],
+      "citationKey": "murshudovREFMAC5RefinementMacromolecular2011",
+      "citekey": "murshudovREFMAC5RefinementMacromolecular2011",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "G. N.",
+          "lastName": "Murshudov"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "P.",
+          "lastName": "Skubák"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "A. A.",
+          "lastName": "Lebedev"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "N. S.",
+          "lastName": "Pannu"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "R. A.",
+          "lastName": "Steiner"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "R. A.",
+          "lastName": "Nicholls"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "M. D.",
+          "lastName": "Winn"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "F.",
+          "lastName": "Long"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "A. A.",
+          "lastName": "Vagin"
+        }
+      ],
+      "date": "2011-04-01",
+      "dateAdded": "2022-05-08T16:33:18Z",
+      "dateModified": "2022-05-08T16:33:18Z",
+      "extra": "Number: 4\nPublisher: International Union of Crystallography",
+      "issue": "4",
+      "itemID": 83,
+      "itemKey": "ZHQNG9NK",
+      "itemType": "journalArticle",
+      "journalAbbreviation": "Acta Cryst D",
+      "key": "ZHQNG9NK",
+      "language": "en",
+      "libraryCatalog": "journals.iucr.org",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "355-367",
+      "publicationTitle": "Acta Crystallographica Section D: Biological Crystallography",
+      "relations": [],
+      "rights": "http://creativecommons.org/licenses/by/2.0/uk",
+      "select": "zotero://select/library/items/ZHQNG9NK",
+      "tags": [],
+      "title": "REFMAC5 for the refinement of macromolecular crystal structures",
+      "uri": "http://zotero.org/users/9471698/items/ZHQNG9NK",
+      "url": "//scripts.iucr.org/cgi-bin/paper?ba5152",
+      "version": 150,
+      "volume": "67"
+    }
+  ],
+  "version": {
+    "bbt": "6.7.1",
+    "zotero": "6.0.8"
+  }
+}

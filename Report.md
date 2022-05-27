@@ -30,6 +30,7 @@ $*$ Corresponding author: [kanso.ali@outlook.fr](mailto:kanso.ali@outlook.fr) 
 
 Computer science has become a pivotal discipline when approaching biological problems. In microscopy for instance, the instruments and the growing scalability of the experiments have led the data analysis process to be computer dependent. Machine learning, as it has been proven recently to be a powerful tool for analysis, relies on the concept that a program can learn from data, and thus recognize specific patterns and make decisions to predict an output. When talking about image analysis, the fact that we must set rules for determining boundaries in data, makes image segmentation a major problem. Fortunately, such problem is commonly encountered in computer sciences and many techniques have been developed. In this report we introduce a method that quantifies the "accuracy" of machine learning in performing image segmentation and we discuss different metrics that can be used to supervise such process. We also propose a method to compare different network architectures and outputs.
 
+
 # Introduction (5000 characters)
 **Topics to introduce**
 
@@ -48,34 +49,38 @@ Computer science has become a pivotal discipline when approaching biological pro
 
 # Methods (2500 characters)
 
-Setting up an environment: 
+**count : 2832 characters...** si j'enlève la partie environment ca fait 2529
 
-- Environment 
-- stardist
-- starfind
-- gallery creation 
-- correction
-- training of a network 
+*Setting up an environment:* 
+We set up a linux based computer for the analysis. The actual calculations were performed on a remote server via *ssh*. We used jupyter notebook to write the scripts and used an anaconda environment to use all the required python packages. 
 
-Maybe methods could be something like a lexique ? where we define technical terms used ?:
-- Neural network
-- Training and validation
-- epoch 
-- loss function
-- segmentation 
-- ... 
+*Neural network:*
+The networks were based on Stardist (citation). This algorithm is based on the prediction of star-convex polygons to segment images. More specifically we worked with three different network based on different trainings. The first, that we will name *simulated network* was trained using simulated images (gaussian-shape objects). The second one named *data network* was trained using experimental data labeled by hand. The final one named *retrained network* is based on the simulated network but with an addition of images that will be develop in the following section. 
+
+*Qualitative network performance:* 
+To evaluate qualitatively the network performance we used the package scikit image (citation) to retrieve the coordinates of the different labeled objects. We then transposed those coordinates into the raw image and extracted a 10x10 region of the image. This porcess was done iteratively on all the segmented object and a gallery was then created. Furthermore the gallery was classified by increasing intensity (from left to right) by comparing the maximum fluorescence of every snippets of the raw image. To make sure this measure was accurate for all the objects and correcting for out of focus objects the extraction was done at the *z-center position* of the labeled object. 
+
+*Quantitative exploration of the results:*
+Using the labeled image, we gathered the statistics of every detected objects using the package scikit image and calculated the following properties: volume, maximum intensity, the ID of the detected object. 
+
+*Intensity sensitivity analysis:* 
+To assess the network tendency to fail the detection of bright objects a comparison analysis was developed using the algorithm Astropy as a standard (citation). This algorithm is based on intensity thresholding to detect objects. To compared we calculated an *accuracy* metric described as the ratio between the number of object detected by both method divided by the number of object detected by the Astropy algorithm. 
+
+*Correction of a network:*
+Segmented images were submitted to Astropy analysis. For every Astropy detection the coordinate were reported on the segmented image if at this location (x,y,z) we verify if the pixel value was superior to 0 in which case meant a segmented object. In the other situation we classified the objects as missed and cropped  (256,256,70) images in the labeled image and the raw image for the training. This process was done on n=4 (2048,2048,70) images and the corrected images were split between a training and a testing dataset. 
+
 
 # Results (3000 characters)
 
-**(4718 characters ... )**
+**(3102 characters ... )**
 
 ### Qualitative approach to network performance
 
 [[figures#Figure 2]] first gallery acquired 
 
-**(826 characters)**
+**(772 characters)**
 
-Our first approach to the question of evaluating segmentation performance was to qualitatively assess the segmentation. The network outputs stacks of 2048x2048x70  which are complicated to visually inspect. To visualize the objects we projected the objects found by the network on the raw image and created a gallery of images as described in the material section. This gallery thus represents every objects the network considered as "nuclei". Although not quantitative this step allowed us to have a first idea on the kind of objects outputted. An example of output is present in figure 1. We see that the network segmented a majority of bright and round shaped objects which was expected. Moreover, some objects were close to background level. However, we see that some objects are noise which indicates a poor network performance. 
+Our first approach to the question of evaluating segmentation performance was to qualitatively assess the segmentation. The network outputs stacks of 2048x2048x70  which are complicated to visually inspect. To visualize the objects we thus relied on the gallery of images described in the material section. This gallery represents every objects the network considered as "nuclei". Although not quantitative, this step allowed us to have a first idea on the kind of objects outputted. An example of output is present in figure 1. We see that the network segmented a majority of bright and round shaped objects which was expected. Moreover, some objects were close to background level. However, we see that some objects are noise which indicates a poor network performance. 
 
 ### Quantitative approach to network performance
 
@@ -91,29 +96,29 @@ Describe each metrics and why do we put it there
 
 ### Further study on intensity sensitivity
 
-**(2201 characters)**
+**(1105 characters)**
 
-To study the dependency to intensity of the segmentation we decided to compare our neural network approach to an intensity based segmentation. The Starfind algorithm (inserer ref) was originally developed to segment images of the sky to find bright spots which corresponded to stars. The segmentation is thus done through an intensity thresholding which can be adapted. We decided to compare the result of a Starfind segmentation and our neural network. To qualitatively evaluate such comparison we decided to develop an *accuracy* metric, that is, a ratio between the number of object detected by both method divided by the number of object detected by the Starfind algorithm. This metric will thus yield higher value for images where all the high intensity objects were detected by the neural network. To ensure that Starfind did in fact segment high intensity object we set the threshold parameters accordingly. Practically, the accuracy was computed by transposing the coordinate of the detected objects by Starfind onto the output of the network. As shown in figure X not all the bright objects were segmented by the network. This conclusion confirmed earlier visual observation that bright objects tends to be "missed". In biological context bright object correspond to fluorescent molecules which are of interest for later analysis. 
+To study the dependency to intensity of the segmentation we decided to compare our neural network approach to an intensity based segmentation. The Astropy algorithm (inserer ref) was originally developed to segment images of the sky to find bright spots which corresponded to stars. To qualitatively evaluate such comparison we relied on the *accuracy* metric described in the method section. This metric will yield higher value for images where all the high intensity objects were detected by the neural network. As shown in figure X not all the bright objects were segmented by the network. This conclusion confirmed earlier visual observation that bright objects tends to be "missed".
 
-Considering the importance of bright fluorescent events we focused on finding a way to get rid of these missed events. To do so, we decided to play on the training of the network. The neural network is trained using a set of images and tries to generalize to be able to be used on a variety of images. Thus we decided to design a method to automatically correct sets of images that could be then used to train the network. The method relies on the accuracy measurement described above. When an object is only detected by Starfind, we virtually added an object in the image. The object added corresponds to a standard sphere picked in a random image. Knowingly, we introduce a bias at this step as the corrected image will all have the same correction. However, theoretically when fed to the network the images will be more complete meaning a better learning.  
+Considering the importance of bright fluorescent events we focused on finding a way to get rid of these missed events. To do so, we decided to **play on** the training of the network. The neural network is trained using a set of images and tries to generalize to be able to be used on a variety of images. 
 
-figure : figure showing starfind vs stardist and the fact that the networks misses objects ? 
+figure : figure showing Astropy vs stardist and the fact that the networks misses objects ? 
 [[figures#Figure 4]]
 
-**(857 characters)**
+**(391 characters)**
 
-The network was given 500 epochs of 100 steps. Figure XX shows the learning curve i.e : the evolution of the error function per learning iteration. We see that the training was succesfull as the error is decreasing. To evaluate quantitatively the training one can also look at the number of true positive, true negative, false positive and false negative that are shown in annex 1. We see that the number of true positive is high which means good specificity and the number of false negative is low which indicates high sensitivity. However, these metrics only give information on the training itself that is we comparing the network performance on known image. To evaluate the quality of the training and thus the performance of the network we performed a segmentation with the new network on a never-seen image that yielded the results shown in figure XX.
+The network was given 500 epochs of 100 steps. Statistics of the training can be found in annex X. Classically one can look at the contingency matrix but that is assuming a ground truth is known. To evaluate the quality of the training and thus the performance of the network we performed a segmentation with the new network on a never-seen image that yielded the results shown in figure XX.
 
 [[figures#Figure 8]] , [[figures#Figure 6]] statistics of the retraining and the gallery
 
 **(317 characters)**
 
-We compared the results with the first network we worked with, described above. We observe that as the objectdetected seem coherent (pannel A) we observe a loss of the low intensity objects . Moreover, the amount of detection has decreased as well as the volume distribution. These results were not the expected ones.  
+We compared the results with the first network we worked with, described above. We observe that as the object detected seem coherent (panel A) we observe a loss of the low intensity objects . Moreover, the amount of detection has decreased as well as the volume distribution. These results were not the expected ones.  
 
 ### Correcting a network 
 Introduce the concept of network training, trainin vs testing dataset , ground truth ?
 Introduce the concept of the correction :
-- Compare starfind stardist 
+- Compare Astropy stardist 
 - if not the same add a template sphere in the image
 - why did we chose this template sphere ?
 - cut the image
@@ -166,11 +171,8 @@ von Chamier, L., Laine, R. F., & Henriques, R. (2019). Artificial intelligence 
 Cardozo Gizzi, A. M., Cattoni, D. I., Fiche, J.-B., Espinola, S. M., Gurgo, J., Messina, O., Houbron, C., Ogiyama, Y., Papadopoulos, G. L., Cavalli, G., Lagha, M., & Nollmann, M. (2019). Microscopy-Based Chromosome Conformation Capture Enables Simultaneous Visualization of Genome Organization and Transcription in Intact Organisms. _Molecular Cell_, _74_(1), 212-222.e5. [https://doi.org/10.1016/j.molcel.2019.01.011](https://doi.org/10.1016/j.molcel.2019.01.011)
 
 Espinola, S. M., Götz, M., Bellec, M., Messina, O., Fiche, J.-B., Houbron, C., Dejean, M., Reim, I., Cardozo Gizzi, A. M., Lagha, M., & Nollmann, M. (2021). Cis-regulatory chromatin loops arise before TADs and gene activation, and are independent of cell fate during early Drosophila development. _Nature Genetics_, _53_(4), 477‑486. [https://doi.org/10.1038/s41588-021-00816-z](https://doi.org/10.1038/s41588-021-00816-z)
-**Stardist**
+**Astropy**
 
 Larry Bradley, Brigitta Sipőcz, Thomas Robitaille, Erik Tollerud, Zé Vinícius, Christoph Deil, Kyle Barbary, Tom J Wilson, Ivo Busko, Axel Donath, Hans Moritz Günther, Mihai Cara, P. L. Lim, Sebastian Meßlinger, Simon Conseil, Azalee Bostroem, Michael Droettboom, E. M. Bray, Lars Andersen Bratholm, … Harrison Souchereau. (2022). astropy/photutils: (1.4.0). Zenodo. [https://doi.org/10.5281/zenodo.6385735](https://doi.org/10.5281/zenodo.6385735)
-
-
-
 
 
