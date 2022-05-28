@@ -51,8 +51,8 @@ Computer science has become a pivotal discipline when approaching biological pro
 
 **count : 2832 characters...** si j'enlève la partie environment ca fait 2529
 
-*Setting up an environment:* 
-We set up a linux based computer for the analysis. The actual calculations were performed on a remote server via *ssh*. We used jupyter notebook to write the scripts and used an anaconda environment to use all the required python packages. 
+( *Setting up an environment:* 
+We set up a linux based computer for the analysis. The actual calculations were performed on a remote server via *ssh*. We used jupyter notebook to write the scripts and used an anaconda environment to use all the required python packages. )
 
 *Neural network:*
 The networks were based on Stardist (citation). This algorithm is based on the prediction of star-convex polygons to segment images. More specifically we worked with three different network based on different trainings. The first, that we will name *simulated network* was trained using simulated images (gaussian-shape objects). The second one named *data network* was trained using experimental data labeled by hand. The final one named *retrained network* is based on the simulated network but with an addition of images that will be develop in the following section. 
@@ -72,7 +72,7 @@ Segmented images were submitted to Astropy analysis. For every Astropy detection
 
 # Results (3000 characters)
 
-**(3102 characters ... )**
+**(3021 characters ... )**
 
 ### Qualitative approach to network performance
 
@@ -80,7 +80,7 @@ Segmented images were submitted to Astropy analysis. For every Astropy detection
 
 **(772 characters)**
 
-Our first approach to the question of evaluating segmentation performance was to qualitatively assess the segmentation. The network outputs stacks of 2048x2048x70  which are complicated to visually inspect. To visualize the objects we thus relied on the gallery of images described in the material section. This gallery represents every objects the network considered as "nuclei". Although not quantitative, this step allowed us to have a first idea on the kind of objects outputted. An example of output is present in figure 1. We see that the network segmented a majority of bright and round shaped objects which was expected. Moreover, some objects were close to background level. However, we see that some objects are noise which indicates a poor network performance. 
+Our first approach to the question of evaluating segmentation performance was to qualitatively assess the segmentation. The network outputs stacks of 2048x2048x70  which are complicated to visually inspect. To visualize the objects we thus relied on the gallery of images described in the material section. This gallery represents every objects the network considered as "nuclei". Although not quantitative, this step allowed us to have a first idea on the kind of objects outputted. An example of output is present in figure 1. We see that the network segmented a majority of bright and round shaped objects which was expected. Moreover, some objects were close to background level. However, we see that some objects are **noise** which indicates a poor network performance. 
 
 ### Quantitative approach to network performance
 
@@ -90,17 +90,12 @@ Having a qualitative approach allowed us to have a first insight to a network pe
 
 [[figures#Figure 3]] statistics that compares 2 networks
 
-Can we put numbers on qualitative observation we made earlier ? 
-Describe each metrics and why do we put it there 
-
 
 ### Further study on intensity sensitivity
 
-**(1105 characters)**
+**(970 characters)**
 
-To study the dependency to intensity of the segmentation we decided to compare our neural network approach to an intensity based segmentation. The Astropy algorithm (inserer ref) was originally developed to segment images of the sky to find bright spots which corresponded to stars. To qualitatively evaluate such comparison we relied on the *accuracy* metric described in the method section. This metric will yield higher value for images where all the high intensity objects were detected by the neural network. As shown in figure X not all the bright objects were segmented by the network. This conclusion confirmed earlier visual observation that bright objects tends to be "missed".
-
-Considering the importance of bright fluorescent events we focused on finding a way to get rid of these missed events. To do so, we decided to **play on** the training of the network. The neural network is trained using a set of images and tries to generalize to be able to be used on a variety of images. 
+To study the dependency to intensity of the segmentation we decided to compare our neural network approach to an intensity based segmentation. The Astropy algorithm (inserer ref) was originally developed to segment images of the sky to find bright objects: stars. To qualitatively evaluate such comparison we relied on the *accuracy* metric described in the method section. This metric will yield higher value for images where all the high intensity objects were detected by the neural network. As shown in figure X not all the bright objects were segmented by the network. This conclusion confirmed earlier visual observation that bright objects tends to be "missed". Considering the importance of bright fluorescent events we focused on finding a way to correct for missed events. To do so, we decided to **play on** the training of the network. The neural network is trained using a set of images and tries to generalize to be able to be used on a variety of images. 
 
 figure : figure showing Astropy vs stardist and the fact that the networks misses objects ? 
 [[figures#Figure 4]]
