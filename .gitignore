@@ -1,3 +1,5 @@
 .obsidian/
 .ipynb_checkpoints/
 figure_intro.pptx
+plots/accuracy.png
+plots/retraining_stats_figure.png
